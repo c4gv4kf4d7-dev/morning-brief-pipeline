@@ -1,0 +1,1459 @@
+{
+ "generated_at": "2026-08-20T07:41:58",
+ "window": {
+  "from": "2026-08-06",
+  "to": "2026-08-17"
+ },
+ "gruppi": 1376,
+ "candidati": [
+  {
+   "id": "introducing-gemini-3-7-flash",
+   "genere": "notizia",
+   "title": "Introducing Gemini 3.7 Flash",
+   "link": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+   "source": "Google DeepMind",
+   "sources": [
+    "Android Authority",
+    "DDay.it",
+    "Google DeepMind",
+    "The Decoder"
+   ],
+   "when": "2026-08-13",
+   "signal": "4 testate in 2 giorni, 967 punti e 495 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49289112",
+   "punti": 11.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "twitch-streamers-can-now-opt-out-from-tr",
+   "genere": "notizia",
+   "title": "Twitch streamers can now opt out from training Amazon’s AI",
+   "link": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+   "source": "The Verge",
+   "sources": [
+    "Ars Technica AI",
+    "DDay.it",
+    "TechCrunch AI",
+    "The Verge"
+   ],
+   "when": "2026-08-12",
+   "signal": "4 testate in 2 giorni",
+   "discussione": null,
+   "punti": 8.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "everything-announced-at-made-by-google-2",
+   "genere": "notizia",
+   "title": "Everything announced at Made by Google 2026: Pixel 11, Pixel Watch 5, Pixel Tag, & more",
+   "link": "https://9to5google.com/2026/08/12/made-by-google-2026-announcements/",
+   "source": "9to5Mac",
+   "sources": [
+    "9to5Mac",
+    "BGR",
+    "GSMArena",
+    "TechCrunch AI"
+   ],
+   "when": "2026-08-12",
+   "signal": "4 testate in 3 giorni",
+   "discussione": null,
+   "punti": 8.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "chatgpt-for-mac-adds-opt-in-computer-his",
+   "genere": "notizia",
+   "title": "ChatGPT for Mac adds opt-in Computer History feature, replacing Chronicle",
+   "link": "https://9to5mac.com/2026/08/13/chatgpt-for-mac-adds-opt-in-computer-history-feature-replacing-chronicle/",
+   "source": "9to5Mac",
+   "sources": [
+    "9to5Mac",
+    "DDay.it",
+    "The Decoder",
+    "The Verge"
+   ],
+   "when": "2026-08-13",
+   "signal": "4 testate in 4 giorni",
+   "discussione": null,
+   "punti": 8.0,
+   "origine": "copertura"
+  },
+  {
+   "genere": "commento",
+   "id": "firefox-is-now-the-last-major-browser-th",
+   "title": "Firefox is now the last major browser that still supports uBlock Origin",
+   "link": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+   "source": "pcworld.com",
+   "sources": [],
+   "when": "2026-08-14",
+   "signal": "1753 punti e 714 commenti su Hacker News, 1º della settimana su Reddit r/technology",
+   "discussione": "https://news.ycombinator.com/item?id=49303202",
+   "punti": 8.0,
+   "origine": "solo online"
+  },
+  {
+   "id": "four-takeaways-from-mark-zuckerberg-s-ma",
+   "genere": "notizia",
+   "title": "Four takeaways from Mark Zuckerberg’s massive AI manifesto",
+   "link": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
+   "source": "The Verge",
+   "sources": [
+    "TechCrunch AI",
+    "The Verge"
+   ],
+   "when": "2026-08-10",
+   "signal": "2 testate in 7 giorni, 641 punti e 601 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49243880",
+   "punti": 7.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "meta-returns-to-open-models-with-zuckerb",
+   "genere": "notizia",
+   "title": "Meta returns to open models with Zuckerberg's plan to out-copy China and sell compute by auction",
+   "link": "https://the-decoder.com/meta-returns-to-open-models-with-zuckerbergs-plan-to-out-copy-china-and-sell-compute-by-auction/",
+   "source": "The Decoder",
+   "sources": [
+    "TechCrunch AI",
+    "The Decoder"
+   ],
+   "when": "2026-08-10",
+   "signal": "2 testate, 641 punti e 601 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49243880",
+   "punti": 7.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "deepseek-ships-improved-v4-pro-open-sour",
+   "genere": "notizia",
+   "title": "Deepseek ships improved V4 Pro, open-sources its agent software, and raises API prices",
+   "link": "https://the-decoder.com/deepseek-launches-an-improved-v4-pro-model-raises-api-prices-and-makes-its-agent-software-open-source/",
+   "source": "The Decoder",
+   "sources": [
+    "DDay.it",
+    "The Decoder"
+   ],
+   "when": "2026-08-13",
+   "signal": "2 testate in 2 giorni, 1040 punti e 452 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49274600",
+   "punti": 7.0,
+   "origine": "copertura"
+  },
+  {
+   "genere": "notizia",
+   "id": "qwen-3-8-27b",
+   "title": "Qwen 3.8 27B",
+   "link": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+   "source": "huggingface.co",
+   "sources": [],
+   "when": "2026-08-14",
+   "signal": "1432 punti e 791 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49299605",
+   "punti": 6.9,
+   "origine": "solo online"
+  },
+  {
+   "id": "apple-releases-macos-golden-gate-beta-5",
+   "genere": "notizia",
+   "title": "Apple Releases macOS Golden Gate Beta 5",
+   "link": "https://www.macrumors.com/2026/08/10/apple-releases-macos-27-beta-5/",
+   "source": "MacRumors",
+   "sources": [
+    "9to5Mac",
+    "MacRumors",
+    "iSpazio"
+   ],
+   "when": "2026-08-10",
+   "signal": "3 testate in 8 giorni",
+   "discussione": null,
+   "punti": 6.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "meta-just-released-a-brand-new-facebook",
+   "genere": "notizia",
+   "title": "Meta just released a brand-new Facebook Creator Studio app for iPhone",
+   "link": "https://9to5mac.com/2026/08/10/meta-just-released-a-brand-new-facebook-creator-studio-app-for-iphone/",
+   "source": "9to5Mac",
+   "sources": [
+    "9to5Mac",
+    "HDblog",
+    "TechCrunch"
+   ],
+   "when": "2026-08-10",
+   "signal": "3 testate in 5 giorni",
+   "discussione": null,
+   "punti": 6.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "pc-in-vista-altri-rincari-microsoft-sta",
+   "genere": "notizia",
+   "title": "PC, in vista altri rincari. Microsoft sta aumentando i prezzi delle licenze Windows per i produttori",
+   "link": "https://www.dday.it/redazione/58339/pc-in-vista-altri-rincari-microsoft-sta-aumentando-i-prezzi-delle-licenze-windows-per-i-produttori",
+   "source": "DDay.it",
+   "sources": [
+    "DDay.it",
+    "GSMArena",
+    "TechCrunch"
+   ],
+   "when": "2026-08-11",
+   "signal": "3 testate in 3 giorni",
+   "discussione": null,
+   "punti": 6.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "matrimonio-tra-sony-e-tsmc-la-nuova-join",
+   "genere": "notizia",
+   "title": "Matrimonio tra Sony e TSMC: la nuova joint venture produrrà sensori d’immagine per smartphone",
+   "link": "https://www.dday.it/redazione/58343/matrimonio-tra-sony-e-tsmc-la-nuova-joint-venture-produrra-sensori-dimmagine-per-smartphone",
+   "source": "DDay.it",
+   "sources": [
+    "DDay.it",
+    "GSMArena",
+    "HDblog"
+   ],
+   "when": "2026-08-11",
+   "signal": "3 testate in 2 giorni",
+   "discussione": null,
+   "punti": 6.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "grok-bot-is-an-all-new-iphone-and-mac-ap",
+   "genere": "notizia",
+   "title": "Grok Bot is an all-new iPhone and Mac app from SpaceXAI and Cursor",
+   "link": "https://9to5mac.com/2026/08/11/grok-bot-is-an-all-new-iphone-and-mac-app-from-spacexai-and-cursor/",
+   "source": "9to5Mac",
+   "sources": [
+    "9to5Mac",
+    "HDblog",
+    "Macitynet"
+   ],
+   "when": "2026-08-11",
+   "signal": "3 testate in 4 giorni",
+   "discussione": null,
+   "punti": 6.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "one-ui-9-sui-galaxy-watch-e-quasi-l-ora",
+   "genere": "notizia",
+   "title": "One UI 9 sui Galaxy Watch, è quasi l'ora della beta: spunta sui server di Samsung",
+   "link": "https://www.hdblog.it/indossabili/articoli/n666968/samsung-one-ui-9-galaxy-watch-beta-test-firmware/",
+   "source": "HDblog",
+   "sources": [
+    "Android Authority",
+    "GSMArena",
+    "HDblog"
+   ],
+   "when": "2026-08-11",
+   "signal": "3 testate in 7 giorni",
+   "discussione": null,
+   "punti": 6.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "google-s-pixel-tag-could-be-the-first-ma",
+   "genere": "notizia",
+   "title": "Google's Pixel Tag Could Be The First Major AirTag Alternative For Android",
+   "link": "https://www.bgr.com/2235582/google-pixel-tag-apple-airtag-alternatuve/",
+   "source": "BGR",
+   "sources": [
+    "Android Authority",
+    "BGR",
+    "GSMArena"
+   ],
+   "when": "2026-08-12",
+   "signal": "3 testate",
+   "discussione": null,
+   "punti": 6.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "claude-s-chrome-side-panel-is-now-a-full",
+   "genere": "notizia",
+   "title": "Claude’s Chrome side panel is now a full Cowork session",
+   "link": "https://9to5mac.com/2026/08/12/claude-cowork-chrome/",
+   "source": "9to5Mac",
+   "sources": [
+    "9to5Mac",
+    "DDay.it",
+    "The Decoder"
+   ],
+   "when": "2026-08-12",
+   "signal": "3 testate in 2 giorni",
+   "discussione": null,
+   "punti": 6.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "una-ferrari-luce-venduta-all-asta-per-40",
+   "genere": "notizia",
+   "title": "Una Ferrari Luce venduta all’asta per 40 milioni di dollari",
+   "link": "https://www.macitynet.it/una-ferrari-luce-venduta-allasta-per-40-milioni-di-dollari/",
+   "source": "Macitynet",
+   "sources": [
+    "DDay.it",
+    "HDblog",
+    "Macitynet"
+   ],
+   "when": "2026-08-16",
+   "signal": "3 testate in 2 giorni",
+   "discussione": null,
+   "punti": 6.0,
+   "origine": "copertura"
+  },
+  {
+   "genere": "notizia",
+   "id": "qwen3-8-2-4t",
+   "title": "Qwen3.8-2.4T",
+   "link": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+   "source": "huggingface.co",
+   "sources": [],
+   "when": "2026-08-12",
+   "signal": "712 punti e 171 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49273478",
+   "punti": 5.4,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "ai-dr-ai-didn-t-read",
+   "title": "AI;DR (AI; Didn't Read)",
+   "link": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+   "source": "rickmanelius.com",
+   "sources": [],
+   "when": "2026-08-17",
+   "signal": "1089 punti e 686 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49336573",
+   "punti": 5.2,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "israel-creates-fake-think-tank-in-likely",
+   "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+   "link": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+   "source": "responsiblestatecraft.org",
+   "sources": [],
+   "when": "2026-08-17",
+   "signal": "1045 punti e 816 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49337392",
+   "punti": 5.1,
+   "origine": "solo online"
+  },
+  {
+   "id": "model-ml-completes-finance-work-more-eff",
+   "genere": "notizia",
+   "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+   "link": "https://openai.com/index/model-ml",
+   "source": "OpenAI",
+   "sources": [
+    "OpenAI"
+   ],
+   "when": "2026-08-10",
+   "signal": "712 punti e 279 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49289844",
+   "punti": 5.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "moto-g-max-is-coming-to-india-with-a-sna",
+   "genere": "notizia",
+   "title": "Moto G Max is coming to India with a Snapdragon 6s Gen 4 and 7,000mAh battery",
+   "link": "https://www.gsmarena.com/moto_g_max_is_coming_to_india_with_a_snapdragon_6s_gen_4_and_7000mah_battery-news-74089.php",
+   "source": "GSMArena",
+   "sources": [
+    "GSMArena"
+   ],
+   "when": "2026-08-10",
+   "signal": "632 punti e 615 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49274027",
+   "punti": 5.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "meta-torna-ai-pesi-aperti-con-muse-glimm",
+   "genere": "notizia",
+   "title": "Meta torna ai pesi aperti con Muse Glimmer, il modello agentico che gira su una sola GPU (carrozzata)",
+   "link": "https://www.dday.it/redazione/58331/meta-torna-ai-pesi-aperti-con-muse-glimmer-il-modello-agentico-che-gira-su-una-sola-gpu-carrozzata",
+   "source": "DDay.it",
+   "sources": [
+    "DDay.it"
+   ],
+   "when": "2026-08-10",
+   "signal": "1207 punti e 639 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49241679",
+   "punti": 5.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "anthropic-says-it-will-watermark-text-ge",
+   "genere": "notizia",
+   "title": "Anthropic says it will watermark text generated by its AI models",
+   "link": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
+   "source": "TechCrunch AI",
+   "sources": [
+    "TechCrunch AI"
+   ],
+   "when": "2026-08-11",
+   "signal": "818 punti e 727 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49324087",
+   "punti": 5.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "chatgpt-arriva-su-linux-disponibile-l-ap",
+   "genere": "notizia",
+   "title": "ChatGPT arriva su Linux, disponibile l’app desktop in anteprima",
+   "link": "https://www.dday.it/redazione/58350/chatgpt-arriva-su-linux-disponibile-lapp-desktop-in-anteprima",
+   "source": "DDay.it",
+   "sources": [
+    "DDay.it"
+   ],
+   "when": "2026-08-12",
+   "signal": "468 punti e 315 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49281916",
+   "punti": 5.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "spacexai-releases-grok-4-6-claiming-gpt",
+   "genere": "notizia",
+   "title": "SpaceXAI releases Grok 4.6, claiming GPT-5.6 Sol and Claude Fable 5-level intelligence",
+   "link": "https://9to5mac.com/2026/08/12/spacexai-releases-grok-4-6/",
+   "source": "9to5Mac",
+   "sources": [
+    "9to5Mac"
+   ],
+   "when": "2026-08-12",
+   "signal": "632 punti e 615 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49274027",
+   "punti": 5.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "spacexai-s-grok-4-6-matches-openai-s-bes",
+   "genere": "notizia",
+   "title": "SpaceXAI's Grok 4.6 matches OpenAI's best model and undercuts it on price",
+   "link": "https://the-decoder.com/spacexais-grok-4-6-matches-openais-best-model-and-undercuts-it-on-price/",
+   "source": "The Decoder",
+   "sources": [
+    "The Decoder"
+   ],
+   "when": "2026-08-12",
+   "signal": "632 punti e 615 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49274027",
+   "punti": 5.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "the-builder-s-guide-to-gpt-5-6",
+   "genere": "notizia",
+   "title": "The builder’s guide to GPT‑5.6",
+   "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
+   "source": "OpenAI",
+   "sources": [
+    "OpenAI"
+   ],
+   "when": "2026-08-13",
+   "signal": "712 punti e 279 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49289844",
+   "punti": 5.0,
+   "origine": "copertura"
+  },
+  {
+   "genere": "commento",
+   "id": "ai-is-removing-the-middle-class-of-softw",
+   "title": "AI is removing the middle class of software engineering?",
+   "link": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+   "source": "blog.florianherrengt.com",
+   "sources": [],
+   "when": "2026-08-12",
+   "signal": "1007 punti e 936 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49271994",
+   "punti": 5.0,
+   "origine": "solo online"
+  },
+  {
+   "genere": "notizia",
+   "id": "google-is-making-private-ai-practical-wi",
+   "title": "Google is making private AI practical with homomorphic encryption",
+   "link": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+   "source": "blog.google",
+   "sources": [],
+   "when": "2026-08-14",
+   "signal": "498 punti e 290 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49300314",
+   "punti": 5.0,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "amd-acquires-taalas-to-boost-inference-p",
+   "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+   "link": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+   "source": "theregister.com",
+   "sources": [],
+   "when": "2026-08-06",
+   "signal": "949 punti e 723 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49201970",
+   "punti": 4.9,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "as-ai-eats-the-web-the-internet-s-collec",
+   "title": "As AI eats the web, the internet’s collective memory is disappearing",
+   "link": "https://thewalrus.ca/google-search-is-dying/",
+   "source": "thewalrus.ca",
+   "sources": [],
+   "when": "2026-08-10",
+   "signal": "937 punti e 988 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49250836",
+   "punti": 4.9,
+   "origine": "solo online"
+  },
+  {
+   "genere": "notizia",
+   "id": "deepmind-s-weathernext-model-achieves-br",
+   "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
+   "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+   "source": "deepmind.google",
+   "sources": [],
+   "when": "2026-08-08",
+   "signal": "449 punti e 130 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49220126",
+   "punti": 4.9,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "how-i-use-llms-to-learn-complex-topics",
+   "title": "How I use LLMs to learn complex topics",
+   "link": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+   "source": "laurentiugabriel.github.io",
+   "sources": [],
+   "when": "2026-08-09",
+   "signal": "835 punti e 548 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49234675",
+   "punti": 4.7,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "new-mexico-court-orders-meta-to-pay-567m",
+   "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
+   "link": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
+   "source": "theguardian.com",
+   "sources": [],
+   "when": "2026-08-07",
+   "signal": "816 punti e 433 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49204352",
+   "punti": 4.6,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "deepseek-v4-flash-0731",
+   "title": "DeepSeek V4 Flash 0731",
+   "link": "https://arcprize.org/results/deepseek-v4-flash-0731",
+   "source": "arcprize.org",
+   "sources": [],
+   "when": "2026-08-07",
+   "signal": "796 punti e 476 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49214008",
+   "punti": 4.6,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "claude-system-prompts",
+   "title": "Claude: System Prompts",
+   "link": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+   "source": "platform.claude.com",
+   "sources": [],
+   "when": "2026-08-16",
+   "signal": "758 punti e 285 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49319556",
+   "punti": 4.5,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "deepseek-harness-developer-preview",
+   "title": "DeepSeek Harness developer preview",
+   "link": "https://deepseek.com/harness/en/",
+   "source": "deepseek.com",
+   "sources": [],
+   "when": "2026-08-13",
+   "signal": "741 punti e 310 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49285244",
+   "punti": 4.5,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "firefox-for-ios-now-has-a-native-adblock",
+   "title": "Firefox for iOS now has a native adblocker",
+   "link": "https://support.mozilla.org/en-US/kb/block-ads-firefox-ios",
+   "source": "support.mozilla.org",
+   "sources": [],
+   "when": "2026-08-16",
+   "signal": "709 punti e 278 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49319633",
+   "punti": 4.4,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "stealing-reasoning-traces-from-proprieta",
+   "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+   "link": "https://stolen-thoughts.com/",
+   "source": "stolen-thoughts.com",
+   "sources": [],
+   "when": "2026-08-11",
+   "signal": "697 punti e 308 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49257876",
+   "punti": 4.4,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "docker-sandboxes-disposable-isolated-san",
+   "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+   "link": "https://www.docker.com/products/docker-sandboxes/",
+   "source": "docker.com",
+   "sources": [],
+   "when": "2026-08-10",
+   "signal": "694 punti e 396 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49239751",
+   "punti": 4.4,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "windows-11-s-built-in-weather-app-wastes",
+   "title": "Windows 11's built-in Weather app wastes more than 1 GB of RAM",
+   "link": "https://www.notebookcheck.net/Windows-11-s-built-in-Weather-app-wastes-more-than-1-GB-of-RAM.1364205.0.html",
+   "source": "notebookcheck.net",
+   "sources": [],
+   "when": "2026-08-09",
+   "signal": "669 punti e 597 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49232138",
+   "punti": 4.3,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "ai-isn-t-outthinking-mathematicians-it-s",
+   "title": "AI isn’t outthinking mathematicians, it’s out-remembering them",
+   "link": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+   "source": "davidepiffer.com",
+   "sources": [],
+   "when": "2026-08-15",
+   "signal": "631 punti e 516 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49312845",
+   "punti": 4.3,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "gpt-5-6-sol-pricing-cut-by-50-on-openrou",
+   "title": "GPT-5.6 Sol Pricing Cut by 50% on OpenRouter",
+   "link": "https://openrouter.ai/openai/gpt-5.6-sol",
+   "source": "openrouter.ai",
+   "sources": [],
+   "when": "2026-08-17",
+   "signal": "628 punti e 449 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49337602",
+   "punti": 4.3,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "oracle-bans-ai-generated-code-from-openj",
+   "title": "Oracle bans AI-generated code from OpenJDK",
+   "link": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+   "source": "app.dealroom.co",
+   "sources": [],
+   "when": "2026-08-07",
+   "signal": "535 punti e 382 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49213754",
+   "punti": 4.1,
+   "origine": "solo online"
+  },
+  {
+   "id": "lo-spazzolino-elettrico-oral-b-io-3-torn",
+   "genere": "notizia",
+   "title": "Lo spazzolino elettrico Oral-B iO 3 torna in offerta su Amazon a 59 euro",
+   "link": "https://www.dday.it/redazione/53781/spazzolino-elettrico-oral-b-io-3-su-amazon-a-59-euro-e-il-prezzo-piu-basso-raggiunto",
+   "source": "DDay.it",
+   "sources": [
+    "DDay.it",
+    "Macitynet"
+   ],
+   "when": "2026-08-08",
+   "signal": "2 testate in 2 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "xiaomi-mix-fold-5-un-leak-conferma-il-de",
+   "genere": "notizia",
+   "title": "Xiaomi Mix Fold 5, un leak conferma il design a passaporto e HyperOS 4",
+   "link": "https://www.hdblog.it/smartphone/articoli/n666754/xiaomi-mix-fold-5-leak-design-passaporto-hyperos-4/",
+   "source": "HDblog",
+   "sources": [
+    "GSMArena",
+    "HDblog"
+   ],
+   "when": "2026-08-09",
+   "signal": "2 testate in 5 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "weekly-poll-do-you-use-a-feature-phone-w",
+   "genere": "notizia",
+   "title": "Weekly poll: do you use a feature phone? Why?",
+   "link": "https://www.gsmarena.com/weekly_poll_do_you_use_a_feature_phone_why-news-74028.php",
+   "source": "GSMArena",
+   "sources": [
+    "Android Authority",
+    "GSMArena"
+   ],
+   "when": "2026-08-09",
+   "signal": "2 testate in 8 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "android-17-based-one-ui-9-to-be-the-last",
+   "genere": "notizia",
+   "title": "Android 17-based One UI 9 to be the last major upgrade for the Samsung Galaxy S23 FE",
+   "link": "https://www.gsmarena.com/samsung_galaxy_s23_fe_android_17_one_ui_9_last_major_os_upgrade-news-74079.php",
+   "source": "GSMArena",
+   "sources": [
+    "Android Authority",
+    "GSMArena"
+   ],
+   "when": "2026-08-09",
+   "signal": "2 testate in 5 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "samsung-galaxy-tab-s12-ultra-e-s12-vicin",
+   "genere": "notizia",
+   "title": "Samsung Galaxy Tab S12 Ultra e S12+ vicini: nuovi render confermano il design",
+   "link": "https://www.hdblog.it/tablet/articoli/n666771/samsung-galaxy-tab-s12-plus-ultra-design-leak/",
+   "source": "HDblog",
+   "sources": [
+    "GSMArena",
+    "HDblog"
+   ],
+   "when": "2026-08-09",
+   "signal": "2 testate in 9 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "here-s-what-asus-and-lenovo-s-upcoming-g",
+   "genere": "notizia",
+   "title": "Here's what Asus' and Lenovo's upcoming Googlebooks might look like",
+   "link": "https://www.gsmarena.com/heres_what_asus_and_lenovos_upcoming_googlebooks_might_look_like-news-74080.php",
+   "source": "GSMArena",
+   "sources": [
+    "Android Authority",
+    "GSMArena"
+   ],
+   "when": "2026-08-09",
+   "signal": "2 testate in 9 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "apple-announces-3d-mlb-games-coming-to-v",
+   "genere": "notizia",
+   "title": "Apple Announces 3D MLB Games Coming to Vision Pro",
+   "link": "https://www.macrumors.com/2026/08/10/apple-announces-3d-mlb-games-on-vision-pro/",
+   "source": "MacRumors",
+   "sources": [
+    "9to5Mac",
+    "MacRumors"
+   ],
+   "when": "2026-08-10",
+   "signal": "2 testate",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "offerte-del-giorno-ecco-i-migliori-scont",
+   "genere": "notizia",
+   "title": "Offerte del giorno: Ecco i migliori sconti selezionati da iSpazio – 10 Agosto 2026",
+   "link": "https://www.ispazio.net/2063515/offerte-ispazio-amazon",
+   "source": "iSpazio",
+   "sources": [
+    "Tom's Hardware IT",
+    "iSpazio"
+   ],
+   "when": "2026-08-10",
+   "signal": "2 testate in 8 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "questo-caricabatterie-riconosce-l-iphone",
+   "genere": "notizia",
+   "title": "Questo caricabatterie riconosce l’iPhone e oggi costa solo 29,99 euro",
+   "link": "https://www.macitynet.it/questo-caricabatterie-riconosce-liphone-e-oggi-costa-solo-2999-euro/",
+   "source": "Macitynet",
+   "sources": [
+    "DDay.it",
+    "Macitynet"
+   ],
+   "when": "2026-08-10",
+   "signal": "2 testate in 5 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "what-happens-to-bose-when-headphones-bec",
+   "genere": "notizia",
+   "title": "What happens to Bose when headphones become AI?",
+   "link": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio",
+   "source": "The Verge",
+   "sources": [
+    "BGR",
+    "The Verge"
+   ],
+   "when": "2026-08-10",
+   "signal": "2 testate in 7 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "new-galaxy-s26-fe-leak-gives-away-pretty",
+   "genere": "notizia",
+   "title": "New Galaxy S26 FE leak gives away pretty much all of its specs",
+   "link": "https://www.androidauthority.com/samsung-galaxy-s26-fe-specs-leak-3696416/",
+   "source": "Android Authority",
+   "sources": [
+    "Android Authority",
+    "GSMArena"
+   ],
+   "when": "2026-08-10",
+   "signal": "2 testate in 8 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "motorola-reveals-which-phones-will-get-s",
+   "genere": "notizia",
+   "title": "Motorola reveals which phones will get stable Android 17 update",
+   "link": "https://www.androidauthority.com/motorola-android-17-eligible-phones-3696779/",
+   "source": "Android Authority",
+   "sources": [
+    "Android Authority",
+    "GSMArena"
+   ],
+   "when": "2026-08-11",
+   "signal": "2 testate in 5 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "nvidia-guarantees-its-own-chips-value-to",
+   "genere": "notizia",
+   "title": "Nvidia guarantees its own chips' value to unlock $500 billion in AI infrastructure financing",
+   "link": "https://the-decoder.com/nvidia-guarantees-its-own-chips-value-to-unlock-500-billion-in-ai-infrastructure-financing/",
+   "source": "The Decoder",
+   "sources": [
+    "TechCrunch AI",
+    "The Decoder"
+   ],
+   "when": "2026-08-11",
+   "signal": "2 testate in 3 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "tesla-mostra-il-primo-cybercab-con-starl",
+   "genere": "notizia",
+   "title": "Tesla mostra il primo Cybercab con Starlink integrato nel tetto",
+   "link": "https://www.dmove.it/news/tesla-mostra-il-primo-cybercab-con-starlink-integrato-nel-tetto",
+   "source": "DDay.it",
+   "sources": [
+    "DDay.it",
+    "HDblog"
+   ],
+   "when": "2026-08-11",
+   "signal": "2 testate in 3 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "the-budget-friendly-pixel-buds-2a-are-ev",
+   "genere": "notizia",
+   "title": "The budget-friendly Pixel Buds 2a are even cheaper right now",
+   "link": "https://www.theverge.com/gadgets/977929/pixel-buds-2a-starfox-switch-deal-sale",
+   "source": "The Verge",
+   "sources": [
+    "Android Authority",
+    "The Verge"
+   ],
+   "when": "2026-08-11",
+   "signal": "2 testate in 2 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "google-messages-addio-a-cancella-dati-ar",
+   "genere": "notizia",
+   "title": "Google Messages: addio a \"Cancella dati\", arriva la pulizia mirata",
+   "link": "https://www.tomshw.it/smartphone/google-messages-beta-stop-a-cancella-dati-spunta-la-pulizia-selettiva",
+   "source": "Tom's Hardware IT",
+   "sources": [
+    "Android Authority",
+    "Tom's Hardware IT"
+   ],
+   "when": "2026-08-11",
+   "signal": "2 testate",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "apple-extends-2026-back-to-school-promot",
+   "genere": "notizia",
+   "title": "Apple Extends 2026 Back to School Promotion Until September 24",
+   "link": "https://www.macrumors.com/2026/08/11/apple-extends-2026-back-to-school-promo/",
+   "source": "MacRumors",
+   "sources": [
+    "9to5Mac",
+    "MacRumors"
+   ],
+   "when": "2026-08-11",
+   "signal": "2 testate",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "sonos-is-planning-ace-ultra-headphones-w",
+   "genere": "notizia",
+   "title": "Sonos is planning Ace Ultra headphones with a big AI push, report says",
+   "link": "https://9to5mac.com/2026/08/11/sonos-is-planning-ace-ultra-headphones-with-a-big-ai-push-report-says/",
+   "source": "9to5Mac",
+   "sources": [
+    "9to5Mac",
+    "Macitynet"
+   ],
+   "when": "2026-08-11",
+   "signal": "2 testate in 2 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "youtube-will-expand-premium-lite-availab",
+   "genere": "notizia",
+   "title": "YouTube will expand Premium Lite availability, increase requirements for revenue sharing",
+   "link": "https://www.gsmarena.com/youtube_will_expand_premium_lite_availability_increase_requirements_for_revenue_sharing-news-74111.php",
+   "source": "GSMArena",
+   "sources": [
+    "Android Authority",
+    "GSMArena"
+   ],
+   "when": "2026-08-11",
+   "signal": "2 testate in 2 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "formula-e-dalla-prossima-stagione-si-ved",
+   "genere": "notizia",
+   "title": "Formula E, dalla prossima stagione si vedrà (anche) su Disney+ a livello mondiale",
+   "link": "https://www.dday.it/redazione/58351/formula-e-dalla-prossima-stagione-si-vedra-anche-su-disney-a-livello-mondiale",
+   "source": "DDay.it",
+   "sources": [
+    "Ars Technica",
+    "DDay.it"
+   ],
+   "when": "2026-08-12",
+   "signal": "2 testate",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "android-auto-messaging-is-useless-and-it",
+   "genere": "notizia",
+   "title": "Android Auto messaging is useless, and it’s all because of one missing feature",
+   "link": "https://www.androidauthority.com/android-auto-voice-messages-useless-3694756/",
+   "source": "Android Authority",
+   "sources": [
+    "Android Authority",
+    "HDblog"
+   ],
+   "when": "2026-08-12",
+   "signal": "2 testate in 2 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "insta360-x6-porta-il-dolby-vision-nativo",
+   "genere": "notizia",
+   "title": "Insta360 X6 porta il Dolby Vision nativo per la prima volta su una videocamera 360",
+   "link": "https://www.macitynet.it/insta360-x6-presentazione/",
+   "source": "Macitynet",
+   "sources": [
+    "DDay.it",
+    "Macitynet"
+   ],
+   "when": "2026-08-12",
+   "signal": "2 testate",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "google-brings-airdrop-style-tap-to-share",
+   "genere": "notizia",
+   "title": "Google brings AirDrop-style Tap to Share to Android users, starting with Pixels",
+   "link": "https://www.androidauthority.com/google-quick-share-tap-to-share-3697202/",
+   "source": "Android Authority",
+   "sources": [
+    "Android Authority",
+    "GSMArena"
+   ],
+   "when": "2026-08-12",
+   "signal": "2 testate in 2 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "how-to-get-e-books-on-an-xteink-e-reader",
+   "genere": "notizia",
+   "title": "How To Get E-Books On An Xteink E-Reader",
+   "link": "https://www.bgr.com/2231389/how-to-get-ebooks-on-xteink-ereader/",
+   "source": "BGR",
+   "sources": [
+    "BGR",
+    "The Verge"
+   ],
+   "when": "2026-08-12",
+   "signal": "2 testate in 4 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "jaguar-type-01-svelati-gli-interni-minim",
+   "genere": "notizia",
+   "title": "Jaguar Type 01: svelati gli interni minimalisti",
+   "link": "https://www.hdmotori.it/jaguar-type-01-interni-minimalisti/",
+   "source": "HDblog",
+   "sources": [
+    "DDay.it",
+    "HDblog"
+   ],
+   "when": "2026-08-12",
+   "signal": "2 testate in 2 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "chrome-could-soon-let-gemini-auto-fix-yo",
+   "genere": "notizia",
+   "title": "Chrome could soon let Gemini auto-fix your bad passwords, and I’m not sure if that’s a good idea",
+   "link": "https://www.androidauthority.com/chrome-canary-gemini-change-bad-passwords-3698237/",
+   "source": "Android Authority",
+   "sources": [
+    "Android Authority",
+    "HDblog"
+   ],
+   "when": "2026-08-13",
+   "signal": "2 testate in 4 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "virgin-galactic-wants-your-help-naming-i",
+   "genere": "notizia",
+   "title": "Virgin Galactic wants your help naming its new Delta class spaceship",
+   "link": "https://arstechnica.com/space/2026/08/virgin-galactic-wants-your-help-naming-its-new-delta-class-spaceship/",
+   "source": "Ars Technica",
+   "sources": [
+    "Ars Technica",
+    "HDblog"
+   ],
+   "when": "2026-08-13",
+   "signal": "2 testate in 3 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "trump-declares-100-percent-tariffs-on-ma",
+   "genere": "notizia",
+   "title": "Trump declares 100 percent tariffs on many drones and all aircraft parts",
+   "link": "https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts",
+   "source": "The Verge",
+   "sources": [
+    "Macitynet",
+    "The Verge"
+   ],
+   "when": "2026-08-13",
+   "signal": "2 testate in 3 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "organic-looking-brake-assemblies-debut-o",
+   "genere": "notizia",
+   "title": "Organic-looking brake assemblies debut on new Czinger 21C Spyder",
+   "link": "https://arstechnica.com/cars/2026/08/czinger-debuts-topology-optimized-brakes-with-21c-spyder/",
+   "source": "Ars Technica",
+   "sources": [
+    "Ars Technica",
+    "HDblog"
+   ],
+   "when": "2026-08-14",
+   "signal": "2 testate in 4 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "instagram-cambia-logo-dopo-10-anni-nuovo",
+   "genere": "notizia",
+   "title": "Instagram cambia logo dopo 10 anni: nuovo wordmark più moderno, ma non convince tutti",
+   "link": "https://www.dday.it/redazione/58372/instagram-cambia-logo-dopo-10-anni-nuovo-wordmark-piu-moderno-ma-non-convince-tutti",
+   "source": "DDay.it",
+   "sources": [
+    "DDay.it",
+    "GSMArena"
+   ],
+   "when": "2026-08-14",
+   "signal": "2 testate",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "uber-and-pony-ai-plan-to-bring-2-000-rob",
+   "genere": "notizia",
+   "title": "Uber and Pony.ai plan to bring 2,000 robotaxis to Europe",
+   "link": "https://techcrunch.com/2026/08/14/uber-and-pony-ai-plan-to-bring-2000-robotaxis-to-europe/",
+   "source": "TechCrunch",
+   "sources": [
+    "DDay.it",
+    "TechCrunch"
+   ],
+   "when": "2026-08-14",
+   "signal": "2 testate in 4 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "this-good-lock-module-is-wreaking-havoc",
+   "genere": "notizia",
+   "title": "This Good Lock module is wreaking havoc on your Galaxy phone’s home screen, but a fix is on the way",
+   "link": "https://www.androidauthority.com/samsung-home-up-folder-bug-3698755/",
+   "source": "Android Authority",
+   "sources": [
+    "Android Authority",
+    "HDblog"
+   ],
+   "when": "2026-08-14",
+   "signal": "2 testate in 2 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "5-cheaper-android-phones-you-should-try",
+   "genere": "notizia",
+   "title": "5 Cheaper Android Phones You Should Try Instead Of The Motorola Edge 70 Max",
+   "link": "https://www.bgr.com/2232530/android-phones-to-try-instead-of-motorola-edge-70-max/",
+   "source": "BGR",
+   "sources": [
+    "Android Authority",
+    "BGR"
+   ],
+   "when": "2026-08-14",
+   "signal": "2 testate in 2 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "lamborghini-s-flagship-revuelto-levels-u",
+   "genere": "notizia",
+   "title": "Lamborghini’s flagship Revuelto levels up with SV trim",
+   "link": "https://www.theverge.com/transportation/979807/lamborghini-revuelto-sv-specs-performance",
+   "source": "The Verge",
+   "sources": [
+    "HDblog",
+    "The Verge"
+   ],
+   "when": "2026-08-14",
+   "signal": "2 testate in 3 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "the-x-files-creator-chris-carter-wanted",
+   "genere": "notizia",
+   "title": "The X-Files creator Chris Carter wanted to make a more horrific movie",
+   "link": "https://www.theverge.com/entertainment/979925/the-x-files-chris-carter-vrach-frankenshteyn-interview-hulu",
+   "source": "The Verge",
+   "sources": [
+    "Ars Technica",
+    "The Verge"
+   ],
+   "when": "2026-08-14",
+   "signal": "2 testate",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "chatgpt-subscribers-can-now-open-and-edi",
+   "genere": "notizia",
+   "title": "ChatGPT subscribers can now open and edit Google Drive files from inside the chat",
+   "link": "https://9to5mac.com/2026/08/14/chatgpt-subscribers-can-now-open-and-edit-google-drive-files-from-inside-the-chat/",
+   "source": "9to5Mac",
+   "sources": [
+    "9to5Mac",
+    "HDblog"
+   ],
+   "when": "2026-08-14",
+   "signal": "2 testate in 3 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "xiaomi-18-ultra-potrebbe-non-esserci-e-n",
+   "genere": "notizia",
+   "title": "Xiaomi 18 Ultra potrebbe non esserci: e non è l'unico super top cinese a rischio",
+   "link": "https://www.hdblog.it/smartphone/articoli/n667368/xiaomi-18-ultra-cancellato-oppo-vivo-pro-max-crisi/",
+   "source": "HDblog",
+   "sources": [
+    "GSMArena",
+    "HDblog"
+   ],
+   "when": "2026-08-16",
+   "signal": "2 testate in 2 giorni",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "airpods-max-2-discounted-by-120-across-a",
+   "genere": "notizia",
+   "title": "AirPods Max 2 Discounted by $120 Across Amazon and Best Buy",
+   "link": "https://www.macrumors.com/2026/08/17/airpods-max-2-drop-to-low/",
+   "source": "MacRumors",
+   "sources": [
+    "9to5Mac",
+    "MacRumors"
+   ],
+   "when": "2026-08-17",
+   "signal": "2 testate",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "apple-rilascia-le-prime-release-candidat",
+   "genere": "notizia",
+   "title": "Apple rilascia le prime Release Candidate di macOS Tahoe 26.7 e macOS Sequoia 15.8",
+   "link": "https://www.ispazio.net/2259478/macos-tahoe-26-7-sequoia-15-8-release-candidate",
+   "source": "iSpazio",
+   "sources": [
+    "9to5Mac",
+    "iSpazio"
+   ],
+   "when": "2026-08-17",
+   "signal": "2 testate",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "id": "spotify-s-new-playlist-notes-let-users-a",
+   "genere": "notizia",
+   "title": "Spotify’s new Playlist Notes let users add context to songs, podcasts, and audiobook picks",
+   "link": "https://9to5mac.com/2026/08/17/spotifys-new-playlist-notes-let-users-add-context-to-songs-podcasts-and-audiobook-picks/",
+   "source": "9to5Mac",
+   "sources": [
+    "9to5Mac",
+    "TechCrunch"
+   ],
+   "when": "2026-08-17",
+   "signal": "2 testate",
+   "discussione": null,
+   "punti": 4.0,
+   "origine": "copertura"
+  },
+  {
+   "genere": "commento",
+   "id": "openai-s-head-of-ethics-leaves-less-than",
+   "title": "OpenAI’s head of ethics leaves less than a year after joining",
+   "link": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
+   "source": "ft.com",
+   "sources": [],
+   "when": "2026-08-11",
+   "signal": "523 punti e 489 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49257160",
+   "punti": 4.0,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "fastmail-offers-eu-data-region",
+   "title": "Fastmail offers EU data region",
+   "link": "https://www.fastmail.com/blog/fastmail-offers-eu-data-region/",
+   "source": "fastmail.com",
+   "sources": [],
+   "when": "2026-08-08",
+   "signal": "517 punti e 295 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49223082",
+   "punti": 4.0,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "controversial-creators-are-benefiting-fr",
+   "title": "Controversial creators are benefiting from monetization programs run by Meta",
+   "link": "https://www.abc.net.au/news/2026-08-06/ragebait-how-facebook-is-paying-controversial-creators/106940696",
+   "source": "abc.net.au",
+   "sources": [],
+   "when": "2026-08-12",
+   "signal": "479 punti e 338 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49269818",
+   "punti": 4.0,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "auto-research-with-codex-how-i-achieved",
+   "title": "Auto-research with codex: How I achieved a 232x Faster Kernel",
+   "link": "https://sankalp.bearblog.dev/autoresearch/",
+   "source": "sankalp.bearblog.dev",
+   "sources": [],
+   "when": "2026-08-15",
+   "signal": "456 punti e 93 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49309549",
+   "punti": 3.9,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "how-claude-marks-ai-generated-content",
+   "title": "How Claude marks AI-generated content",
+   "link": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+   "source": "support.claude.com",
+   "sources": [],
+   "when": "2026-08-10",
+   "signal": "451 punti e 425 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49250109",
+   "punti": 3.9,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "go-is-an-ideal-language-for-ai-assisted",
+   "title": "Go is an ideal language for AI-assisted software engineering",
+   "link": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
+   "source": "developers.googleblog.com",
+   "sources": [],
+   "when": "2026-08-11",
+   "signal": "440 punti e 541 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49261133",
+   "punti": 3.9,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "h3-metal-native-minimax-h3-inference-for",
+   "title": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
+   "link": "https://github.com/antirez/h3.c",
+   "source": "github.com",
+   "sources": [],
+   "when": "2026-08-11",
+   "signal": "440 punti e 99 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49252179",
+   "punti": 3.9,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "timeline-of-the-openai-accidental-attack",
+   "title": "Timeline of the OpenAI accidental attack against Hugging Face",
+   "link": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+   "source": "simonwillison.net",
+   "sources": [],
+   "when": "2026-08-08",
+   "signal": "434 punti e 434 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49220609",
+   "punti": 3.9,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "ai-generated-github-copilot-autofix-allo",
+   "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+   "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+   "source": "wiz.io",
+   "sources": [],
+   "when": "2026-08-17",
+   "signal": "424 punti e 156 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49331423",
+   "punti": 3.8,
+   "origine": "solo online"
+  },
+  {
+   "genere": "commento",
+   "id": "software-development-with-ai-is-starting",
+   "title": "Software development with AI is starting to feel like cooking steak",
+   "link": "https://blog.sydorets.com/en/posts/almost-no-skill-required-to-cook-a-steak/",
+   "source": "blog.sydorets.com",
+   "sources": [],
+   "when": "2026-08-06",
+   "signal": "420 punti e 422 commenti su Hacker News",
+   "discussione": "https://news.ycombinator.com/item?id=49198069",
+   "punti": 3.8,
+   "origine": "solo online"
+  }
+ ]
+}

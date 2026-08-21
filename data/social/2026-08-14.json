@@ -1,0 +1,170 @@
+{
+ "fetched_at": "2026-08-14T05:32:00.734954+00:00",
+ "window_hours": 30.0,
+ "count": 14,
+ "items": [
+  {
+   "platform": "Reddit r/iphone",
+   "rank": 1,
+   "title": "Highly Concerning message, what to do?",
+   "link": "https://www.reddit.com/r/iphone/comments/1vnl0h7/highly_concerning_message_what_to_do/",
+   "author": "/u/Flaky_Rice_4674",
+   "when": "2026-08-13T19:38:56+00:00",
+   "tipo": "discussione",
+   "signal": "1º fra i più votati del giorno su r/iphone",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 2,
+   "title": "Apple CEO Tim Cook on his legacy: \"I hope that people say I was a good and decent man\"",
+   "link": "https://www.reddit.com/r/apple/comments/1vnuef5/apple_ceo_tim_cook_on_his_legacy_i_hope_that/",
+   "author": "/u/ControlCAD",
+   "when": "2026-08-14T02:09:11+00:00",
+   "tipo": "discussione",
+   "signal": "2º fra i più votati del giorno su r/apple",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 3,
+   "title": "Apple adds iPhone X and 2018 MacBook Pro to obsolete products list - 9to5Mac",
+   "link": "https://www.reddit.com/r/apple/comments/1vnn9tw/apple_adds_iphone_x_and_2018_macbook_pro_to/",
+   "author": "/u/F7pu748",
+   "when": "2026-08-13T21:03:04+00:00",
+   "tipo": "discussione",
+   "signal": "3º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "Apple adds iPhone X and 2018 MacBook Pro to obsolete products list"
+  },
+  {
+   "platform": "Reddit r/mac",
+   "rank": 4,
+   "title": "Is this Framework's influencer marketing strategy against the Macbooks? I see the almost same script in many of the videos.",
+   "link": "https://www.reddit.com/r/mac/comments/1vn4k2x/is_this_frameworks_influencer_marketing_strategy/",
+   "author": "/u/DeepLearner89",
+   "when": "2026-08-13T08:09:27+00:00",
+   "tipo": "discussione",
+   "signal": "4º fra i più votati del giorno su r/mac",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 5,
+   "title": "iPhone Ultra could launch in US only at first, per report",
+   "link": "https://www.reddit.com/r/apple/comments/1vnbk27/iphone_ultra_could_launch_in_us_only_at_first_per/",
+   "author": "/u/cjh_",
+   "when": "2026-08-13T14:00:47+00:00",
+   "tipo": "discussione",
+   "signal": "5º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "iPhone Ultra, le ultime immagini lo mostrano asimmetrico"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 6,
+   "title": "Will the iPhone Ultra avoid the issue that can still kill Samsung foldables?",
+   "link": "https://www.reddit.com/r/apple/comments/1vndc4h/will_the_iphone_ultra_avoid_the_issue_that_can/",
+   "author": "/u/cjh_",
+   "when": "2026-08-13T15:06:36+00:00",
+   "tipo": "assistenza",
+   "signal": "6º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "iPhone Ultra, le ultime immagini lo mostrano asimmetrico"
+  },
+  {
+   "platform": "Reddit r/AppleWatch",
+   "rank": 7,
+   "title": "Can anyone tell me what the symbol at the bottom of my watch face means?",
+   "link": "https://www.reddit.com/r/AppleWatch/comments/1vnax0w/can_anyone_tell_me_what_the_symbol_at_the_bottom/",
+   "author": "/u/ComparisonKey1599",
+   "when": "2026-08-13T13:35:27+00:00",
+   "tipo": "discussione",
+   "signal": "7º fra i più votati del giorno su r/AppleWatch",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 8,
+   "title": "What's Coming in September: New iPhones, Apple Watches and More",
+   "link": "https://www.reddit.com/r/apple/comments/1vnsjiz/whats_coming_in_september_new_iphones_apple/",
+   "author": "/u/RenatsMC",
+   "when": "2026-08-14T00:43:15+00:00",
+   "tipo": "discussione",
+   "signal": "8º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "What's Coming in September: New iPhones, Apple Watches and More"
+  },
+  {
+   "platform": "Reddit r/AppleWatch",
+   "rank": 9,
+   "title": "I didn’t think this was possible! 😭",
+   "link": "https://www.reddit.com/r/AppleWatch/comments/1vnop6j/i_didnt_think_this_was_possible/",
+   "author": "/u/ShadeTV247",
+   "when": "2026-08-13T21:59:27+00:00",
+   "tipo": "discussione",
+   "signal": "9º fra i più votati del giorno su r/AppleWatch",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 10,
+   "title": "Apple proposes commissions of up to 15% for off-App Store purchases in the US",
+   "link": "https://www.reddit.com/r/apple/comments/1vnow2k/apple_proposes_commissions_of_up_to_15_for_offapp/",
+   "author": "/u/pdfu",
+   "when": "2026-08-13T22:06:48+00:00",
+   "tipo": "discussione",
+   "signal": "10º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "Apple proposes commissions of up to 15% for off-App Store purchases in the US [U]"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 11,
+   "title": "Apple's 2026 Back to School Offer is Now Live Across Europe",
+   "link": "https://www.reddit.com/r/apple/comments/1vn8g3x/apples_2026_back_to_school_offer_is_now_live/",
+   "author": "/u/Radio_TVGuy",
+   "when": "2026-08-13T11:47:51+00:00",
+   "tipo": "discussione",
+   "signal": "11º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "Apple's 2026 Back to School Offer is Now Live Across Europe"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 12,
+   "title": "'Obvious' App Store ratings fraud going undetected by Apple, says StopTheMadness developer",
+   "link": "https://www.reddit.com/r/apple/comments/1vn8b14/obvious_app_store_ratings_fraud_going_undetected/",
+   "author": "/u/Radio_TVGuy",
+   "when": "2026-08-13T11:40:59+00:00",
+   "tipo": "discussione",
+   "signal": "12º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "Apple proposes commissions of up to 15% for off-App Store purchases in the US [U]"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 13,
+   "title": "Base iPhone 18 Tipped to Get These Two Pro-Level Upgrades",
+   "link": "https://www.reddit.com/r/apple/comments/1vn88fk/base_iphone_18_tipped_to_get_these_two_prolevel/",
+   "author": "/u/RenatsMC",
+   "when": "2026-08-13T11:37:27+00:00",
+   "tipo": "discussione",
+   "signal": "13º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "iPhone 18 could get two new Pro-level upgrades, per report"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 14,
+   "title": "Apple opens Advanced Manufacturing Center in Houston",
+   "link": "https://www.reddit.com/r/apple/comments/1vnn7je/apple_opens_advanced_manufacturing_center_in/",
+   "author": "/u/Designer-Border-711",
+   "when": "2026-08-13T21:00:43+00:00",
+   "tipo": "discussione",
+   "signal": "14º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "Apple’s new ‘Advanced Manufacturing Center’ opens in Texas"
+  }
+ ]
+}

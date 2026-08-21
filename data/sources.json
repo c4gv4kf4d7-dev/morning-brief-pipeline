@@ -1,0 +1,223 @@
+{
+ "9to5Mac": {
+  "url": "https://9to5mac.com/feed/",
+  "state": "attiva",
+  "tier": "redazionale",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "Andrea Galeazzi": {
+  "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5yXB_ThsufRJYMRlzIGoeQ",
+  "state": "attiva",
+  "tier": "banco",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "Android Authority": {
+  "url": "https://www.androidauthority.com/feed/",
+  "state": "attiva",
+  "tier": "banco",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "Apple Developer": {
+  "url": "https://developer.apple.com/news/rss/news.rss",
+  "state": "attiva",
+  "tier": "primaria",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "Apple Newsroom": {
+  "url": "https://www.apple.com/newsroom/rss-feed.rss",
+  "state": "attiva",
+  "tier": "primaria",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "Ars Technica": {
+  "url": "https://feeds.arstechnica.com/arstechnica/index",
+  "state": "attiva",
+  "tier": "larga",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "Ars Technica AI": {
+  "url": "https://arstechnica.com/ai/feed/",
+  "state": "attiva",
+  "tier": "ai",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "BGR": {
+  "url": "https://bgr.com/feed/",
+  "state": "attiva",
+  "tier": "redazionale",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "DDay.it": {
+  "url": "https://www.dday.it/rss",
+  "state": "attiva",
+  "tier": "banco",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "GSMArena": {
+  "url": "https://www.gsmarena.com/rss-news-reviews.php3",
+  "state": "attiva",
+  "tier": "banco",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "Google DeepMind": {
+  "url": "https://deepmind.google/blog/rss.xml",
+  "state": "attiva",
+  "tier": "ai",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "HDblog": {
+  "url": "https://www.hdblog.it/feed/",
+  "state": "attiva",
+  "tier": "banco",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "MIT Technology Review AI": {
+  "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+  "state": "attiva",
+  "tier": "ai",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "MKBHD": {
+  "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBJycsmduvYEL83R_U4JriQ",
+  "state": "attiva",
+  "tier": "banco",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "MacRumors": {
+  "url": "https://feeds.macrumors.com/MacRumors-All",
+  "state": "attiva",
+  "tier": "redazionale",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "Macitynet": {
+  "url": "https://www.macitynet.it/feed",
+  "state": "attiva",
+  "tier": "redazionale",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "OpenAI": {
+  "url": "https://openai.com/news/rss.xml",
+  "state": "attiva",
+  "tier": "ai",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "TechCrunch": {
+  "url": "https://techcrunch.com/feed/",
+  "state": "attiva",
+  "tier": "larga",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "TechCrunch AI": {
+  "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+  "state": "attiva",
+  "tier": "ai",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "The Decoder": {
+  "url": "https://the-decoder.com/feed/",
+  "state": "attiva",
+  "tier": "ai",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "The Verge": {
+  "url": "https://www.theverge.com/rss/index.xml",
+  "state": "attiva",
+  "tier": "redazionale",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "Tom's Hardware IT": {
+  "url": "https://www.tomshw.it/feed",
+  "state": "attiva",
+  "tier": "redazionale",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ },
+ "Wired Italia": {
+  "url": "https://www.wired.it/feed/rss",
+  "state": "panchina",
+  "tier": "redazionale",
+  "since": "2026-08-09",
+  "reason": "fermo al 1 luglio, 39 giorni senza pubblicare",
+  "checked": "2026-08-17",
+  "history": [
+   "2026-08-09 panchina: fermo al 1 luglio, 39 giorni senza pubblicare",
+   "2026-08-09 riprova: ancora non risponde",
+   "2026-08-09 riprova: 0 articoli, 0 su Apple, 0 che non avevamo",
+   "2026-08-17 riprova: ancora non risponde"
+  ]
+ },
+ "iSpazio": {
+  "url": "https://www.ispazio.net/feed",
+  "state": "attiva",
+  "tier": "redazionale",
+  "since": "2026-08-09",
+  "reason": "",
+  "checked": null,
+  "history": []
+ }
+}

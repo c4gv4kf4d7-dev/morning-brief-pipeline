@@ -1,0 +1,13 @@
+# Configurazione per la CLI Supabase.
+# Serve solo a distribuire la funzione che serve la pagina.
+
+project_id = "phlcmigyfmjmwukzbjaz"
+
+[functions.app]
+# La pagina deve aprirsi senza token: l'accesso avviene dentro l'app,
+# con email e password, non davanti alla porta.
+#
+# ATTENZIONE: distribuendo con --use-api (senza Docker) la CLI ignora
+# questa riga. Il flag --no-verify-jwt sulla riga di comando va passato
+# comunque, altrimenti la funzione risponde 401.
+verify_jwt = false

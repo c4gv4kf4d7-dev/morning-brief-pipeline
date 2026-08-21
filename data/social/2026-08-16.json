@@ -1,0 +1,164 @@
+{
+ "fetched_at": "2026-08-16T07:09:03.013137+00:00",
+ "window_hours": 30.0,
+ "count": 14,
+ "items": [
+  {
+   "platform": "Reddit r/apple",
+   "rank": 1,
+   "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
+   "link": "https://www.reddit.com/r/apple/comments/1vphb9k/vulnerability_giving_attackers_full_control_of/",
+   "author": "/u/cptjpk",
+   "when": "2026-08-15T23:27:35+00:00",
+   "tipo": "discussione",
+   "signal": "1º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "Vulnerability giving attackers full control of Macs is under active exploitation"
+  },
+  {
+   "platform": "Reddit r/iphone",
+   "rank": 2,
+   "title": "Received a completely unsolicited “iPhone 15 Pro Max” package — anyone seen this before?",
+   "link": "https://www.reddit.com/r/iphone/comments/1vpeota/received_a_completely_unsolicited_iphone_15_pro/",
+   "author": "/u/Remarkable_Source_64",
+   "when": "2026-08-15T21:29:32+00:00",
+   "tipo": "discussione",
+   "signal": "2º fra i più votati del giorno su r/iphone",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/iphone",
+   "rank": 3,
+   "title": "Weird purple tint on 0.5 camera",
+   "link": "https://www.reddit.com/r/iphone/comments/1vp78we/weird_purple_tint_on_05_camera/",
+   "author": "/u/AmphibianOk8150",
+   "when": "2026-08-15T16:29:34+00:00",
+   "tipo": "discussione",
+   "signal": "3º fra i più votati del giorno su r/iphone",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 4,
+   "title": "'iPhone Ultra' Could Face Staggered Market Rollout, US Only at Launch",
+   "link": "https://www.reddit.com/r/apple/comments/1vp1k5i/iphone_ultra_could_face_staggered_market_rollout/",
+   "author": "/u/pdfu",
+   "when": "2026-08-15T12:26:11+00:00",
+   "tipo": "discussione",
+   "signal": "4º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "iPhone Ultra now said to be confined to one market at launch"
+  },
+  {
+   "platform": "Reddit r/iphone",
+   "rank": 5,
+   "title": "my iphone 14 plus had this weird glitch",
+   "link": "https://www.reddit.com/r/iphone/comments/1vozwse/my_iphone_14_plus_had_this_weird_glitch/",
+   "author": "/u/usernameisnotfvr",
+   "when": "2026-08-15T11:00:32+00:00",
+   "tipo": "discussione",
+   "signal": "5º fra i più votati del giorno su r/iphone",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/mac",
+   "rank": 6,
+   "title": "tell us how you first encountered a Mac or other Apple device (please include a photo if possible)",
+   "link": "https://www.reddit.com/r/mac/comments/1vpeek2/tell_us_how_you_first_encountered_a_mac_or_other/",
+   "author": "/u/ForsakenCommon4284",
+   "when": "2026-08-15T21:17:47+00:00",
+   "tipo": "discussione",
+   "signal": "6º fra i più votati del giorno su r/mac",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/iphone",
+   "rank": 7,
+   "title": "How do I get rid of the camera icon so I see the full text display when I type",
+   "link": "https://www.reddit.com/r/iphone/comments/1vpjnjx/how_do_i_get_rid_of_the_camera_icon_so_i_see_the/",
+   "author": "/u/Positive-Aioli-4820",
+   "when": "2026-08-16T01:19:17+00:00",
+   "tipo": "assistenza",
+   "signal": "7º fra i più votati del giorno su r/iphone",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/mac",
+   "rank": 8,
+   "title": "iMac 2008 and MacBook Pro 2012 both running OS X Mavericks.",
+   "link": "https://www.reddit.com/r/mac/comments/1vp63vs/imac_2008_and_macbook_pro_2012_both_running_os_x/",
+   "author": "/u/AdRelative6348",
+   "when": "2026-08-15T15:44:04+00:00",
+   "tipo": "discussione",
+   "signal": "8º fra i più votati del giorno su r/mac",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/AppleWatch",
+   "rank": 9,
+   "title": "What size would you take?",
+   "link": "https://www.reddit.com/r/AppleWatch/comments/1vozuxi/what_size_would_you_take/",
+   "author": "/u/Tiphos",
+   "when": "2026-08-15T10:57:41+00:00",
+   "tipo": "discussione",
+   "signal": "9º fra i più votati del giorno su r/AppleWatch",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/AppleWatch",
+   "rank": 10,
+   "title": "Apple Watch Series 11",
+   "link": "https://www.reddit.com/r/AppleWatch/comments/1vp9mc3/apple_watch_series_11/",
+   "author": "/u/Agreeable_Zebra_2156",
+   "when": "2026-08-15T18:02:45+00:00",
+   "tipo": "discussione",
+   "signal": "10º fra i più votati del giorno su r/AppleWatch",
+   "origine": "eco",
+   "eco_di": "Here's a quick look at Google's new Pixel 11 series, Pixel Watch 5, and Fitbit Air"
+  },
+  {
+   "platform": "Reddit r/AppleWatch",
+   "rank": 11,
+   "title": "50% off Series 9",
+   "link": "https://www.reddit.com/r/AppleWatch/comments/1vpll7d/50_off_series_9/",
+   "author": "/u/Chaddnius",
+   "when": "2026-08-16T02:56:26+00:00",
+   "tipo": "discussione",
+   "signal": "11º fra i più votati del giorno su r/AppleWatch",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/mac",
+   "rank": 12,
+   "title": "My first ever Apple Silicon Mac experience",
+   "link": "https://www.reddit.com/r/mac/comments/1vpc3bm/my_first_ever_apple_silicon_mac_experience/",
+   "author": "/u/seb_1618",
+   "when": "2026-08-15T19:41:59+00:00",
+   "tipo": "vetrina",
+   "signal": "12º fra i più votati del giorno su r/mac",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/ios",
+   "rank": 13,
+   "title": "“Hey Siri, send this photo to ______”. Just discovered this and using it a bunch lately. “Hey Siri, take a screenshot and send to ______” is also useful.",
+   "link": "https://www.reddit.com/r/ios/comments/1vp00ho/hey_siri_send_this_photo_to_just_discovered_this/",
+   "author": "/u/Ok-Advantage948",
+   "when": "2026-08-15T11:06:07+00:00",
+   "tipo": "discussione",
+   "signal": "13º fra i più votati del giorno su r/ios",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/mac",
+   "rank": 14,
+   "title": "Apple fixed my laptop even though I denied the repair",
+   "link": "https://www.reddit.com/r/mac/comments/1vpkolb/apple_fixed_my_laptop_even_though_i_denied_the/",
+   "author": "/u/DryInitiative3218",
+   "when": "2026-08-16T02:10:35+00:00",
+   "tipo": "assistenza",
+   "signal": "14º fra i più votati del giorno su r/mac",
+   "origine": "nuovo"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 pipeline/fetch.py:*)",
+      "Bash(python3 pipeline/images.py:*)",
+      "Bash(python3 pipeline/push.py:*)",
+      "Bash(python3 pipeline/build.py:*)",
+      "Bash(curl:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(date:*)",
+      "Read(//Users/mike/Desktop/Tech_news/**)",
+      "Write(//Users/mike/Desktop/Tech_news/data/**)",
+      "Edit(//Users/mike/Desktop/Tech_news/data/**)"
+    ]
+  }
+}

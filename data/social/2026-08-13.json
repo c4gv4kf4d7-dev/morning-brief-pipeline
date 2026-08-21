@@ -1,0 +1,182 @@
+{
+ "fetched_at": "2026-08-13T06:17:38.470104+00:00",
+ "window_hours": 30.0,
+ "count": 15,
+ "items": [
+  {
+   "platform": "Reddit r/apple",
+   "rank": 1,
+   "title": "iPhone 18 Pro: Apple Secures Lower Display Prices Amid RAM Shortage",
+   "link": "https://www.reddit.com/r/apple/comments/1vmjgoy/iphone_18_pro_apple_secures_lower_display_prices/",
+   "author": "/u/pdfu",
+   "when": "2026-08-12T16:44:41+00:00",
+   "tipo": "discussione",
+   "signal": "1º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "iPhone 18 Pro: Apple Secures Lower Display Prices Amid RAM Shortage"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 2,
+   "title": "iPhone 20 Pro’s all-glass design spotted in supply chain, says leaker",
+   "link": "https://www.reddit.com/r/apple/comments/1vmcty7/iphone_20_pros_allglass_design_spotted_in_supply/",
+   "author": "/u/ZamnBoii",
+   "when": "2026-08-12T12:32:28+00:00",
+   "tipo": "discussione",
+   "signal": "2º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "New report says Apple's all-glass 20th anniversary iPhone hasn't been cancelled"
+  },
+  {
+   "platform": "Reddit r/mac",
+   "rank": 3,
+   "title": "Microsoft keeps trying.",
+   "link": "https://www.reddit.com/r/mac/comments/1vmg3c5/microsoft_keeps_trying/",
+   "author": "/u/CRK_76",
+   "when": "2026-08-12T14:42:48+00:00",
+   "tipo": "discussione",
+   "signal": "3º fra i più votati del giorno su r/mac",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/ios",
+   "rank": 4,
+   "title": "What does this small dots indicates in iPhone?",
+   "link": "https://www.reddit.com/r/ios/comments/1vm8fqk/what_does_this_small_dots_indicates_in_iphone/",
+   "author": "/u/Aura736",
+   "when": "2026-08-12T08:41:05+00:00",
+   "tipo": "discussione",
+   "signal": "4º fra i più votati del giorno su r/ios",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 5,
+   "title": "'iPhone Ultra' Screen Protectors Reveal Asymmetric Corners",
+   "link": "https://www.reddit.com/r/apple/comments/1vmdbu8/iphone_ultra_screen_protectors_reveal_asymmetric/",
+   "author": "/u/pdfu",
+   "when": "2026-08-12T12:53:49+00:00",
+   "tipo": "discussione",
+   "signal": "5º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "Alleged iPhone Ultra screen protector surfaces online"
+  },
+  {
+   "platform": "Reddit r/iphone",
+   "rank": 6,
+   "title": "comparing photos from my iPhone 15 Pro Max and my iPhone 8 because I was curious how different they’d look",
+   "link": "https://www.reddit.com/r/iphone/comments/1vmqzwv/comparing_photos_from_my_iphone_15_pro_max_and_my/",
+   "author": "/u/venncxo",
+   "when": "2026-08-12T21:19:42+00:00",
+   "tipo": "discussione",
+   "signal": "6º fra i più votati del giorno su r/iphone",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 7,
+   "title": "Apple Patenting Way to Improve Notification Summaries and 'Reduce Interruptions' Focus",
+   "link": "https://www.reddit.com/r/apple/comments/1vmjftj/apple_patenting_way_to_improve_notification/",
+   "author": "/u/pdfu",
+   "when": "2026-08-12T16:43:52+00:00",
+   "tipo": "discussione",
+   "signal": "7º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "Apple Patenting Way to Improve Notification Summaries and 'Reduce Interruptions' Focus"
+  },
+  {
+   "platform": "Reddit r/ios",
+   "rank": 8,
+   "title": "Do you think Apple will unify the rest of their account pages?",
+   "link": "https://www.reddit.com/r/ios/comments/1vma2zz/do_you_think_apple_will_unify_the_rest_of_their/",
+   "author": "/u/primalanomaly",
+   "when": "2026-08-12T10:16:00+00:00",
+   "tipo": "discussione",
+   "signal": "8º fra i più votati del giorno su r/ios",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/iphone",
+   "rank": 9,
+   "title": "'iPhone Ultra' Screen Protectors Reveal Asymmetric Corners",
+   "link": "https://www.reddit.com/r/iphone/comments/1vmeicn/iphone_ultra_screen_protectors_reveal_asymmetric/",
+   "author": "/u/Rsodyyy",
+   "when": "2026-08-12T13:41:57+00:00",
+   "tipo": "discussione",
+   "signal": "9º fra i più votati del giorno su r/iphone",
+   "origine": "eco",
+   "eco_di": "Alleged iPhone Ultra screen protector surfaces online"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 10,
+   "title": "iPhone 18 Could Get 12GB RAM and a Smaller Dynamic Island",
+   "link": "https://www.reddit.com/r/apple/comments/1vmyor2/iphone_18_could_get_12gb_ram_and_a_smaller/",
+   "author": "/u/Few_Baseball_3835",
+   "when": "2026-08-13T02:51:53+00:00",
+   "tipo": "discussione",
+   "signal": "10º fra i più votati del giorno su r/apple",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 11,
+   "title": "After a year building on HealthKit, Apple's health data is far richer than the Health app lets on",
+   "link": "https://www.reddit.com/r/apple/comments/1vmepqw/after_a_year_building_on_healthkit_apples_health/",
+   "author": "/u/AlarmingDoughnut152",
+   "when": "2026-08-12T13:50:11+00:00",
+   "tipo": "discussione",
+   "signal": "11º fra i più votati del giorno su r/apple",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/iphone",
+   "rank": 12,
+   "title": "How many of you are waiting for the IPhone Ultra (Fold)?",
+   "link": "https://www.reddit.com/r/iphone/comments/1vme2w2/how_many_of_you_are_waiting_for_the_iphone_ultra/",
+   "author": "/u/ZoteTheMitey",
+   "when": "2026-08-12T13:24:54+00:00",
+   "tipo": "discussione",
+   "signal": "12º fra i più votati del giorno su r/iphone",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 13,
+   "title": "Apple Wallet Could Soon Save Trade-In Quotes for 90 Days",
+   "link": "https://www.reddit.com/r/apple/comments/1vmlm78/apple_wallet_could_soon_save_tradein_quotes_for/",
+   "author": "/u/pdfu",
+   "when": "2026-08-12T18:00:13+00:00",
+   "tipo": "discussione",
+   "signal": "13º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "Apple Wallet app could get new feature to manage trade-ins"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 14,
+   "title": "Apple accused of misleading users over iCloud+ privacy protections in class-action lawsuit.",
+   "link": "https://www.reddit.com/r/apple/comments/1vmjsq5/apple_accused_of_misleading_users_over_icloud/",
+   "author": "/u/Novel_Negotiation224",
+   "when": "2026-08-12T16:56:29+00:00",
+   "tipo": "discussione",
+   "signal": "14º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "Apple faces class action lawsuit for ‘fraud’ over iCloud Private Relay flaw"
+  },
+  {
+   "platform": "Hacker News",
+   "rank": null,
+   "title": "Automatic1111 for Apple metal, 40% speed up sd1.5",
+   "link": "https://therad.ninja/from-8-10-seconds-to-3-7-teaching-automatic1111-to-speak-metal-on-an-m3-pro/",
+   "discussion": "https://news.ycombinator.com/item?id=49272282",
+   "author": "dmikey831",
+   "when": "2026-08-12T13:41:12Z",
+   "points": 65,
+   "comments": 21,
+   "tipo": "discussione",
+   "signal": "65 punti, 21 commenti su Hacker News",
+   "origine": "nuovo"
+  }
+ ]
+}

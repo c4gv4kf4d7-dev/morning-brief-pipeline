@@ -1,0 +1,86 @@
+{
+ "airpods-fotocamere": {
+  "opened": "2026-08-08",
+  "closed": null,
+  "label": "Gli AirPods che vedono",
+  "note": "Le micro-fotocamere a infrarossi e il loro caso d'uso in accessibilita'."
+ },
+ "apple-openai-causa": {
+  "label": "La causa Apple-OpenAI per segreti industriali",
+  "note": "Apple contro OpenAI, io Products e due ex dipendenti per appropriazione di segreti industriali: dalla denuncia alla battaglia sulle mozioni di archiviazione.",
+  "opened": "2026-08-20",
+  "closed": null
+ },
+ "apple-watch-ripensamento": {
+  "label": "Il ripensamento dell'Apple Watch",
+  "note": "La gamma rimessa in discussione: schermi, taglie, modelli senza display, materiali e fasce di prezzo.",
+  "opened": "2026-08-10",
+  "closed": null
+ },
+ "epic-commissioni": {
+  "label": "La guerra delle commissioni con Epic",
+  "note": "La causa Epic vs Apple dopo la sentenza di oltraggio alla corte: quanto puo' chiedere Apple sui link esterni al App Store, e chi decide la cifra.",
+  "opened": "2026-08-13",
+  "closed": null
+ },
+ "ios27": {
+  "opened": "2026-08-08",
+  "closed": null,
+  "label": "iOS 27, dalle beta al rilascio",
+  "note": "Cosa emerge dalle versioni di prova, funzione per funzione."
+ },
+ "iphone-pieghevole": {
+  "opened": "2026-08-08",
+  "closed": null,
+  "label": "Il primo iPhone pieghevole",
+  "note": "L'iPhone Ultra: forma, prezzo, colori, e la fascia sperimentale che Apple ci sta costruendo intorno."
+ },
+ "iphone-ventennale": {
+  "label": "L'iPhone del ventennale",
+  "note": "Il redesign atteso per il 2027, fra vetro curvo, Dynamic Island e smentite incrociate.",
+  "opened": "2026-08-11",
+  "closed": null
+ },
+ "iphone18-settembre": {
+  "opened": "2026-08-08",
+  "closed": null,
+  "label": "iPhone 18 e l'evento di settembre",
+  "note": "Cosa arriva alla presentazione autunnale e cosa slitta alla primavera."
+ },
+ "listini-in-salita": {
+  "opened": "2026-08-08",
+  "closed": null,
+  "label": "I listini che salgono",
+  "note": "Il giro di rincari partito a giugno 2026 con memorie e storage, e quanto si allarga alla gamma iPhone."
+ },
+ "manifattura-usa": {
+  "opened": "2026-08-14",
+  "closed": null,
+  "label": "La manifattura Apple negli USA",
+  "note": "Il commitment da 600 miliardi di dollari: fabbriche, centri di formazione e produzione trasferita, sito per sito."
+ },
+ "quote-mercato": {
+  "opened": "2026-08-08",
+  "closed": null,
+  "label": "Le quote di mercato",
+  "note": "Fascia premium, spedizioni PC, Cina: i numeri di terze parti sulla posizione di Apple."
+ },
+ "silicio-mac": {
+  "opened": "2026-08-08",
+  "closed": null,
+  "label": "Il silicio dei Mac, da M6 a M7",
+  "note": "La cadenza annuale dei chip Apple e i portatili che li montano."
+ },
+ "spyware-notifiche": {
+  "opened": "2026-08-14",
+  "closed": null,
+  "label": "Gli avvisi spyware di Apple",
+  "note": "Le notifiche periodiche agli utenti bersaglio di spyware mercenario: quanti paesi coinvolti, e come cambia la soglia d'allarme nel tempo."
+ },
+ "udito-mfi": {
+  "opened": "2026-08-08",
+  "closed": null,
+  "label": "Apple e l'udito",
+  "note": "Apparecchi acustici compatibili, funzioni sanitarie delle cuffie, il percorso che ha reso gli AirPods un dispositivo medico."
+ }
+}

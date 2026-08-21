@@ -1,0 +1,879 @@
+{
+ "fetched_at": "2026-08-08T18:16:33.603924+00:00",
+ "window_hours": 26.0,
+ "feed_status": {
+  "9to5Mac": {
+   "state": "ok",
+   "items": 17,
+   "newest": "2026-08-08T18:13:25+00:00",
+   "stale_hours": 0.1
+  },
+  "BGR": {
+   "state": "ok",
+   "items": 20,
+   "newest": "2026-08-08T17:47:00+00:00",
+   "stale_hours": 0.5
+  },
+  "Macitynet": {
+   "state": "ok",
+   "items": 8,
+   "newest": "2026-08-08T17:48:48+00:00",
+   "stale_hours": 0.5
+  },
+  "iSpazio": {
+   "state": "ok",
+   "items": 0,
+   "newest": "2026-08-07T09:03:03+00:00",
+   "stale_hours": 33.2
+  },
+  "Tom's Hardware IT": {
+   "state": "ok",
+   "items": 13,
+   "newest": "2026-08-08T19:33:27+02:00",
+   "stale_hours": 0.7
+  },
+  "Wired Italia": {
+   "state": "ok",
+   "items": 0,
+   "newest": "2026-07-01T07:00:00+00:00",
+   "stale_hours": 923.3
+  },
+  "MacRumors": {
+   "state": "ok",
+   "items": 8,
+   "newest": "2026-08-08T06:56:59-07:00",
+   "stale_hours": 4.3
+  },
+  "The Verge": {
+   "state": "ok",
+   "items": 10,
+   "newest": "2026-08-08T13:53:34-04:00",
+   "stale_hours": 0.4
+  }
+ },
+ "count": 76,
+ "items": [
+  {
+   "source": "Tom's Hardware IT",
+   "title": "Corsair MP600 PRO LPX 1TB da 337,48€ a 274,38€, pronto per ampliare PS5",
+   "link": "https://www.tomshw.it/offerte/corsair-mp600-pro-lpx-1tb-da-33748eur-a-27438eur-pronto-per-ampliare-ps5",
+   "date": "2026-08-08T19:33:27+02:00",
+   "age_hours": 0.7,
+   "summary": "Corsair MP600 PRO LPX 1TB costa 274,38€ su Amazon: il prezzo di listino è 337,48€, con uno sconto del 19%. Il formato M.2, la velocità fino a 7.100 MB/s e il dissipatore già montato ne fanno un’espans...",
+   "categories": []
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "title": "Crimson Desert: la patch 1.17 sistema progressione, slot rapidi e mappa",
+   "link": "https://www.tomshw.it/videogioco/crimson-desert-la-patch-1-17-sistema-progressione-slot-rapidi-e-mappa",
+   "date": "2026-08-08T18:25:04+02:00",
+   "age_hours": 1.9,
+   "summary": "Crimson Desert ha ricevuto la patch 1.17, un aggiornamento ufficiale che corregge diversi problemi capaci di interferire con progressione, combattimenti ed esplorazione. Pearl Abyss ha distribuito l'i...",
+   "categories": []
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "title": "Pokémon, Mario e altre IP usate dagli USA: Tokyo protesta",
+   "link": "https://www.tomshw.it/altro/pokemon-e-mario-usati-senza-permesso-dal-governo-usa-tokyo-chiede-il",
+   "date": "2026-08-08T18:25:04+02:00",
+   "age_hours": 1.9,
+   "summary": "Le immagini di Pokémon, Super Mario e Naruto sono finite al centro di un confronto diplomatico tra Giappone e Stati Uniti. Tokyo ha comunicato più volte a Washington la richiesta di rispettare i dirit...",
+   "categories": []
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "title": "Serious Sam: Shatterverse cambia formula: roguelite co-op in cinque dal 31 agosto",
+   "link": "https://www.tomshw.it/videogioco/serious-sam-shatterverse-cambia-formula-roguelite-co-op-in-cinque-dal-31",
+   "date": "2026-08-08T18:19:58+02:00",
+   "age_hours": 1.9,
+   "summary": "Serious Sam: Shatterverse sarà pubblicato il 31 agosto 2026 su PC tramite Steam, PlayStation 5 e Xbox Series X|S. Il nuovo capitolo abbandona la tradizionale progressione lineare in favore di una stru...",
+   "categories": []
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "title": "Evo: l’AI progetta 16 batteriofagi vitali capaci di uccidere E. coli",
+   "link": "https://www.tomshw.it/scienze/evo-l-ai-progetta-16-batteriofagi-vitali-capaci-di-uccidere-e-coli",
+   "date": "2026-08-08T18:19:39+02:00",
+   "age_hours": 1.9,
+   "summary": "Sedici genomi virali progettati con l’intelligenza artificiale hanno prodotto batteriofagi vitali, capaci di replicarsi in ceppi di Escherichia coli e provocarne la lisi. Il risultato arriva dal lavor...",
+   "categories": []
+  },
+  {
+   "source": "9to5Mac",
+   "title": "Why you should buy iPhone 17 Pro now instead of waiting",
+   "link": "https://9to5mac.com/2026/08/08/buy-iphone-17-pro-vs-iphone-18-pro/",
+   "date": "2026-08-08T18:13:25+00:00",
+   "age_hours": 0.1,
+   "summary": "Apple is set to unveil the iPhone 18 Pro next month. Should you buy an iPhone now or wait for the iPhone 18 Pro? This year, my advice is a bit different. Here’s why.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "title": "Piano a induzione Hisense al 42% in meno, da prendere per cucinare più in fretta",
+   "link": "https://www.tomshw.it/offerte/piano-a-induzione-hisense-al-42-in-meno-da-prendere-per-cucinare-piu-in-fretta",
+   "date": "2026-08-08T18:03:27+02:00",
+   "age_hours": 2.2,
+   "summary": "Il piano cottura a induzione Hisense da 60 cm costa 199€ su Amazon, invece di 344€, con uno sconto del 42%. È il minimo storico per un modello a quattro zone capace di arrivare a 7.200W e di adattarsi...",
+   "categories": []
+  },
+  {
+   "source": "Macitynet",
+   "title": "Il vero pericolo dell’IA non è la coscienza, ma la libertà che le stiamo concedendo",
+   "link": "https://www.macitynet.it/il-vero-pericolo-dellia-non-e-la-coscienza-ma-la-liberta-che-le-stiamo-concedendo/",
+   "date": "2026-08-08T17:48:48+00:00",
+   "age_hours": 0.5,
+   "summary": "Secondo l'ex Capo della Cybersecurity USA Chris Inglis, il vero pericolo dell'IA è l'autonomia incontrollata. La soluzione? Ripartire dalle tre leggi della robotica. - su macitynet.it Il vero pericolo dell’IA non è la coscienza, ma la libertà che le stiamo concedendo",
+   "categories": [
+    "AI - Intelligenza Artificiale",
+    "Intelligenza Artificiale"
+   ]
+  },
+  {
+   "source": "BGR",
+   "title": "6 Cool Aviate Features That Make It The Best Flighty Alternative For Android Phones",
+   "link": "https://www.bgr.com/2228655/aviate-app-features-best-flighty-alternative-android-phones/",
+   "date": "2026-08-08T17:47:00+00:00",
+   "age_hours": 0.5,
+   "summary": "Ever since its launch, Flighty has been the go-to iPhone app for all things air travel for many flyers. Luckily, Aviate could be a strong Android alternative.",
+   "categories": [
+    "Apps & Software",
+    "Android"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "title": "Braun Serie 9 Pro+ al 40% in meno, da prendere per le barbe difficili",
+   "link": "https://www.tomshw.it/offerte/braun-serie-9-pro-al-40-in-meno-da-prendere-per-le-barbe-difficili",
+   "date": "2026-08-08T17:35:09+02:00",
+   "age_hours": 2.7,
+   "summary": "Il Braun Serie 9 Pro+ 9660ccps costa 379,99€ su Amazon, invece di 629,99€, grazie a uno sconto del 40%. È il minimo storico per un sistema di rasatura premium completo di stazione SmartCare 6in1. Bra...",
+   "categories": []
+  },
+  {
+   "source": "BGR",
+   "title": "How Does Amazon Prime Deliver So Fast?",
+   "link": "https://www.bgr.com/2228654/how-amazon-prime-deliver-fast-explained/",
+   "date": "2026-08-08T17:17:00+00:00",
+   "age_hours": 1.0,
+   "summary": "Discover how regional fulfillment hubs, predictive inventory placement, and dedicated delivery fleets empower Amazon Prime to ship packages in hours.",
+   "categories": [
+    "Technology"
+   ]
+  },
+  {
+   "source": "BGR",
+   "title": "4 Cheap TV Brands You Can Try Instead Of TCL",
+   "link": "https://www.bgr.com/2228653/cheap-tv-brands-to-try-instead-of-tcl/",
+   "date": "2026-08-08T16:47:00+00:00",
+   "age_hours": 1.5,
+   "summary": "While TCL has sharply risen as an affordable TV brand in recent years, here are some alternative brands that compete neck and neck in features and pricing.",
+   "categories": [
+    "Home Entertainment"
+   ]
+  },
+  {
+   "source": "BGR",
+   "title": "Should You Put A Screen Protector On A Foldable Phone?",
+   "link": "https://www.bgr.com/2228652/should-put-screen-protector-on-foldable-phone/",
+   "date": "2026-08-08T16:17:00+00:00",
+   "age_hours": 2.0,
+   "summary": "Many of us rely on screen protectors to improve a smartphone's durability. Foldables are different, and their inner screens are much more fragile.",
+   "categories": [
+    "iPhone",
+    "Android"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "title": "Philips Multigroom Serie 9000 a 102,99€, un kit per barba, capelli e corpo",
+   "link": "https://www.tomshw.it/offerte/philips-multigroom-serie-9000-a-10299eur-un-kit-per-barba-capelli-e-corpo",
+   "date": "2026-08-08T16:03:16+02:00",
+   "age_hours": 4.2,
+   "summary": "Philips Multigroom Serie 9000 costa 102,99€ su Amazon, invece di 149,99€, con uno sconto del 31%. Il kit MG9561/30 riunisce gli strumenti per regolare barba, capelli e peli del corpo, aggiungendo un’i...",
+   "categories": []
+  },
+  {
+   "source": "BGR",
+   "title": "9 Essential Travel Apps Every Digital Nomad Should Have Installed",
+   "link": "https://www.bgr.com/2229536/essential-travel-apps-digital-nomads/",
+   "date": "2026-08-08T16:02:00+00:00",
+   "age_hours": 2.2,
+   "summary": "Digital nomads constantly balance staying productive while squeezing the most from their travels. These nine mobile apps can help them succeed on both fronts.",
+   "categories": [
+    "Mobile"
+   ]
+  },
+  {
+   "source": "BGR",
+   "title": "5 Streaming Devices Cheaper Than The Roku Ultra (After The Price Hike)",
+   "link": "https://www.bgr.com/2228651/streaming-devices-cheaper-roku-ultra-price-hike/",
+   "date": "2026-08-08T15:47:00+00:00",
+   "age_hours": 2.5,
+   "summary": "It's not just computer components and gaming consoles that have received price hikes, it's also streaming devices, making you lucky to find affordable options.",
+   "categories": [
+    "Home Entertainment"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "title": "Sony BRAVIA Theatre Bar 9 a 976,73€, cinema in casa senza casse ovunque",
+   "link": "https://www.tomshw.it/offerte/sony-bravia-theatre-bar-9-a-97673eur-cinema-in-casa-senza-casse-ovunque",
+   "date": "2026-08-08T15:32:34+02:00",
+   "age_hours": 4.7,
+   "summary": "Sony BRAVIA Theatre Bar 9 costa 976,73€ su Amazon, passando dai 1.199€ di listino al prezzo attuale con uno sconto del 19%. Riunisce 13 speaker e tecnologie audio spaziali in una singola barra, evitan...",
+   "categories": []
+  },
+  {
+   "source": "BGR",
+   "title": "Not Water, Not Power: The Next Data Center Resource Race Might Be For Copper",
+   "link": "https://www.bgr.com/2228649/data-center-copper-breakthrough-explained/",
+   "date": "2026-08-08T15:17:00+00:00",
+   "age_hours": 3.0,
+   "summary": "Most people can tell you that most AI data centers use water to cool the equipment, but a part of that cooling process also includes the use of aluminum plates.",
+   "categories": [
+    "Science"
+   ]
+  },
+  {
+   "source": "9to5Mac",
+   "title": "Apple TV welcomes back Ted Lasso with a clever new commercial",
+   "link": "https://9to5mac.com/2026/08/08/apple-tv-welcomes-back-ted-lasso-with-a-clever-new-commercial/",
+   "date": "2026-08-08T15:14:01+00:00",
+   "age_hours": 3.0,
+   "summary": "The Apple TV streaming service launched a new commercial this week alongside the premiere of Ted Lasso season four. The clever new ‘Welcome Back’ commercial inserts coach Lasso into a bunch of other Apple TV shows, including hits like Severance, Silo, and The Morning Show. You can watch the 1:30 ad after the break …",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "BGR",
+   "title": "Samsung Galaxy Z Fold 8 Ultra Review: Better Than The Base, But Not As Exciting",
+   "link": "https://www.bgr.com/2232955/galaxy-z-fold-8-ultra-review/",
+   "date": "2026-08-08T15:00:00+00:00",
+   "age_hours": 3.3,
+   "summary": "Samsung's Galaxy Z Fold 8 Ultra might be the one of the best foldable phones on the market, but its less expensive sibling complicates matters this generation.",
+   "categories": [
+    "Mobile Reviews",
+    "Android"
+   ]
+  },
+  {
+   "source": "BGR",
+   "title": "How To Get The Best Video Quality With Your Logitech Webcam",
+   "link": "https://www.bgr.com/2228648/how-get-best-quality-with-logitech-webcam/",
+   "date": "2026-08-08T14:47:00+00:00",
+   "age_hours": 3.5,
+   "summary": "Logitech makes some of the best webcams on the market. But a good camera can only go so far. Here are some steps to take to maximize your video quality.",
+   "categories": [
+    "Accessories"
+   ]
+  },
+  {
+   "source": "9to5Mac",
+   "title": "Here’s why Apple is skipping its M6 Pro and M6 Max chips to accelerate M7 launch",
+   "link": "https://9to5mac.com/2026/08/08/apple-m7-chip-heres-why-it-matters-ai/",
+   "date": "2026-08-08T14:21:00+00:00",
+   "age_hours": 3.9,
+   "summary": "According to reports from Bloomberg , Apple will be skipping its M6 Pro, M6 Max, and M6 Ultra chips to accelerate development of the M7 chip. That means the only chip to be released from the M6 family will be the base M6. Here’s why.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "BGR",
+   "title": "Critics Praised This Adam Driver Sci-Fi Film With An All-Star Cast, But Audiences Ignored It",
+   "link": "https://www.bgr.com/2231658/critics-praised-adam-driver-sci-fi-film-all-star-cast-audiences-ignored-midnight-special/",
+   "date": "2026-08-08T14:17:00+00:00",
+   "age_hours": 4.0,
+   "summary": "A decade ago, Michael Shannon, Joel Edgerton, and Kirsten Dunst joined Adam Driver in this overlooked sci-fi with an 84% score on Rotten Tomatoes.",
+   "categories": [
+    "Movies"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "title": "Roborock Qrevo S5V al minimo storico: aspira, lava e pulisce anche i mop",
+   "link": "https://www.tomshw.it/offerte/roborock-qrevo-s5v-al-minimo-storico-aspira-lava-e-pulisce-anche-i-mop",
+   "date": "2026-08-08T14:02:57+02:00",
+   "age_hours": 6.2,
+   "summary": "Roborock Qrevo S5V costa 427,49€ su Amazon, contro un prezzo di listino di 599,99€ e con il 29% di sconto: è il minimo storico. Aspirazione, lavaggio e manutenzione automatica lo rendono particolarmen...",
+   "categories": []
+  },
+  {
+   "source": "BGR",
+   "title": "15 Home Office Upgrades That Just Work",
+   "link": "https://www.bgr.com/2229133/home-office-upgrades-simply-just-work/",
+   "date": "2026-08-08T14:02:00+00:00",
+   "age_hours": 4.2,
+   "summary": "Setting up the right office is critical to comfort, and the right combination of ergonomics and accessories will make your workspace a paragon of productivity.",
+   "categories": [
+    "Accessories"
+   ]
+  },
+  {
+   "source": "Macitynet",
+   "title": "La deepfake di Erico Mentana su Striscia la Notizia nel mirino del Garante della Privacy",
+   "link": "https://www.macitynet.it/la-deepfake-di-erico-mentana-su-striscia-la-notizia-nel-mirino-del-garante-della-privacy/",
+   "date": "2026-08-08T14:00:59+00:00",
+   "age_hours": 4.3,
+   "summary": "Video deepfake di Enrico Mentana. Per il Garante, l'uso dell'IA, anche per satira, viola la privacy se non è chiaramente riconoscibile dagli spettatori. - su macitynet.it La deepfake di Erico Mentana su Striscia la Notizia nel mirino del Garante della Privacy",
+   "categories": [
+    "Internet"
+   ]
+  },
+  {
+   "source": "The Verge",
+   "title": "An Amazon data center could have the worst polluting power plant in the country",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+   "date": "2026-08-08T13:53:34-04:00",
+   "age_hours": 0.4,
+   "summary": "To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to the New York Times. The new gas-burning plant in Pecos County, Texas has received significant investment from Amazon and, […]",
+   "categories": []
+  },
+  {
+   "source": "BGR",
+   "title": "How Does Google Maps Know A Business Is Busy?",
+   "link": "https://www.bgr.com/2228646/how-does-google-maps-know-business-is-busy/",
+   "date": "2026-08-08T13:47:00+00:00",
+   "age_hours": 4.5,
+   "summary": "Google Maps can tell you how busy many businesses are. It's a convenient feature, to be sure, but how is the site able to provide that information?",
+   "categories": [
+    "Apps & Software",
+    "iPhone",
+    "Android"
+   ]
+  },
+  {
+   "source": "9to5Mac",
+   "title": "Apple @ Work: What IDC’s latest shipments mean for the MacBook Neo and Air in the enterprise",
+   "link": "https://9to5mac.com/2026/08/08/apple-work-what-idcs-latest-shipments-mean-for-the-macbook-neo-and-air-in-the-enterprise/",
+   "date": "2026-08-08T13:36:00+00:00",
+   "age_hours": 4.7,
+   "summary": "Apple @ Work is exclusively brought to you by Mosyle , the only Apple Unified Platform. Mosyle is the only solution that integrates in a single professional grade platform all the solutions necessary to seamlessly and automatically deploy, manage, and protect Apple devices at work. Over 45,000 organizations trust Mosyle to make millions of Apple devices work ready with no effort and at an affordable cost. Request your EXTENDED TRIAL today and understand why Mosyle is everything you need to work with Apple . Enterprise computer buying is currently going through an incredibly strange economic cycle. New PC shipment numbers from IDC show a divide across global deployment trends. On the one hand, actual device shipments are down nearly 5% across the industry. On the other side, overall manufacturer revenues are growing because prices are increasing across the board. Component shortages, driv",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "BGR",
+   "title": "Amazon's AI Warehouses Are Struggling With A Real Human Problem",
+   "link": "https://www.bgr.com/2228645/amazon-ai-warehouse-human-problems/",
+   "date": "2026-08-08T13:17:00+00:00",
+   "age_hours": 5.0,
+   "summary": "AI is everywhere, including at one of the world's largest retailers. But some of those experiments haven't gone as well as executives hoped.",
+   "categories": [
+    "Artificial Intelligence"
+   ]
+  },
+  {
+   "source": "Macitynet",
+   "title": "Musica IA, la svolta di Suno: filigrane invisibili per salvarsi dai colossi del copyright",
+   "link": "https://www.macitynet.it/suno-filigrane/",
+   "date": "2026-08-08T12:53:47+00:00",
+   "age_hours": 5.4,
+   "summary": "Tra la stretta sui bot e le cause milionarie con Universal e Sony, Suno punta su tracciabilità dei file e nuove regole per la community. - su macitynet.it Musica IA, la svolta di Suno: filigrane invisibili per salvarsi dai colossi del copyright",
+   "categories": [
+    "AI - Intelligenza Artificiale",
+    "Intelligenza Artificiale"
+   ]
+  },
+  {
+   "source": "BGR",
+   "title": "5 Things To Stop Doing If You Have Liquid Cooling",
+   "link": "https://www.bgr.com/2228644/things-stop-doing-if-have-liquid-cooling/",
+   "date": "2026-08-08T12:47:00+00:00",
+   "age_hours": 5.5,
+   "summary": "If you're using liquid cooling to handle the heavy workload of your CPU or GPU, here are a few things to stop doing immediately.",
+   "categories": [
+    "Computers"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "title": "Samsung Odyssey G6 con il 48% di sconto, 350 Hz che valgono ogni euro",
+   "link": "https://www.tomshw.it/offerte/samsung-odyssey-g6-con-il-48-di-sconto-350-hz-che-valgono-ogni-euro",
+   "date": "2026-08-08T12:33:26+02:00",
+   "age_hours": 7.7,
+   "summary": "A 259€ su Amazon, Samsung Odyssey G6 da 27″ arriva con uno sconto del 48% sul listino di 499€. Il pannello Fast IPS QHD combina immagini dettagliate e aggiornamento a 350 Hz, una configurazione pensat...",
+   "categories": []
+  },
+  {
+   "source": "9to5Mac",
+   "title": "Apple weekend deals: AirPods Pro 3 25% off, MacBook Neo, Apple gift cards, iPhone Air, Apple TV, more",
+   "link": "https://9to5mac.com/2026/08/08/apple-weekend-deals-airpods-pro-3-discounts/",
+   "date": "2026-08-08T12:19:38+00:00",
+   "age_hours": 5.9,
+   "summary": "This weekend’s 9to5Toys Lunch Break has arrived with one of the best deals yet on AirPods Pro 3 at 25% off, $100 off AirPods Pro Max, and some notable offers courtesy of the Apple Certified Refurbished Store . We are also hosting the tail end of this weekend’s 500 price drop on M5 MacBook Pro. Some rare Apple gift card discounts you can use towards the upcoming iPhone 18 Pro launch also join Apple Watch Ultra 3 deals, and brand new, unlocked iPhone Air models at $150+ off the list prices. All that and a bunch more await below.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "BGR",
+   "title": "Is There Any Point In Buying A OnePlus Phone Now?",
+   "link": "https://www.bgr.com/2228643/oneplus-phone-should-you-buy-one-now/",
+   "date": "2026-08-08T12:17:00+00:00",
+   "age_hours": 6.0,
+   "summary": "OnePlus' exit from the U.S. and European markets means future models are only coming to Asian markets. However, right now, there's still value in buying one.",
+   "categories": [
+    "Android"
+   ]
+  },
+  {
+   "source": "The Verge",
+   "title": "Buc-ee’s dodges John Oliver to sue another small business",
+   "link": "https://www.theverge.com/business/977112/buc-ees-john-oliver-lawsuit-beaver-mini-mart",
+   "date": "2026-08-08T11:47:30-04:00",
+   "age_hours": 2.5,
+   "summary": "Buc-ee's became something of a viral sensation during the World Cup, but it has a troubling history of suing small gas stations and convenience stores. On a recent episode of Last Week Tonight, John Oliver literally begged the company to sue him for selling merch featuring his squirrel mascot, Mr. Nutterbutter, with branding that reads […]",
+   "categories": []
+  },
+  {
+   "source": "BGR",
+   "title": "Space Missions Are Having An Unexpected Effect On Astronauts' Sense Of Smell",
+   "link": "https://www.bgr.com/2228642/space-unexpected-effect-astronaut-smell/",
+   "date": "2026-08-08T11:47:00+00:00",
+   "age_hours": 6.5,
+   "summary": "Going into outer space causes a lot of changes in the human body, but you may be surprised to learn that it can radically alter your sense of smell.",
+   "categories": [
+    "Space"
+   ]
+  },
+  {
+   "source": "BGR",
+   "title": "3 Streaming Devices With The Longest Software Support",
+   "link": "https://www.bgr.com/2231942/streaming-devices-longest-software-support/",
+   "date": "2026-08-08T11:17:00+00:00",
+   "age_hours": 7.0,
+   "summary": "Want a media player that actually lasts? Skip the disposable tech and check out which streaming devices are guaranteed to keep getting software updates.",
+   "categories": [
+    "Home Entertainment"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "title": "Braun Serie 9 BT9545 da 159,99€ a 109,99€, rifiniture precise ogni giorno",
+   "link": "https://www.tomshw.it/offerte/braun-serie-9-bt9545-da-15999eur-a-10999eur-rifiniture-precise-ogni-giorno",
+   "date": "2026-08-08T11:03:32+02:00",
+   "age_hours": 9.2,
+   "summary": "Braun Serie 9 BT9545 costa 109,99€ su Amazon anziché 159,99€, con uno sconto del 31%. Le 52 impostazioni a intervalli di 0,25 mm e i 180 minuti di autonomia aiutano a gestire barba, contorni e sfumatu...",
+   "categories": []
+  },
+  {
+   "source": "The Verge",
+   "title": "Musician and entrepreneur Tom Vek is building a digital music player, but don’t call it retro",
+   "link": "https://www.theverge.com/report/976872/tom-vek-musician-entrepreneur-sleevenote-interview",
+   "date": "2026-08-08T11:00:00-04:00",
+   "age_hours": 3.3,
+   "summary": "Tom Vek burst onto the scene in 2005 with his album We Have Sound, which garnered a solid 7.6 from the tastemakers of the day over at Pitchfork. His undeniably catchy brand of dancy indietronica landed him an appearance on The OC and placement on the Grand Theft Auto IV soundtrack. His follow-up, Leisure Seizure, […]",
+   "categories": []
+  },
+  {
+   "source": "BGR",
+   "title": "How Long Do Owners Say The Nvidia Shield Lasts?",
+   "link": "https://www.bgr.com/2228641/how-long-owners-say-nvidia-shield-lasts/",
+   "date": "2026-08-08T10:47:00+00:00",
+   "age_hours": 7.5,
+   "summary": "The Nvidia Shield is often considered the best media streaming device on the market, but how long can buyers expect theirs to last, according to owners?",
+   "categories": [
+    "Home Entertainment"
+   ]
+  },
+  {
+   "source": "Macitynet",
+   "title": "Stop ad Astra, OpenAI frena sul nuovo modello per timori sulla cybersicurezza",
+   "link": "https://www.macitynet.it/stop-ad-astra-openai-frena-sul-nuovo-modello-per-timori-sulla-cybersicurezza/",
+   "date": "2026-08-08T10:46:19+00:00",
+   "age_hours": 7.5,
+   "summary": "OpenAI sospende lo sviluppo del nuovo modello Astra per rischi di cybersicurezza e hacking autonomo. - su macitynet.it Stop ad Astra, OpenAI frena sul nuovo modello per timori sulla cybersicurezza",
+   "categories": [
+    "AI - Intelligenza Artificiale",
+    "Intelligenza Artificiale",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "BGR",
+   "title": "5 Unlocked Motorola Phones You Can Buy For Less Than $300",
+   "link": "https://www.bgr.com/2228639/unlocked-motorola-phones-buy-less-300-dollars/",
+   "date": "2026-08-08T10:17:00+00:00",
+   "age_hours": 8.0,
+   "summary": "If you're looking for a new cell phone but don't want to break the bank, consider these budget-friendly Motorola phones that run less than $300.",
+   "categories": [
+    "Android"
+   ]
+  },
+  {
+   "source": "BGR",
+   "title": "What Does Battery Health Assistance Actually Do On A Google Pixel Phone?",
+   "link": "https://www.bgr.com/2228638/what-battery-health-assistance-does-google-pixel/",
+   "date": "2026-08-08T09:47:00+00:00",
+   "age_hours": 8.5,
+   "summary": "Newer Google Pixel phones employ a tactic known as Battery Health Assistance over time, which could prolong your phone's usefulness as it gets older.",
+   "categories": [
+    "Android"
+   ]
+  },
+  {
+   "source": "Macitynet",
+   "title": "FaceGate vi fa sbloccare le app su Mac con il volto o l’impronta",
+   "link": "https://www.macitynet.it/facegate-app-mac/",
+   "date": "2026-08-08T08:59:12+00:00",
+   "age_hours": 9.3,
+   "summary": "Proteggete le singole app del Mac dietro riconoscimento facciale locale, Touch ID o password: è l'app che abilita l'autenticazione biometrica a un livello mai visto prima - su macitynet.it FaceGate vi fa sbloccare le app su Mac con il volto o l’impronta",
+   "categories": [
+    "Software / Mac App Store",
+    "Mac App Utility",
+    "Sicurezza"
+   ]
+  },
+  {
+   "source": "Macitynet",
+   "title": "Offerte Amazon Weekend 8 agosto: Apple, Google, Lenovo, SanDisk, Xiaomi, Logitech, Nothing, Sony, Samsung",
+   "link": "https://www.macitynet.it/offerte-amazon-8-agosto-2026/",
+   "date": "2026-08-08T08:29:23+00:00",
+   "age_hours": 9.8,
+   "summary": "Le migliori offerte Amazon del 8 agosto 2026: dispositivi tech e accessori per la vita di tutti i giorni, selezionati da Macitynet. - su macitynet.it Offerte Amazon Weekend 8 agosto: Apple, Google, Lenovo, SanDisk, Xiaomi, Logitech, Nothing, Sony, Samsung",
+   "categories": [
+    "Offerte",
+    "Sconti speciali",
+    "ADV",
+    "Offerte Amazon",
+    "Offerte Apple su Amazon"
+   ]
+  },
+  {
+   "source": "The Verge",
+   "title": "Is this $450 laptop from an unknown brand too good to be true?",
+   "link": "https://www.theverge.com/tech/977031/chuwi-unibook-laptop-intel-wildcat-lake-review",
+   "date": "2026-08-08T08:00:00-04:00",
+   "age_hours": 6.3,
+   "summary": "Finding a good laptop under $500 was hard enough before RAMageddon. They nearly always had cheap hardware and underpowered, often outdated chips. That's what made the MacBook Neo so disruptive: It offered great build quality and good-enough performance starting at $599. Windows laptops couldn't touch it. Even though it's gone up to $699, it's still […]",
+   "categories": []
+  },
+  {
+   "source": "The Verge",
+   "title": "My favorite feel-good show is back",
+   "link": "https://www.theverge.com/tech/977084/ted-lasso-bose-tony-installer",
+   "date": "2026-08-08T08:00:00-04:00",
+   "age_hours": 6.3,
+   "summary": "Hi, friends! Welcome to Installer No. 139, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, barbecue sauce, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about Johnny Knoxville and Google Zero and the history of the bicycle, […]",
+   "categories": []
+  },
+  {
+   "source": "Macitynet",
+   "title": "Addio spazzolino manuale, Oral-B iO 3 scende a soli 59,98 euro",
+   "link": "https://www.macitynet.it/addio-spazzolino-manuale-oral-b-io-3-scende-a-soli-5998-euro/",
+   "date": "2026-08-08T07:29:42+00:00",
+   "age_hours": 10.8,
+   "summary": "Oral-B iO 3 scende a soli 59,98 euro su Amazon: oltre 80 euro di risparmio per passare allo spazzolino elettrico con sensore di pressione e tre modalità di pulizia - su macitynet.it Addio spazzolino manuale, Oral-B iO 3 scende a soli 59,98 euro",
+   "categories": [
+    "Offerte",
+    "Sconti speciali",
+    "ADV",
+    "Offerte Amazon"
+   ]
+  },
+  {
+   "source": "MacRumors",
+   "title": "Score the A16 iPad for Its Best Price Since June's Hike",
+   "link": "https://www.macrumors.com/2026/08/08/score-the-a16-ipad/",
+   "date": "2026-08-08T06:56:59-07:00",
+   "age_hours": 4.3,
+   "summary": "Amazon this weekend is taking $50 off Wi-Fi models of Apple's 11th generation iPad. Prices start at $399.00 for the 128GB Wi-Fi iPad, down from $449.00. This is a match of the best price we've seen on the iPad since Apple's price hikes in June. Note: MacRumors is an affiliate partner with Amazon. When you click a link and make a purchase, we may receive a small payment, which helps us keep the site running. Additionally, Amazon has the 256GB Wi-Fi iPad for $499.00 ($50 off) and the 512GB Wi-Fi iPad for $699.00 ($50 off). Free delivery estimates are placed around August 13 for most of these iPad models, but Prime members should be able to get same-day delivery in many locations. $50 OFF 128GB Wi-Fi iPad for $399.00 $50 OFF 256GB Wi-Fi iPad for $499.00 $50 OFF 512GB Wi-Fi iPad for $699.00 If you're on the hunt for more discounts, be sure to visit our Apple Deals roundup where we recap the ",
+   "categories": [
+    "Deals",
+    "Featured"
+   ]
+  },
+  {
+   "source": "Macitynet",
+   "title": "WhatsApp Plus è arrivato: cos’è e come abbonarsi",
+   "link": "https://www.macitynet.it/whatsapp-plus-come-abbonarsi/",
+   "date": "2026-08-08T06:14:25+00:00",
+   "age_hours": 12.0,
+   "summary": "WhatsApp è gratis ma con l'abbonamento si sbloccano diverse funzioni esclusive: ecco di cosa si tratta e come provarlo gratis per 30 giorni - su macitynet.it WhatsApp Plus è arrivato: cos’è e come abbonarsi",
+   "categories": [
+    "Tutorial e FAQ",
+    "Apple",
+    "Tutorial Android",
+    "Tutorial iPhone e iPad",
+    "WhatsApp"
+   ]
+  },
+  {
+   "source": "MacRumors",
+   "title": "Top Stories: Apple's September Announcements, MacBook Air Shortages, and More",
+   "link": "https://www.macrumors.com/2026/08/08/top-stories-apple-september-announcements/",
+   "date": "2026-08-08T06:00:12-07:00",
+   "age_hours": 5.3,
+   "summary": "Apple's annual September iPhone event is just about a month away, and things are going to be a little bit different this year with Apple moving to a split launch for the iPhone 18 lineup, so make sure you're up to date on everything we may see at the event. This week also saw word that Apple is experiencing shortages of the MacBook Air due to the ongoing memory crunch, while the software side saw a significant issue with iCloud Private Relay disclosed and progress from Apple on a cross-platform clipboard, so read on below for all of the details! Top Stories Everything Apple Is Expected to Announce in September Apple is going to announce at least five new devices next month at its annual iPhone-centric event, though it's possible we'll also get devices that were waiting on Siri AI, so check out our overview of what we might see . There's even a late-breaking wild card in the form of camer",
+   "categories": [
+    "Featured",
+    "Top Stories"
+   ]
+  },
+  {
+   "source": "MacRumors",
+   "title": "Claude Code Adds Cross-Session Messaging on macOS",
+   "link": "https://www.macrumors.com/2026/08/08/claude-code-adds-cross-session-messaging/",
+   "date": "2026-08-08T03:22:46-07:00",
+   "age_hours": 7.9,
+   "summary": "Anthropic has updated Claude Code so that separate coding sessions can message each other directly, removing the need to manually copy context between Terminal windows. The company shipped the feature in Claude Code version 2.1.224, released on Friday for macOS and Linux. Two new tools power it: ListAgents, which finds other active sessions running on the Mac, and SendMessage, which delivers the message. A session that receives one shows it as a labeled card with a link back to the sender. According to Anthropic's documentation , only text passes between sessions, not conversation history, files, or permissions. One session can warn another when a change breaks something it depends on, or pass along an answer another session is waiting on, and Anthropic says an incoming message can't approve a permission request or change a session's settings on its own. New in Claude Code: your sessions",
+   "categories": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "The Verge",
+   "title": "Nitecore’s latest power bank is the lightest and most compact yet",
+   "link": "https://www.theverge.com/tech/976506/nitecore-nb10000-gen4-review-adventure-battery",
+   "date": "2026-08-08T03:00:00-04:00",
+   "age_hours": 11.3,
+   "summary": "There's two things you should know about me, your intrepid reviewer: I hate the feature creep associated with modern power banks, and I love shaving grams off the gear I carry when backpacking, bikepacking, and trail running. So imagine my delight when Nitecore released a new generation of its ultralight NB10000 battery. After a few […]",
+   "categories": []
+  },
+  {
+   "source": "9to5Mac",
+   "title": "WhatsApp makes parent-managed accounts easier to set up on iPhone",
+   "link": "https://9to5mac.com/2026/08/07/whatsapp-makes-parent-managed-accounts-easier-to-set-up-on-iphone/",
+   "date": "2026-08-08T02:58:27+00:00",
+   "age_hours": 15.3,
+   "summary": "WhatsApp is bringing its dedicated parental controls section to the iPhone, making the feature easier for parents to find and set up. Here are the details.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "MacRumors",
+   "title": "iPhone 17 Prices Could Rise as Soon as Monday, Rumor Claims",
+   "link": "https://www.macrumors.com/2026/08/08/iphone-17-prices-could-rise-as-soon-as-monday/",
+   "date": "2026-08-08T02:54:27-07:00",
+   "age_hours": 8.4,
+   "summary": "Apple could raise iPhone 17 prices as soon as Monday, August 10, according to a new rumor, well before the wider round of increases expected with next month's iPhone 18 Pro launch. Weibo leaker \" Fixed Focus Digital \" said in a post yesterday that rumors are circulating about an ‌iPhone 17‌ price change taking effect on August 10. The leaker was noncommittal about whether prices will actually move, though the post claimed with more certainty that Apple has called off plans to raise production capacity on some lines from 15% to 30%. It's not clear from the post which components or products that capacity change refers to. Apple raised prices on Macs, iPads, and most other devices in June, citing soaring memory and storage costs, but left the iPhone, Apple Watch, AirPods, Studio Display , and accessories untouched. Apple's next round of pricing changes is widely rumored to center on the ‌iP",
+   "categories": [
+    "iPhone 17",
+    "iPhone 17 Pro",
+    "iPhone 17e",
+    "Fixed Focus Digital"
+   ]
+  },
+  {
+   "source": "9to5Mac",
+   "title": "Apple adds nearly 45 hearing devices to its Made for iPhone compatibility list",
+   "link": "https://9to5mac.com/2026/08/07/apple-adds-nearly-45-hearing-devices-to-its-made-for-iphone-compatibility-list/",
+   "date": "2026-08-08T02:18:32+00:00",
+   "age_hours": 16.0,
+   "summary": "Apple updated its list of Made for iPhone (MFi) hearing devices today, with 43 models across 22 brands. Here’s what’s new.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "9to5Mac",
+   "title": "CarPlay connection issues? This might explain why",
+   "link": "https://9to5mac.com/2026/08/07/carplay-connection-issues/",
+   "date": "2026-08-08T00:51:06+00:00",
+   "age_hours": 17.4,
+   "summary": "If your Apple CarPlay connection randomly drops out while driving, the cause might not be your iPhone, cable, or car.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "9to5Mac",
+   "title": "Claude Code now lets sessions talk to each other on macOS",
+   "link": "https://9to5mac.com/2026/08/07/claude-code-now-lets-sessions-talk-to-each-other-on-macos/",
+   "date": "2026-08-07T22:29:59+00:00",
+   "age_hours": 19.8,
+   "summary": "Users running the latest version of Claude Code on macOS and Linux can now have their sessions message each other to share findings, ask questions, and coordinate work. Here are the details.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "9to5Mac",
+   "title": "9to5Mac Overtime 076: Native retro games on iPhone",
+   "link": "https://9to5mac.com/2026/08/07/9to5mac-overtime-076-native-retro-games-on-iphone/",
+   "date": "2026-08-07T21:31:16+00:00",
+   "age_hours": 20.8,
+   "summary": "Fernando discusses his Pokémon 3D Mod on Mac, and Jeff shares his experience running a native port of Mario Kart 64 on iPhone. The guys also discuss why tech can feel less exciting than it used to, and share their thoughts on using the same device for many years. 9to5Mac Overtime is a weekly video-first podcast exploring fun and interesting observations in the Apple ecosystem, featuring 9to5Mac’s Fernando Silva & Jeff Benjamin. Subscribe to Overtime via Apple Podcasts and our YouTube channel for more.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "9to5Mac",
+   "title": "‘Your Friends & Neighbors’ star confirmed for his third Apple TV project",
+   "link": "https://9to5mac.com/2026/08/07/your-friends-neighbors-star-confirmed-for-his-third-apple-tv-project/",
+   "date": "2026-08-07T21:17:21+00:00",
+   "age_hours": 21.0,
+   "summary": "Actor James Marsden, who recently played billionaire Owen Ashe in the second season of Your Friends & Neighbors , was confirmed this week for his Apple TV third production. Here are the details.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "9to5Mac",
+   "title": "iPhone 17 might get price increase next week, per new rumor",
+   "link": "https://9to5mac.com/2026/08/07/iphone-17-might-get-price-increase-next-week-per-new-rumor/",
+   "date": "2026-08-07T20:27:50+00:00",
+   "age_hours": 21.8,
+   "summary": "Apple is widely expected to raise iPhone prices when the iPhone 18 Pro launches next month. But a new rumor suggests the iPhone 17 might get a price increase as early as next week.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "9to5Mac",
+   "title": "iOS 27 has long-awaited fix for common iPhone wireless issue",
+   "link": "https://9to5mac.com/2026/08/07/ios-27-has-long-awaited-fix-for-common-iphone-wireless-issue/",
+   "date": "2026-08-07T20:14:05+00:00",
+   "age_hours": 22.0,
+   "summary": "In iOS 27, Apple says it took extra care to make its software “more responsive, reliable, and delightful.” There are a variety of fixes that should make your iPhone faster , including one update for network transitions.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "9to5Mac",
+   "title": "You may soon be able to create and export custom WhatsApp stickers straight from ChatGPT",
+   "link": "https://9to5mac.com/2026/08/07/you-may-soon-be-able-to-create-and-export-custom-whatsapp-stickers-straight-from-chatgpt/",
+   "date": "2026-08-07T20:10:30+00:00",
+   "age_hours": 22.1,
+   "summary": "OpenAI is working on a feature that allows users to export custom stickers created on ChatGPT straight into WhatsApp. Here are the details.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "title": "Chiedere etica ai social è come chiedere allo scorpione di non pungere",
+   "link": "https://www.tomshw.it/business/chiedere-etica-ai-social-e-come-chiedere-allo-scorpione-di-non-pungere",
+   "date": "2026-08-07T19:15:04+02:00",
+   "age_hours": 25.0,
+   "summary": "Un giudice della Corte di Santa Fe ha condannato Meta a pagare 942 milioni di dollari per i danni psicologici subiti da migliaia di minori su Instagram e Facebook. La cifra somma una sanzione di 375 m...",
+   "categories": []
+  },
+  {
+   "source": "9to5Mac",
+   "title": "These automakers still don’t support CarPlay, here’s why",
+   "link": "https://9to5mac.com/2026/08/07/these-automakers-still-dont-support-carplay-heres-why/",
+   "date": "2026-08-07T19:14:14+00:00",
+   "age_hours": 23.0,
+   "summary": "CarPlay is a must-have for the majority of car buyers, but three major automakers don’t support the platform. Here’s the latest on why Tesla, Rivian, and GM continue to resist CarPlay — and whether there’s any chance they change their approach.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "9to5Mac",
+   "title": "New AirPods could launch next month, and one feature sounds very exciting",
+   "link": "https://9to5mac.com/2026/08/07/new-airpods-could-launch-next-month-and-one-feature-sounds-very-exciting/",
+   "date": "2026-08-07T19:01:31+00:00",
+   "age_hours": 23.3,
+   "summary": "Apple’s iPhone 18 Pro unveiling next month might also bring the launch of new AirPods with cameras. Here’s why the addition of cameras could prove especially compelling.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "9to5Mac",
+   "title": "PSA: Claude Code enabling auto mode as default next week, Anthropic says",
+   "link": "https://9to5mac.com/2026/08/07/psa-claude-code-enabling-auto-mode-as-default-next-week-anthropic-says/",
+   "date": "2026-08-07T18:48:17+00:00",
+   "age_hours": 23.5,
+   "summary": "Claude Code auto mode will become the default permission setting for users next week. Starting August 14, sessions for Pro, Max, and Team users will use it unless a user or administrator has pinned another setting.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "The Verge",
+   "title": "The gaming site sponsored by Walmart lays off its editorial staff",
+   "link": "https://www.theverge.com/games/977056/restart-gaming-site-walmart-moonrock-layoffs",
+   "date": "2026-08-07T18:05:08-04:00",
+   "age_hours": 20.2,
+   "summary": "Restart, a games media website launched in late 2024 that was sponsored by Walmart, has laid off its \"entire editorial team,\" according to a Friday post from Brandy Berthelson, the site's former editor-in-chief. Other staffers have also posted about being laid off. Restart is operated by Moonrock, a content marketing agency, though its editorial mission […]",
+   "categories": []
+  },
+  {
+   "source": "The Verge",
+   "title": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
+   "date": "2026-08-07T16:01:51-04:00",
+   "age_hours": 22.2,
+   "summary": "It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it […]",
+   "categories": []
+  },
+  {
+   "source": "The Verge",
+   "title": "Watching Roku’s AI channel is like eating from a trough",
+   "link": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
+   "date": "2026-08-07T14:59:46-04:00",
+   "age_hours": 23.3,
+   "summary": "The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST space has less to do with traditionally produced entertainment and is entirely focused on giving viewers access to a constant source of AI-generated content. […]",
+   "categories": []
+  },
+  {
+   "source": "The Verge",
+   "title": "OpenAI puts the brakes on a new model because it’s supposedly too powerful",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+   "date": "2026-08-07T14:40:34-04:00",
+   "age_hours": 23.6,
+   "summary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have also since admitted that they had AI models that went rogue […]",
+   "categories": []
+  },
+  {
+   "source": "MacRumors",
+   "title": "OpenAI Delays Next Major AI Model 'Astra' Over Critical Hacking Concerns",
+   "link": "https://www.macrumors.com/2026/08/07/openai-astra-model-hacking-concerns/",
+   "date": "2026-08-07T14:27:43-07:00",
+   "age_hours": 20.8,
+   "summary": "OpenAI today said it is \"pausing\" activities involving its upcoming AI model Astra, because its cyber capabilities are potentially too dangerous. OpenAI says its newest internal evaluations show \"significant advancements in agentic coding and cybersecurity,\" and it cannot rule out \"critical cyber capabilities.\" Prior OpenAI models, including GPT–5.6 Sol, were labeled as \"High.\" Astra triggers stricter guidelines in OpenAI's \" Preparedness Framework .\" The guidelines call for caution when developing frontier AI capabilities that create risks of severe harm, and the cybersecurity portion of the framework says OpenAI will implement extra safeguards for models that \"create new risks of scaled cyberattacks and vulnerability exploitation.\" The \"Critical\" threshold Astra may have hit is defined by an ability to identify and develop functional zero-day exploits of all severity levels in many har",
+   "categories": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "MacRumors",
+   "title": "iOS 26 Gets First Jailbreak Thanks to Dopamine",
+   "link": "https://www.macrumors.com/2026/08/07/ios-26-dopamine-jailbreak/",
+   "date": "2026-08-07T13:56:52-07:00",
+   "age_hours": 21.3,
+   "summary": "After 326 days, iOS 26 has received its first jailbreak, thanks to the developers behind the popular Dopamine jailbreak. Lars Fröder, better known as opa334, today released Dopamine 3.0 , which adds support for a number of newer firmware versions, including iOS 26.0 and iOS 26.0.1 on devices with A12 or A13 chips. Another major addition in today's release is support for all devices running iOS 16.5.1 through iOS 17.3.1, significantly expanding the range of devices and software versions compatible with Dopamine. A full breakdown of supported devices and iOS versions can be found on AppleDB , a database that tracks jailbreak compatibility. Related Roundups: iOS 26 , iPadOS 26 Tag: Jailbreak Related Forum: iOS 26 This article, \" iOS 26 Gets First Jailbreak Thanks to Dopamine \" first appeared on MacRumors.com Discuss this article in our forums",
+   "categories": [
+    "iOS 26",
+    "Jailbreak"
+   ]
+  },
+  {
+   "source": "MacRumors",
+   "title": "Apple Rumored to Launch Three New 'Ultra' Products by Early Next Year",
+   "link": "https://www.macrumors.com/2026/08/07/three-new-apple-ultra-products-rumored/",
+   "date": "2026-08-07T12:06:12-07:00",
+   "age_hours": 23.2,
+   "summary": "According to various reports from sources such as Bloomberg 's Mark Gurman and Macworld 's Filipe Espósito , Apple is planning to release up to three new products with \"Ultra\" branding between late 2026 and early 2027. The long-rumored foldable iPhone is expected to be called the \"iPhone Ultra.\" Rumored features include a 7.7-inch inner display, a 5.3-inch outer display, two rear cameras, one front camera, a Touch ID power button instead of Face ID, and more. The device's large inner screen will be ideal for watching videos and multitasking. Apple is expected to release the \"iPhone Ultra\" this September, alongside the iPhone 18 Pro and iPhone 18 Pro Max. In the U.S., it has been estimated that the device will have a starting price of anywhere from $1,999 to $2,499. \"AirPods Ultra\" are reportedly set to be released as early as this year — it would be fitting for them to be unveiled alongs",
+   "categories": [
+    "AirPods Ultra",
+    "iPhone Ultra",
+    "MacBook Ultra"
+   ]
+  },
+  {
+   "source": "MacRumors",
+   "title": "The MacRumors Show: iPhone Air 2 - What Changes After a Difficult First Year",
+   "link": "https://www.macrumors.com/2026/08/07/the-macrumors-show-iphone-air-2/",
+   "date": "2026-08-07T09:23:39-07:00",
+   "age_hours": 25.9,
+   "summary": "The iPhone Air reaches one year on sale next month, and Apple is now closer to launching its successor than it is to the original's debut. On this week's episode of The MacRumors Show , we discuss what's next for the device. Subscribe to The MacRumors Show YouTube channel for more videos The first-generation model has had a difficult run. A KeyBanc Capital Markets survey found virtually no demand for the device within weeks of its September 2025 launch, supply chain analyst Ming-Chi Kuo reported that suppliers were asked to cut capacity by more than 80% between launch and early 2026, and Luxshare and Foxconn both wound down production, leaving the phone believed to be entirely out of manufacture. Apple discounted it heavily in March, and SellCell data put its ten-week depreciation at 44.3% on average, against 34.6% for the iPhone 17 series. The Weibo leaker known as \"Digital Chat Station",
+   "categories": [
+    "Featured",
+    "iPhone Air",
+    "The MacRumors Show"
+   ]
+  }
+ ]
+}

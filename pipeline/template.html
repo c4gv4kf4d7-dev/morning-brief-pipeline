@@ -1,0 +1,2535 @@
+<title>The Morning Brief</title>
+
+<style>
+/* =========================================================
+   Identità: campiture piatte, campo di pallini, condensato
+   pesante su fondo osso — riferimento alla sigla di
+   The Morning Show. Quattro colori saturi con ruolo
+   semantico: giallo = rumor, blu = confermato, arancio =
+   dati, rosso = analisi e opinione.
+   ========================================================= */
+:root{
+  --bone:#EDEAE3;
+  --paper:#F8F6F2;
+  --paper-2:#E3DFD6;
+  --ink:#17181B;
+  --ink-2:#4B4D53;
+  --ink-3:#7C7F87;
+  --rule:#D7D2C7;
+  --rule-strong:#BDB7AA;
+
+  --yellow:#F5C518;
+  --orange:#F0821E;
+  --red:#E01F3D;
+  --blue:#0E9CD8;
+  --brand:#E0AB00;
+
+  --yellow-ink:#7A5F00;
+  --orange-ink:#93490A;
+  --red-ink:#A5122A;
+  --blue-ink:#0A5E82;
+
+  --accent:var(--orange);
+  --accent-ink:#93490A;
+  --on-fill:#17181B;
+  --ok:#2C7A46;
+
+  --display:"Avenir Next Condensed","HelveticaNeue-CondensedBold","Helvetica Neue",
+            "Arial Narrow",system-ui,sans-serif;
+  --body:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",system-ui,sans-serif;
+
+  --gutter:clamp(1.1rem,4.5vw,3rem);
+  --shadow:0 2px 3px rgba(23,24,27,.05), 0 14px 34px -22px rgba(23,24,27,.45);
+}
+
+@media (prefers-color-scheme:dark){
+  :root{
+    --bone:#131418; --paper:#1B1D22; --paper-2:#24272E;
+    --ink:#F1EEE8; --ink-2:#B5B3AD; --ink-3:#84868D;
+    --rule:#2B2E35; --rule-strong:#414550;
+    --yellow:#F7CE3C; --orange:#F8963A; --red:#F0435C; --blue:#35B6EC;
+    --brand:#F7CE3C;
+    --yellow-ink:#F7CE3C; --orange-ink:#F8963A; --red-ink:#F0435C; --blue-ink:#35B6EC;
+    --accent:#F8963A; --accent-ink:#F8963A; --on-fill:#131418; --ok:#6FBF87;
+    --shadow:0 2px 4px rgba(0,0,0,.5), 0 16px 38px -24px rgba(0,0,0,.9);
+  }
+}
+:root[data-theme="dark"]{
+  --bone:#131418; --paper:#1B1D22; --paper-2:#24272E;
+  --ink:#F1EEE8; --ink-2:#B5B3AD; --ink-3:#84868D;
+  --rule:#2B2E35; --rule-strong:#414550;
+  --yellow:#F7CE3C; --orange:#F8963A; --red:#F0435C; --blue:#35B6EC;
+  --brand:#F7CE3C;
+  --yellow-ink:#F7CE3C; --orange-ink:#F8963A; --red-ink:#F0435C; --blue-ink:#35B6EC;
+  --accent:#F8963A; --accent-ink:#F8963A; --on-fill:#131418; --ok:#6FBF87;
+  --shadow:0 2px 4px rgba(0,0,0,.5), 0 16px 38px -24px rgba(0,0,0,.9);
+}
+:root[data-theme="light"]{
+  --bone:#EDEAE3; --paper:#F8F6F2; --paper-2:#E3DFD6;
+  --ink:#17181B; --ink-2:#4B4D53; --ink-3:#7C7F87;
+  --rule:#D7D2C7; --rule-strong:#BDB7AA;
+  --yellow:#F5C518; --orange:#F0821E; --red:#E01F3D; --blue:#0E9CD8;
+  --brand:#E0AB00;
+  --yellow-ink:#7A5F00; --orange-ink:#93490A; --red-ink:#A5122A; --blue-ink:#0A5E82;
+  --accent:#F0821E; --accent-ink:#93490A; --on-fill:#17181B; --ok:#2C7A46;
+  --shadow:0 2px 3px rgba(23,24,27,.05), 0 14px 34px -22px rgba(23,24,27,.45);
+}
+
+*{box-sizing:border-box}
+[hidden]{display:none !important}
+body{
+  margin:0; background:var(--bone); color:var(--ink);
+  font-family:var(--body); font-size:17px; line-height:1.62;
+  -webkit-text-size-adjust:100%; overflow-x:clip;
+}
+h1,h2,h3,h4{margin:0; line-height:1.08; text-wrap:balance}
+p{margin:0}
+a{color:var(--accent-ink); text-underline-offset:3px; text-decoration-thickness:from-font}
+button{font:inherit; color:inherit; cursor:pointer}
+:focus-visible{outline:2.5px solid var(--blue); outline-offset:2px; border-radius:2px}
+@media (prefers-reduced-motion:reduce){*{animation:none !important; transition:none !important}}
+
+.eyebrow{
+  font-size:.63rem; font-weight:600; letter-spacing:.19em;
+  text-transform:uppercase; color:var(--ink-3);
+}
+
+/* ---------------- marchio ---------------- */
+/* Il marchio ricalca la sigla di The Morning Show: tre righe incolonnate sulla
+   larghezza della parola grande — "The" piccolo in alto a filo sinistro, la
+   parola grande con la O sostituita da un cerchio pieno, la terza parola
+   piccola sotto a filo destro. Tutto in stampatello, tutto giallo. */
+.wordmark{
+  font-family:var(--display); font-weight:700; text-transform:uppercase;
+  color:var(--brand); letter-spacing:-.012em; line-height:.84;
+  display:grid; grid-template-columns:auto; justify-content:start;
+}
+.wordmark .the{font-size:.33em; letter-spacing:.06em; justify-self:start; padding-bottom:.1em}
+.wordmark .mrn{font-size:1em; white-space:nowrap}
+.wordmark .brf{font-size:.36em; letter-spacing:.06em; justify-self:end; padding-top:.16em}
+/* la O piena: un cerchio poco piu' alto delle maiuscole, come nella sigla */
+.wordmark .o{
+  display:inline-block; width:.73em; height:.73em; border-radius:50%;
+  background:currentColor; vertical-align:-.035em; margin:0 .015em;
+}
+
+/* ---------------- accesso ---------------- */
+.gate{
+  position:fixed; inset:0; z-index:100; background:var(--bone);
+  display:grid; place-items:center; padding:var(--gutter);
+}
+.gate[hidden]{display:none}
+.gate-card{width:100%; max-width:23rem; display:flex; flex-direction:column; gap:1.1rem}
+.gate canvas{display:block; width:100%; height:60px}
+.gate .wordmark{font-size:2.6rem}
+.gate form{display:flex; flex-direction:column; gap:.55rem}
+.gate input{
+  font:inherit; font-size:1rem; padding:.65rem .8rem; background:var(--paper);
+  color:var(--ink); border:0; box-shadow:inset 0 0 0 1.5px var(--rule); border-radius:4px;
+}
+.gate input:focus{box-shadow:inset 0 0 0 2.5px var(--blue); outline:none}
+.gate .err{color:var(--red); font-size:.85rem; min-height:1.2rem}
+.gate .hint{font-size:.85rem; color:var(--ink-3); line-height:1.5}
+
+/* ---------------- testata ---------------- */
+.masthead{
+  position:sticky; top:0; z-index:30; background:var(--bone);
+  border-bottom:2px solid var(--ink);
+}
+.masthead[hidden]{display:none}
+.masthead-inner{max-width:1240px; margin:0 auto; padding:.55rem var(--gutter) 0}
+.brand{display:flex; align-items:center; gap:.7rem}
+.brand .wordmark{font-size:1.62rem}
+.dot-mark{display:flex; gap:3px; align-items:center}
+.dot-mark i{width:9px; height:9px; border-radius:50%; display:block}
+.brand .edition{
+  font-size:.63rem; font-weight:600; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--ink-3); white-space:nowrap;
+}
+.brand-tools{margin-left:auto; display:flex; gap:.15rem; align-items:center}
+.icon-btn{
+  background:none; border:0; color:var(--ink-3); width:34px; height:34px;
+  border-radius:50%; display:grid; place-items:center; font-size:1rem;
+  transition:background .15s, color .15s;
+}
+.icon-btn:hover{background:var(--paper-2); color:var(--ink)}
+#syncPip{
+  width:8px; height:8px; border-radius:50%; background:var(--ok); flex:none;
+  margin:0 .35rem 0 .15rem; transition:background .2s, opacity .2s;
+}
+#syncPip[data-state="busy"]{background:var(--blue); animation:pulse 1s ease-in-out infinite}
+#syncPip[data-state="offline"]{background:var(--rule-strong)}
+#syncPip[data-state="error"]{background:var(--red)}
+@keyframes pulse{50%{opacity:.25}}
+
+nav.tabs{display:flex; overflow-x:auto; scrollbar-width:none; margin-top:.35rem}
+nav.tabs::-webkit-scrollbar{display:none}
+nav.tabs.more-right{
+  -webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 34px),transparent);
+  mask-image:linear-gradient(90deg,#000 calc(100% - 34px),transparent);
+}
+nav.tabs.more-left.more-right{
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 22px,#000 calc(100% - 34px),transparent);
+  mask-image:linear-gradient(90deg,transparent,#000 22px,#000 calc(100% - 34px),transparent);
+}
+nav.tabs.more-left:not(.more-right){
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 22px);
+  mask-image:linear-gradient(90deg,transparent,#000 22px);
+}
+.tab{
+  background:none; border:0; padding:.5rem 0 .65rem; margin-right:1.5rem; white-space:nowrap;
+  font-family:var(--display); font-size:1rem; font-weight:600; text-transform:uppercase;
+  letter-spacing:.05em; color:var(--ink-3); position:relative; transition:color .15s;
+}
+.tab[hidden]{display:none}
+.tab:hover{color:var(--ink)}
+.tab[aria-current="true"]{color:var(--ink)}
+.tab[aria-current="true"]::after{
+  content:""; position:absolute; left:0; right:0; bottom:-2px; height:4px; background:var(--orange);
+}
+.tab .count{
+  font-family:var(--body); font-size:.6rem; font-weight:700; color:var(--ink-3);
+  margin-left:.35rem; vertical-align:.35em; letter-spacing:0;
+}
+
+/* schermi stretti: la testata sta dentro la finestra, niente scorrimento laterale */
+@media (max-width:600px){
+  .brand{gap:.5rem; min-width:0}
+  .brand .wordmark{font-size:1.22rem; min-width:0}
+  .brand .edition{display:none}
+  .dot-mark i{width:7px; height:7px}
+  .brand-tools{gap:0}
+  .icon-btn{width:29px; height:29px; font-size:.92rem}
+  #syncPip{margin:0 .2rem 0 .1rem}
+  .tab{font-size:.82rem; margin-right:.95rem; letter-spacing:.03em}
+  .tab:last-child{margin-right:0}
+}
+
+/* ---------------- impaginato ---------------- */
+main{max-width:1240px; margin:0 auto; padding:0 var(--gutter) 5rem}
+.view[hidden]{display:none}
+.columns{display:block}
+.rail{display:none}
+@media (min-width:1040px){
+  .columns{display:grid; grid-template-columns:minmax(0,1fr) 250px; gap:4rem; align-items:start}
+  .rail{display:block; position:sticky; top:7.2rem; padding-top:2.6rem}
+}
+.col-main{min-width:0; max-width:70ch}
+
+.banner{
+  margin:1.4rem 0 0; padding:.75rem .95rem; background:var(--paper); border-radius:4px;
+  box-shadow:inset 4px 0 0 var(--blue); font-size:.88rem; color:var(--ink-2);
+}
+.banner a{font-weight:700}
+
+/* ---------------- apertura ---------------- */
+.hero{padding:1.6rem 0 0}
+#dotfield{display:block; width:100%; height:74px; margin-bottom:1.4rem}
+.hero .date{
+  font-family:var(--display); font-weight:700; text-transform:uppercase;
+  font-size:clamp(1.7rem,6vw,2.6rem); letter-spacing:-.01em; margin-bottom:.15rem;
+}
+.hero .window{margin-bottom:1.6rem}
+
+.top3{list-style:none; margin:0 0 1.8rem; padding:0}
+.top3 li{
+  display:grid; grid-template-columns:2.1rem 1fr; gap:.75rem; align-items:start;
+  padding:.85rem 0; border-top:1.5px solid var(--ink);
+}
+.top3 li:last-child{border-bottom:1.5px solid var(--ink)}
+.top3 .bead{
+  width:26px; height:26px; margin-top:.16rem; font-size:.85rem;
+}
+.top3 .txt{
+  font-family:var(--display); font-weight:600; font-size:1.34rem; line-height:1.16;
+  letter-spacing:-.005em;
+}
+.intro{color:var(--ink-2); font-size:1.03rem; max-width:62ch}
+.meta-line{
+  margin-top:1.3rem; padding-top:.8rem; border-top:1px solid var(--rule);
+  display:flex; flex-wrap:wrap; gap:.3rem 1.4rem;
+}
+
+/* ---------------- intestazioni di sezione ---------------- */
+.section-head{display:flex; align-items:center; flex-wrap:wrap; gap:.3rem .7rem; padding:2.8rem 0 .9rem}
+.section-head h2{
+  font-family:var(--display); font-weight:700; text-transform:uppercase;
+  font-size:1.42rem; letter-spacing:.005em; white-space:nowrap;
+}
+.section-head .hint{margin-left:auto}
+.section-head .pip{width:12px; height:12px; border-radius:50%; background:var(--orange); flex:none}
+@media (max-width:600px){
+  .section-head .hint{margin-left:0; flex-basis:100%; padding-left:1.7rem}
+}
+
+/* ---------------- immagini ---------------- */
+.hero-shot{
+  display:block; width:100%; aspect-ratio:16/9; object-fit:cover;
+  border-radius:3px; margin:0 0 1.7rem; background:var(--paper-2);
+}
+.thumb{
+  width:132px; height:74px; object-fit:cover; border-radius:2px;
+  background:var(--paper-2); margin-top:.3rem; flex:none;
+}
+
+/* ---------------- notizia ---------------- */
+.story{border-top:1px solid var(--rule); padding:1.45rem 0 1.15rem}
+.story:first-of-type{border-top:1.5px solid var(--ink)}
+/* Il capo della notizia e' una griglia a zone: cosi' la stessa marcatura si
+   riordina fra desktop (miniatura di fianco) e telefono (miniatura sotto il
+   titolo, accanto alla sintesi) senza toccare il DOM. */
+.story-head{
+  display:grid; column-gap:.75rem; cursor:pointer;
+  grid-template-columns:2.5rem minmax(0,1fr);
+  grid-template-areas:"bead chips" "bead title" "bead lede";
+}
+.story-head.with-thumb{
+  grid-template-columns:2.5rem minmax(0,1fr) auto;
+  grid-template-areas:"bead chips thumb" "bead title thumb" "bead lede thumb";
+}
+.story-head .bead{grid-area:bead}
+.story-head .chips{grid-area:chips}
+.story-head h3{grid-area:title}
+.story-head .lede{grid-area:lede}
+.story-head .thumb{grid-area:thumb; align-self:start}
+.bead{
+  width:30px; height:30px; border-radius:50%; display:grid; place-items:center;
+  font-family:var(--display); font-weight:700; font-size:.92rem; color:var(--on-fill);
+  margin-top:.2rem; transition:transform .18s ease;
+}
+.story.is-read .bead{opacity:.32}
+.story.is-open .bead{transform:scale(1.14)}
+/* align-items:center, altrimenti una pastiglia che va a capo si stira
+   sull'altezza della riga e sembra una scatola vuota. */
+.chips{display:flex; flex-wrap:wrap; align-items:center; gap:.3rem; margin-bottom:.45rem}
+.chip{
+  font-size:.6rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+  padding:.22rem .5rem; border-radius:2px; background:var(--paper-2); color:var(--ink-2);
+  white-space:nowrap; line-height:1.4;
+}
+.chip.t-rumor{background:var(--yellow); color:#17181B}
+.chip.t-confermato{background:var(--blue); color:#17181B}
+.chip.t-dati{background:var(--orange); color:#17181B}
+.chip.t-analisi,.chip.t-opinione{background:var(--red); color:#FFF}
+.chip.t-contorno,.chip.t-contesto,.chip.t-servizio{background:var(--ink); color:var(--bone)}
+.chip.cat{background:none; box-shadow:inset 0 0 0 1.5px var(--rule-strong); color:var(--ink-3)}
+.chip.rel{background:none; color:var(--ink-3); display:inline-flex; align-items:center; gap:.35rem; padding-left:0}
+.dot{width:8px; height:8px; border-radius:50%; background:var(--ink-3); flex:none}
+.rel-alta .dot{background:var(--blue)}
+.rel-media .dot{background:var(--yellow)}
+.rel-bassa .dot{background:var(--red)}
+.story h3{
+  font-family:var(--display); font-weight:600; font-size:1.62rem; line-height:1.1;
+  letter-spacing:-.008em; margin-bottom:.4rem;
+}
+.lede{color:var(--ink-2); font-size:.98rem; line-height:1.5}
+.story-body{padding:1rem 0 0 3.25rem; display:flex; flex-direction:column; gap:.9rem}
+.story-body[hidden]{display:none}
+.rel-note{
+  font-size:.87rem; color:var(--ink-2); background:var(--paper);
+  padding:.7rem .9rem; border-radius:3px; box-shadow:inset 4px 0 0 var(--yellow);
+}
+.rel-note b{display:block; margin-bottom:.2rem; font-size:.6rem; font-weight:700;
+  letter-spacing:.16em; text-transform:uppercase; color:var(--ink-3)}
+.readmore{display:flex; flex-wrap:wrap; gap:.4rem .95rem; align-items:center; font-size:.92rem}
+.readmore .primary{font-weight:700}
+.sources{font-size:.72rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-3)}
+
+.story .tools{padding-left:3.25rem}
+.act{
+  background:none; box-shadow:inset 0 0 0 1.5px var(--rule-strong); border:0; border-radius:999px;
+  padding:.28rem .8rem; font-size:.78rem; font-weight:600; color:var(--ink-2);
+  transition:box-shadow .15s, color .15s, background .15s;
+}
+.act:hover{box-shadow:inset 0 0 0 1.5px var(--ink); color:var(--ink)}
+.act.on{background:var(--yellow); box-shadow:none; color:#17181B}
+
+/* I quattro pulsanti: stessa forma e stessa misura, in fondo a destra di ogni
+   voce. Il colore acceso distingue il gesto — giallo quello che serve a te,
+   blu e rosso il giudizio sulla rassegna. */
+.tools{display:flex; gap:.4rem; justify-content:flex-end; align-items:center;
+       margin-left:auto; padding-top:.7rem}
+.tool{
+  width:36px; height:36px; flex:none; border:0; border-radius:50%;
+  background:none; box-shadow:inset 0 0 0 1.5px var(--rule-strong);
+  color:var(--ink-3); display:grid; place-items:center; position:relative;
+  transition:box-shadow .15s, color .15s, background .15s;
+}
+.tool:hover{box-shadow:inset 0 0 0 1.5px var(--ink); color:var(--ink)}
+.tool .ico{display:block}
+.tool.t-down .ico{transform:rotate(180deg)}
+.tool.t-star.on{background:var(--yellow); box-shadow:none; color:#17181B}
+.tool.t-note.on{background:var(--paper-2); box-shadow:inset 0 0 0 1.5px var(--ink); color:var(--ink)}
+.tool.t-up.on{background:var(--blue); box-shadow:none; color:#17181B}
+.tool.t-down.on{background:var(--red); box-shadow:none; color:#FFF}
+/* quanti link allegati, senza aggiungere un altro bottone */
+.tool.t-note[data-count]:not([data-count=""])::after{
+  content:attr(data-count); position:absolute; top:-2px; right:-2px;
+  min-width:15px; height:15px; padding:0 3px; border-radius:999px;
+  background:var(--ink); color:var(--bone); font-family:var(--body);
+  font-size:.58rem; font-weight:700; line-height:15px; text-align:center;
+}
+.radar-foot{display:flex; align-items:center; gap:.6rem; margin-top:.15rem}
+
+.workspace{padding:.75rem 0 0 3.25rem; display:flex; flex-direction:column; gap:.6rem}
+.workspace[hidden]{display:none}
+@media (max-width:600px){
+  /* Sul telefono la notizia ha un solo bordo a sinistra: numero e metadati in
+     cima, poi titolo, sintesi e azioni tutti allineati a filo di colonna. Il
+     numero e' l'unico elemento che rientra, ed e' in testa: fa da segnaposto,
+     non da colonna. */
+  .story-body,.story .tools,.workspace{padding-left:0}
+  .story-head{
+    grid-template-columns:auto minmax(0,1fr);
+    grid-template-areas:"bead chips" "title title" "lede lede";
+    column-gap:.5rem;
+  }
+  /* La foto prende tutta la colonna sotto la sintesi: alla larghezza del
+     telefono una miniatura di lato resta un francobollo e lascia mezzo schermo
+     vuoto. Sorgente a 480px (images.py), qui mostrata a ~341: regge. */
+  .story-head.with-thumb{
+    grid-template-areas:"bead chips" "title title" "lede lede" "thumb thumb";
+  }
+  .story-head .bead{align-self:center}
+  .bead{width:22px; height:22px; font-size:.72rem; margin-top:0}
+  .thumb{
+    width:100%; height:auto; aspect-ratio:16/9; margin:.9rem 0 .1rem; border-radius:3px;
+  }
+  /* Una riga sola di metadati: il tag, che porta il colore, e il pallino
+     dell'affidabilita'. Categoria e puntata del filo restano al desktop. */
+  .chips{gap:.25rem .5rem; margin-bottom:.55rem}
+  .chip{font-size:.58rem; letter-spacing:.1em; padding:.18rem .42rem}
+  .chip.cat,.chip.filo{display:none}
+  .chip.rel{gap:.3rem}
+  .chip .long{display:none}
+  .story h3{font-size:1.44rem; margin-bottom:.55rem}
+  .lede{font-size:.94rem; line-height:1.45}
+}
+textarea.note{
+  width:100%; min-height:5.6rem; resize:vertical; font:inherit; font-size:.95rem;
+  background:var(--paper); color:var(--ink); border:0;
+  box-shadow:inset 0 0 0 1.5px var(--rule); border-radius:4px; padding:.65rem .75rem;
+}
+textarea.note:focus{box-shadow:inset 0 0 0 2px var(--blue); outline:none}
+.saved-flag{font-size:.65rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--ok)}
+.linkrow{display:flex; gap:.4rem; flex-wrap:wrap; align-items:center}
+.linkrow input{
+  flex:1 1 12rem; min-width:0; font:inherit; font-size:.88rem; padding:.45rem .65rem;
+  background:var(--paper); color:var(--ink); border:0;
+  box-shadow:inset 0 0 0 1.5px var(--rule); border-radius:4px;
+}
+.linkrow input:focus{box-shadow:inset 0 0 0 2px var(--blue); outline:none}
+.btn{
+  background:var(--ink); color:var(--bone); border:0; border-radius:999px;
+  padding:.45rem 1.05rem; font-size:.82rem; font-weight:700;
+}
+.btn:hover{background:var(--red); color:#FFF}
+.btn:disabled{opacity:.45; cursor:default}
+.btn.ghost{background:none; box-shadow:inset 0 0 0 1.5px var(--rule-strong); color:var(--ink-2)}
+.btn.ghost:hover{background:none; box-shadow:inset 0 0 0 1.5px var(--ink); color:var(--ink)}
+.btn.wide{width:100%; padding:.7rem 1rem; font-size:.95rem}
+.saved-links{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:.25rem}
+.saved-links li{display:flex; gap:.5rem; align-items:baseline; font-size:.88rem}
+.saved-links .kill{background:none; border:0; color:var(--ink-3); padding:0 .2rem}
+.saved-links .kill:hover{color:var(--red)}
+/* un indirizzo salvato che non regge il controllo resta visibile ma spento:
+   sparire sarebbe peggio, perche' l'appunto c'era e va potuto cancellare */
+.saved-links .broken{color:var(--ink-3); text-decoration:line-through}
+
+/* ---------------- radar ---------------- */
+.radar{list-style:none; margin:0; padding:0}
+.radar li{border-top:1px solid var(--rule); padding:.9rem 0; display:grid; gap:.25rem}
+.radar h4{font-family:var(--display); font-weight:600; font-size:1.15rem; line-height:1.15}
+.radar p{font-size:.91rem; color:var(--ink-2); line-height:1.5}
+.radar .src{font-size:.68rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3)}
+
+/* ---------------- sul banco ----------------
+   Non e' rassegna, e' materiale da lavoro: la concorrenza e chi la prova.
+   La riga gialla e' la sezione — dice perche' quella cosa ti serve dietro al
+   banco. Senza quella riga sarebbe una recensione qualsiasi. */
+.banco{list-style:none; margin:0; padding:0}
+.banco li{border-top:1px solid var(--rule); padding:.95rem 0; display:grid; gap:.35rem}
+.banco h4{font-family:var(--display); font-weight:600; font-size:1.15rem; line-height:1.15}
+.banco p{font-size:.91rem; color:var(--ink-2); line-height:1.5}
+.banco .kind{
+  justify-self:start; font-size:.6rem; font-weight:700; letter-spacing:.13em;
+  text-transform:uppercase; padding:.2rem .45rem; border-radius:2px;
+  background:var(--yellow); color:var(--on-fill);
+}
+.banco .kind.k-video{background:var(--red); color:#FFF}
+.banco .kind.k-confronto{background:var(--blue); color:#FFF}
+.banco .why{
+  font-size:.89rem; color:var(--ink); line-height:1.5; margin-top:.1rem;
+  padding-left:.9rem; box-shadow:inset 3px 0 0 var(--yellow);
+}
+.banco .foot,.recap .foot{display:flex; align-items:center; gap:.6rem; margin-top:.15rem}
+.banco .src,.recap .src{
+  font-size:.68rem; font-weight:700; letter-spacing:.12em;
+  text-transform:uppercase; color:var(--ink-3);
+}
+
+/* ---------------- se te lo fossi perso ----------------
+   Roba vecchia di giorni: la cornice deve dire subito quanto, altrimenti
+   sembra che la rassegna sia in ritardo. */
+.recap{list-style:none; margin:0; padding:0}
+.recap li{border-top:1px solid var(--rule); padding:.95rem 0; display:grid; gap:.3rem}
+.recap h4{font-family:var(--display); font-weight:600; font-size:1.15rem; line-height:1.15}
+.recap p{font-size:.91rem; color:var(--ink-2); line-height:1.5}
+.recap .head{display:flex; flex-wrap:wrap; gap:.3rem .7rem; align-items:center}
+.recap .when{
+  font-size:.6rem; font-weight:700; letter-spacing:.13em; text-transform:uppercase;
+  padding:.2rem .45rem; border-radius:2px; background:var(--orange); color:var(--on-fill);
+}
+.recap .signal{font-size:.7rem; font-weight:600; letter-spacing:.06em; color:var(--ink-3)}
+
+/* ---------------- nelle discussioni ----------------
+   Non sono fatti: sono opinioni e voci. La cornice deve dirlo da sola,
+   quindi niente pastiglie di tag e un rientro che le stacca dalle notizie. */
+.talk{list-style:none; margin:0; padding:0}
+.talk li{border-top:1px solid var(--rule); padding:.95rem 0; display:grid; gap:.3rem}
+.talk h4{font-family:var(--display); font-weight:600; font-size:1.14rem; line-height:1.18}
+.talk p{font-size:.91rem; color:var(--ink-2); line-height:1.5}
+.talk .who{display:flex; flex-wrap:wrap; gap:.3rem .7rem; align-items:center}
+.talk .where{
+  font-size:.6rem; font-weight:700; letter-spacing:.13em; text-transform:uppercase;
+  padding:.2rem .45rem; border-radius:2px; background:var(--paper-2); color:var(--ink-2);
+}
+.talk .heat{font-size:.68rem; font-weight:600; letter-spacing:.08em; color:var(--ink-3)}
+.talk .new{background:var(--red); color:#FFF}
+.caveat{
+  margin:.2rem 0 1rem; font-size:.85rem; color:var(--ink-3); line-height:1.5;
+  padding-left:.9rem; box-shadow:inset 3px 0 0 var(--rule-strong);
+}
+
+/* ---------------- colonna laterale ---------------- */
+.rail h4{
+  font-size:.63rem; font-weight:700; letter-spacing:.19em;
+  text-transform:uppercase; color:var(--ink-3); margin-bottom:.85rem;
+}
+.rail ol{list-style:none; margin:0 0 2.2rem; padding:0}
+.rail ol button{
+  background:none; border:0; text-align:left; width:100%; padding:.3rem 0;
+  font-size:.83rem; line-height:1.34; color:var(--ink-2);
+  display:grid; grid-template-columns:1.15rem 1fr; gap:.45rem; align-items:start;
+}
+.rail ol button:hover{color:var(--ink)}
+.rail ol .pip{width:9px; height:9px; border-radius:50%; margin-top:.4rem; flex:none}
+.statgrid{
+  display:grid; grid-template-columns:1fr 1fr; gap:1rem .8rem; margin-bottom:2.2rem;
+  padding-bottom:1.6rem; border-bottom:1.5px solid var(--ink);
+}
+.stat b{
+  display:block; font-family:var(--display); font-weight:700; font-size:2rem;
+  line-height:1; font-variant-numeric:tabular-nums;
+}
+.stat span{font-size:.66rem; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3)}
+.rail .notice{display:flex; flex-direction:column; gap:.5rem; font-size:.78rem; color:var(--ink-3); line-height:1.45}
+
+/* ---------------- archivio ---------------- */
+.archive-list{list-style:none; margin:0; padding:0}
+.archive-list li{border-top:1px solid var(--rule)}
+.archive-list li:last-child{border-bottom:1px solid var(--rule)}
+.archive-list button{
+  background:none; border:0; width:100%; text-align:left; padding:1.1rem 0;
+  display:grid; grid-template-columns:2.5rem 1fr; gap:.75rem; align-items:start;
+}
+.archive-list .h{font-family:var(--display); font-weight:600; font-size:1.28rem; line-height:1.14; color:var(--ink)}
+.archive-list .d{display:block; margin-bottom:.25rem}
+.archive-list .m{display:block; margin-top:.3rem; font-size:.72rem; font-weight:600;
+  letter-spacing:.1em; text-transform:uppercase; color:var(--ink-3)}
+.archive-list button:hover .h{color:var(--accent-ink)}
+
+/* ---------------- diario ---------------- */
+.composer{
+  background:var(--paper); border-radius:6px; padding:1.1rem;
+  display:flex; flex-direction:column; gap:.8rem; margin:.5rem 0 2.2rem;
+  box-shadow:var(--shadow);
+}
+.composer textarea{
+  width:100%; min-height:6.2rem; resize:vertical; font:inherit; font-size:1.02rem;
+  background:none; color:var(--ink); border:0; padding:0;
+}
+.composer textarea:focus{outline:none}
+.tagpicker{display:flex; flex-wrap:wrap; gap:.35rem}
+.tagpicker button{
+  background:none; box-shadow:inset 0 0 0 1.5px var(--rule-strong); border:0; border-radius:999px;
+  padding:.22rem .7rem; font-size:.75rem; font-weight:600; color:var(--ink-3);
+}
+.tagpicker button.on{background:var(--blue); box-shadow:none; color:#17181B}
+.composer-foot{display:flex; gap:.5rem; align-items:center}
+.composer-foot .spacer{flex:1}
+
+.entry{border-top:1px solid var(--rule); padding:1.15rem 0; display:flex; flex-direction:column; gap:.5rem}
+.entry-meta{display:flex; gap:.55rem; align-items:center; flex-wrap:wrap}
+.entry-meta time{font-size:.66rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3)}
+.entry-text{white-space:pre-wrap; font-size:1rem}
+.entry h4{font-family:var(--display); font-weight:600; font-size:1.2rem; line-height:1.16}
+.entry .ctx{font-size:.82rem; color:var(--ink-3)}
+.entry .kill{margin-left:auto; background:none; border:0; color:var(--ink-3);
+  font-size:.66rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase}
+.entry .kill:hover{color:var(--red)}
+
+/* ---------------- ricerca ---------------- */
+.searchbar{display:flex; gap:.5rem; margin:1.8rem 0 .4rem}
+.searchbar input{
+  flex:1; font-family:var(--display); font-weight:600; font-size:1.35rem;
+  padding:.6rem .9rem; background:var(--paper); color:var(--ink); border:0;
+  box-shadow:inset 0 0 0 1.5px var(--rule); border-radius:4px;
+}
+.searchbar input:focus{box-shadow:inset 0 0 0 2.5px var(--blue); outline:none}
+mark{background:var(--yellow); color:#17181B; border-radius:2px; padding:0 .12em}
+
+.empty{padding:3.2rem 0; color:var(--ink-3); font-size:.95rem; text-align:center; border-top:1px solid var(--rule)}
+.empty b{display:block; font-family:var(--display); font-weight:700; text-transform:uppercase;
+  font-size:1.3rem; color:var(--ink-2); margin-bottom:.35rem}
+
+.toast{
+  position:fixed; left:50%; bottom:1.6rem; transform:translateX(-50%) translateY(1rem);
+  background:var(--ink); color:var(--bone); padding:.6rem 1.15rem; border-radius:999px;
+  font-size:.85rem; font-weight:600; opacity:0; pointer-events:none;
+  transition:opacity .2s, transform .2s; z-index:60; max-width:90vw; text-align:center;
+}
+.toast.show{opacity:1; transform:translateX(-50%) translateY(0)}
+
+/* ---------------- fili e previsioni ----------------
+   Il filo e' la storia lunga di cui una notizia e' una puntata; la
+   previsione e' quel che un rumor si impegna a far succedere. Entrambi
+   vivono dentro le edizioni, quindi l'app li ricostruisce da sola. */
+.chip.filo{
+  background:none; box-shadow:inset 0 0 0 1.5px var(--rule-strong); color:var(--ink-2);
+  cursor:pointer; letter-spacing:.1em;
+}
+.chip.filo:hover{box-shadow:inset 0 0 0 1.5px var(--ink); color:var(--ink)}
+.chip.filo b{font-weight:700}
+
+.claim{
+  font-size:.9rem; color:var(--ink-2); background:var(--paper);
+  padding:.75rem .9rem; border-radius:3px; box-shadow:inset 4px 0 0 var(--orange);
+  display:flex; flex-direction:column; gap:.4rem;
+}
+.claim.closed{box-shadow:inset 4px 0 0 var(--blue)}
+.claim .lbl{
+  font-size:.6rem; font-weight:700; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--ink-3);
+}
+.claim .txt{color:var(--ink); font-size:.95rem}
+.claim .foot{display:flex; flex-wrap:wrap; gap:.35rem .9rem; align-items:center}
+.verdict{
+  font-size:.6rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+  padding:.22rem .5rem; border-radius:2px; background:var(--paper-2); color:var(--ink-2);
+}
+.v-confermato{background:var(--blue); color:#17181B}
+.v-parziale{background:var(--yellow); color:#17181B}
+.v-smentito{background:var(--red); color:#FFF}
+.v-scaduto{background:var(--ink); color:var(--bone)}
+.v-aperto{background:none; box-shadow:inset 0 0 0 1.5px var(--rule-strong); color:var(--ink-3)}
+
+/* ---------------- i numeri che si muovono ----------------
+   Una stima che cambia tre volte in un mese e' una notizia. La serie si
+   legge da sinistra: le letture vecchie in grigio, l'ultima in evidenza. */
+.numbers{background:var(--paper); border-radius:3px; padding:.35rem .9rem .6rem;
+  box-shadow:inset 4px 0 0 var(--rule-strong)}
+.numbers > .lbl{
+  display:block; padding-top:.4rem; font-size:.6rem; font-weight:700;
+  letter-spacing:.16em; text-transform:uppercase; color:var(--ink-3);
+}
+.num-row{padding:.55rem 0; border-top:1px solid var(--rule)}
+.num-row:first-of-type{border-top:0}
+.num-head{display:flex; gap:.5rem 1rem; align-items:baseline; flex-wrap:wrap}
+.num-head .lab{font-size:.88rem; color:var(--ink-2); flex:1 1 10rem; min-width:0}
+.num-head .val{
+  font-family:var(--display); font-weight:700; font-size:1.22rem; line-height:1;
+  font-variant-numeric:tabular-nums; white-space:nowrap;
+}
+.kind{
+  font-size:.55rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+  padding:.15rem .4rem; border-radius:2px; background:var(--paper-2); color:var(--ink-3);
+}
+.kind.k-dato{background:var(--blue); color:#17181B}
+.hist{display:flex; flex-wrap:wrap; gap:.25rem .45rem; align-items:baseline;
+  margin-top:.3rem; font-size:.76rem; color:var(--ink-3);
+  font-variant-numeric:tabular-nums}
+.hist .past{text-decoration:line-through; text-decoration-thickness:1px}
+.hist .move{font-weight:700; letter-spacing:.02em}
+.hist .up{color:var(--orange)}
+.hist .down{color:var(--blue)}
+.hist .flat{color:var(--ink-3)}
+.hist .when{font-size:.68rem; letter-spacing:.06em; text-transform:uppercase}
+
+/* ---------------- vista dei fili ---------------- */
+#view-fili .intro{margin-bottom:1.7rem}
+.thread{border-top:1px solid var(--rule); padding:1.3rem 0 1.1rem}
+.thread:first-of-type{border-top:1.5px solid var(--ink)}
+.thread h3{
+  font-family:var(--display); font-weight:600; font-size:1.5rem; line-height:1.12;
+  letter-spacing:-.008em; margin-bottom:.3rem;
+}
+.thread .note{color:var(--ink-2); font-size:.94rem; margin-bottom:.15rem}
+.thread .span{display:flex; flex-wrap:wrap; gap:.3rem 1.1rem; margin:.5rem 0 .9rem}
+.timeline{list-style:none; margin:0; padding:0 0 0 .55rem; border-left:2px solid var(--rule)}
+.timeline li{position:relative; padding:.42rem 0 .42rem .95rem}
+.timeline li::before{
+  content:""; position:absolute; left:-6px; top:.92rem; width:9px; height:9px;
+  border-radius:50%; background:var(--rule-strong);
+}
+.timeline li.last::before{background:var(--orange)}
+.timeline button{
+  background:none; border:0; text-align:left; width:100%; padding:0;
+  display:grid; grid-template-columns:auto 1fr; gap:.15rem .7rem; align-items:baseline;
+}
+.timeline .when{
+  font-size:.63rem; font-weight:700; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--ink-3); white-space:nowrap;
+}
+.timeline .what{font-size:.97rem; line-height:1.4; color:var(--ink)}
+.timeline button:hover .what{color:var(--accent-ink)}
+.timeline .more{grid-column:1/-1; font-size:.88rem; color:var(--ink-2)}
+@media (max-width:600px){
+  .timeline button{grid-template-columns:1fr}
+  .timeline .when{grid-column:1}
+}
+.thread .expand{
+  background:none; border:0; padding:.5rem 0 0 .95rem; font-size:.78rem;
+  font-weight:600; color:var(--ink-3);
+}
+.thread .expand:hover{color:var(--ink)}
+
+footer.colophon{
+  max-width:1240px; margin:0 auto; padding:1.8rem var(--gutter) 3.5rem;
+  border-top:1.5px solid var(--ink); color:var(--ink-3);
+  display:flex; flex-wrap:wrap; gap:.6rem 2rem; align-items:baseline;
+}
+footer.colophon[hidden]{display:none}
+footer.colophon .sp{flex:1}
+</style>
+
+<div class="gate" id="gate" hidden>
+  <div class="gate-card">
+    <canvas id="gatefield" aria-hidden="true"></canvas>
+    <h1 class="wordmark" aria-label="The Morning Brief"><span class="the">The</span><span class="mrn">M<i class="o"></i>rning</span><span class="brf">Brief</span></h1>
+    <p class="hint" id="gateHint">Entra con l'account del brief. La sessione resta valida per mesi, quindi lo fai una volta per dispositivo.</p>
+    <form id="gateForm">
+      <input type="email" id="gateEmail" placeholder="email" autocomplete="username" required>
+      <input type="password" id="gatePass" placeholder="password" autocomplete="current-password" required>
+      <p class="err" id="gateErr"></p>
+      <button class="btn wide" type="submit" id="gateBtn">Entra</button>
+    </form>
+  </div>
+</div>
+
+<header class="masthead" id="masthead" hidden>
+  <div class="masthead-inner">
+    <div class="brand">
+      <span class="dot-mark" aria-hidden="true">
+        <i style="background:var(--red)"></i>
+        <i style="background:var(--yellow)"></i>
+        <i style="background:var(--blue)"></i>
+      </span>
+      <h1 class="wordmark" aria-label="The Morning Brief"><span class="the">The</span><span class="mrn">M<i class="o"></i>rning</span><span class="brf">Brief</span></h1>
+      <span class="edition" id="editionLabel"></span>
+      <span class="brand-tools">
+        <span id="syncPip" data-state="ok" title="Sincronizzato"></span>
+        <button class="icon-btn" id="themeBtn" title="Cambia tema" aria-label="Cambia tema">◐</button>
+        <button class="icon-btn" id="exportBtn" title="Esporta appunti" aria-label="Esporta appunti">↧</button>
+        <button class="icon-btn" id="importBtn" title="Importa appunti" aria-label="Importa appunti">↥</button>
+        <button class="icon-btn" id="outBtn" title="Esci" aria-label="Esci">⏻</button>
+      </span>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button class="tab" data-view="oggi" role="tab">Edizione</button>
+      <button class="tab" data-view="fili" role="tab" hidden>Fili<span class="count" id="cFili"></span></button>
+      <button class="tab" data-view="archivio" role="tab">Archivio<span class="count" id="cArch"></span></button>
+      <button class="tab" data-view="salvati" role="tab">Salvati<span class="count" id="cStar"></span></button>
+      <button class="tab" data-view="diario" role="tab">Diario<span class="count" id="cDiary"></span></button>
+      <button class="tab" data-view="cerca" role="tab">Cerca</button>
+    </nav>
+  </div>
+</header>
+
+<main id="main" hidden>
+  <section class="view" id="view-oggi"></section>
+  <section class="view" id="view-fili" hidden></section>
+  <section class="view" id="view-archivio" hidden></section>
+  <section class="view" id="view-salvati" hidden></section>
+  <section class="view" id="view-diario" hidden></section>
+  <section class="view" id="view-cerca" hidden></section>
+</main>
+
+<footer class="colophon" id="colophon" hidden>
+  <span class="eyebrow" id="colophonSrc"></span>
+  <span class="sp"></span>
+  <span class="eyebrow" id="colophonNote"></span>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<input type="file" id="fileInput" accept="application/json" hidden>
+
+<script>
+(function(){
+"use strict";
+
+/* Sostituiti da pipeline/build.py */
+const MODE    = /*__MODE__*/"static";
+const CFG     = /*__CONFIG__*/null;
+const EMBED   = /*__BRIEFS__*/[];
+const APP_URL = /*__APP_URL__*/"";
+
+const CLOUD = (MODE === "cloud" && CFG && CFG.url && CFG.anon_key);
+// appunti, salvati e diario: presenti anche senza sincronizzazione
+const NOTES = (MODE !== "static");
+const K_STATE = "tmb-state", K_AUTH = "tmb-auth", K_BRIEFS = "tmb-briefs";
+
+let BRIEFS = EMBED || [];
+let ALL = [];
+let EXTRAS = [];
+
+/* ================= stato locale ================= */
+const blank = {marks:{}, diary:[], lastPull:null};
+let S;
+try{ S = Object.assign({}, blank, JSON.parse(localStorage.getItem(K_STATE) || "{}")); }
+catch(e){ S = JSON.parse(JSON.stringify(blank)); }
+if(!S.marks) S.marks = {};
+if(!S.diary) S.diary = [];
+
+/* migrazione dalla prima versione (apple-brief-v1) */
+(function migrate(){
+  let old = null;
+  try{ old = JSON.parse(localStorage.getItem("apple-brief-v1") || "null"); }catch(e){}
+  if(!old || localStorage.getItem("tmb-migrated")) return;
+  const now = new Date().toISOString();
+  const keys = {};
+  ["stars","notes","links","read"].forEach(function(f){
+    Object.keys(old[f] || {}).forEach(function(k){ keys[k] = 1; });
+  });
+  Object.keys(keys).forEach(function(k){
+    const m = S.marks[k] || {starred_at:null, read_at:null, note:"", links:[], updated_at:now, dirty:true};
+    if(old.stars && old.stars[k]) m.starred_at = new Date(old.stars[k]).toISOString();
+    if(old.read && old.read[k]) m.read_at = new Date(old.read[k]).toISOString();
+    if(old.notes && old.notes[k]) m.note = old.notes[k];
+    if(old.links && old.links[k]) m.links = old.links[k];
+    m.updated_at = now; m.dirty = true;
+    S.marks[k] = m;
+  });
+  (old.diary || []).forEach(function(e){
+    if(!S.diary.some(function(x){ return x.id === e.id; })){
+      S.diary.push(Object.assign({}, e, {updated_at:now, dirty:true, deleted_at:null}));
+    }
+  });
+  localStorage.setItem("tmb-migrated", "1");
+  saveNow();
+})();
+
+let saveTimer = null;
+function saveNow(){
+  try{ localStorage.setItem(K_STATE, JSON.stringify(S)); }
+  catch(e){ toast("Spazio esaurito nel browser: esporta gli appunti"); }
+}
+function save(){ clearTimeout(saveTimer); saveTimer = setTimeout(saveNow, 200); }
+
+function mk(k){ return S.marks[k] || null; }
+function mark(k){
+  if(!S.marks[k]) S.marks[k] = {starred_at:null, read_at:null, note:"", links:[], vote:0, updated_at:null, dirty:false};
+  return S.marks[k];
+}
+function touched(k){
+  const m = mark(k);
+  m.updated_at = new Date().toISOString();
+  m.dirty = true;
+  save(); queueSync();
+}
+
+/* ================= utilità ================= */
+const MESI = ["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"];
+const GIORNI = ["domenica","lunedì","martedì","mercoledì","giovedì","venerdì","sabato"];
+const BEADS = ["--red","--yellow","--blue","--orange","--ink"];
+
+function fmtDate(iso){
+  const d = new Date(iso + "T12:00:00");
+  if(isNaN(d)) return iso;
+  return GIORNI[d.getDay()] + " " + d.getDate() + " " + MESI[d.getMonth()] + " " + d.getFullYear();
+}
+function fmtShort(iso){
+  const d = new Date(iso + "T12:00:00");
+  if(isNaN(d)) return iso;
+  return d.getDate() + " " + MESI[d.getMonth()].slice(0,3) + " " + d.getFullYear();
+}
+/* "6 giorni fa", contato rispetto al giorno dell'edizione e non a oggi: una
+   vecchia edizione riletta fra un mese deve restare vera. */
+function fmtAgo(iso, refIso){
+  const a = new Date(String(iso || "").slice(0,10) + "T12:00:00");
+  const b = new Date(String(refIso || "").slice(0,10) + "T12:00:00");
+  if(isNaN(a) || isNaN(b)) return fmtShort(iso);
+  const d = Math.round((b - a) / 86400000);
+  if(d <= 0) return "oggi";
+  if(d === 1) return "ieri";
+  if(d < 14) return d + " giorni fa";
+  return Math.round(d / 7) + " settimane fa";
+}
+/* Il giorno va letto nel fuso di chi guarda, non in UTC: toISOString() dava
+   la data di Londra accanto all'ora di casa, e un appunto scritto all'una di
+   notte compariva datato al giorno prima. */
+function localDay(d){
+  return d.getFullYear() + "-" + String(d.getMonth()+1).padStart(2,"0")
+       + "-" + String(d.getDate()).padStart(2,"0");
+}
+function fmtStamp(ts){
+  const d = new Date(ts);
+  if(isNaN(d)) return "";          /* una voce importata male non rompe la lista */
+  const hh = String(d.getHours()).padStart(2,"0");
+  const mm = String(d.getMinutes()).padStart(2,"0");
+  return fmtShort(localDay(d)) + " · " + hh + ":" + mm;
+}
+function el(tag, attrs, kids){
+  const n = document.createElement(tag);
+  if(attrs) for(const k in attrs){
+    if(k === "class") n.className = attrs[k];
+    else if(k === "text") n.textContent = attrs[k];
+    else if(k === "html") n.innerHTML = attrs[k];
+    else if(k.slice(0,2) === "on") n.addEventListener(k.slice(2), attrs[k]);
+    else if(attrs[k] !== null && attrs[k] !== undefined && attrs[k] !== false) n.setAttribute(k, attrs[k]);
+  }
+  (kids || []).forEach(function(c){ if(c) n.appendChild(c); });
+  return n;
+}
+function esc(s){
+  return String(s).replace(/[&<>"]/g, function(c){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];
+  });
+}
+function bead(i, txt, cls){
+  const v = BEADS[i % BEADS.length];
+  const n = el("span", {class:cls || "bead", text:txt});
+  n.style.background = "var(" + v + ")";
+  if(v === "--ink") n.style.color = "var(--bone)";
+  return n;
+}
+function toast(msg){
+  const t = document.getElementById("toast");
+  t.textContent = msg; t.classList.add("show");
+  clearTimeout(toast._t);
+  toast._t = setTimeout(function(){ t.classList.remove("show"); }, 2600);
+}
+function key(dateStr, id){ return dateStr + "/" + id; }
+function safeUrl(u){
+  const s = String(u || "").trim();
+  return /^https?:\/\//i.test(s) ? s : null;
+}
+function tagClass(tag){ return "chip t-" + String(tag || "").toLowerCase().replace(/[^a-z]/g,""); }
+
+/* ================= accesso ================= */
+let AUTH = null;
+try{ AUTH = JSON.parse(localStorage.getItem(K_AUTH) || "null"); }catch(e){}
+
+function storeAuth(j){
+  AUTH = {
+    access_token:j.access_token,
+    refresh_token:j.refresh_token,
+    expires_at:Date.now() + (j.expires_in || 3600) * 1000,
+    user_id:(j.user && j.user.id) || (AUTH && AUTH.user_id)
+  };
+  localStorage.setItem(K_AUTH, JSON.stringify(AUTH));
+}
+function clearAuth(){ AUTH = null; localStorage.removeItem(K_AUTH); }
+
+async function login(email, password){
+  let res;
+  try{
+    res = await fetch(CFG.url + "/auth/v1/token?grant_type=password", {
+      method:"POST",
+      headers:{"apikey":CFG.anon_key, "Content-Type":"application/json"},
+      body:JSON.stringify({email:email, password:password})
+    });
+  }catch(e){
+    throw new Error("Non riesco a raggiungere il server. Controlla la connessione e riprova.");
+  }
+  const j = await res.json().catch(function(){ return {}; });
+  if(!res.ok) throw new Error(j.error_description || j.msg || j.message || "Accesso non riuscito");
+  storeAuth(j);
+}
+async function refreshToken(){
+  if(!AUTH || !AUTH.refresh_token) return false;
+  try{
+    const res = await fetch(CFG.url + "/auth/v1/token?grant_type=refresh_token", {
+      method:"POST",
+      headers:{"apikey":CFG.anon_key, "Content-Type":"application/json"},
+      body:JSON.stringify({refresh_token:AUTH.refresh_token})
+    });
+    if(!res.ok) return false;
+    storeAuth(await res.json());
+    return true;
+  }catch(e){ return false; }
+}
+async function sb(path, opts, retried){
+  opts = opts || {};
+  if(AUTH && AUTH.expires_at && Date.now() > AUTH.expires_at - 60000 && !retried){
+    await refreshToken();
+  }
+  const headers = Object.assign({
+    "apikey":CFG.anon_key,
+    "Content-Type":"application/json"
+  }, opts.headers || {});
+  if(AUTH && AUTH.access_token) headers["Authorization"] = "Bearer " + AUTH.access_token;
+  const res = await fetch(CFG.url + path, Object.assign({}, opts, {headers:headers}));
+  if(res.status === 401 && !retried && await refreshToken()) return sb(path, opts, true);
+  return res;
+}
+
+/* ================= sincronizzazione ================= */
+let syncTimer = null, syncing = false;
+function pip(state, title){
+  const p = document.getElementById("syncPip");
+  if(!p) return;
+  p.dataset.state = state;
+  p.title = title;
+}
+function queueSync(){
+  if(!CLOUD) return;
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(sync, 1500);
+}
+
+/* diventa false se Supabase non conosce ancora la colonna del voto */
+let VOTE_SYNC = true;
+
+function markRow(k, m){
+  const row = {
+    user_id:AUTH.user_id, story:k,
+    starred_at:m.starred_at || null, read_at:m.read_at || null,
+    note:m.note || "", links:m.links || []
+  };
+  if(VOTE_SYNC) row.vote = m.vote || 0;
+  return row;
+}
+function diaryRow(e){
+  return {
+    user_id:AUTH.user_id, id:e.id, ts:new Date(e.ts).toISOString(),
+    text:e.text || "", tags:e.tags || [], link:e.link || null,
+    ref:e.ref || null, deleted_at:e.deleted_at || null
+  };
+}
+
+async function sync(){
+  if(!CLOUD || !AUTH || syncing) return;
+  if(!navigator.onLine){ pip("offline", "Offline — gli appunti restano sul dispositivo"); return; }
+  syncing = true;
+  pip("busy", "Sincronizzazione…");
+  try{
+    /* 1. spinge quello che è cambiato qui */
+    /* Si segna l'ora di ogni riga *prima* di spedirla. Fra la partenza e la
+       risposta passano dei secondi in cui si continua a scrivere, e marcare
+       pulito quello che nel frattempo e' cambiato ancora vuol dire perderlo:
+       resterebbe solo qui, senza piu' niente che lo spinga su. */
+    const dirtyMarks = Object.keys(S.marks).filter(function(k){ return S.marks[k].dirty; });
+    const sentAt = {};
+    dirtyMarks.forEach(function(k){ sentAt[k] = S.marks[k].updated_at; });
+    if(dirtyMarks.length){
+      const invia = function(){
+        return sb("/rest/v1/brief_marks?on_conflict=user_id,story", {
+          method:"POST",
+          headers:{"Prefer":"resolution=merge-duplicates,return=representation"},
+          body:JSON.stringify(dirtyMarks.map(function(k){ return markRow(k, S.marks[k]); }))
+        });
+      };
+      let res = await invia();
+      /* Se la colonna del voto non c'è ancora (migrazione non lanciata), la
+         riga verrebbe respinta tutta, portandosi dietro appunti e salvati.
+         Meglio rinunciare al voto e salvare il resto: tornerà al prossimo giro. */
+      if(!res.ok && res.status === 400){
+        const detail = (await res.clone().text()).toLowerCase();
+        if(detail.indexOf("vote") >= 0 && VOTE_SYNC){
+          VOTE_SYNC = false;
+          console.warn("Colonna 'vote' assente su brief_marks: i pollici restano locali.");
+          res = await invia();
+        }
+      }
+      if(!res.ok) throw new Error("brief_marks " + res.status + " " + (await res.text()).slice(0,140));
+      (await res.json()).forEach(function(row){
+        const m = S.marks[row.story];
+        if(!m || m.updated_at !== sentAt[row.story]) return;   /* ritoccata nel frattempo */
+        m.updated_at = row.updated_at; m.dirty = false;
+      });
+    }
+    const dirtyDiary = S.diary.filter(function(e){ return e.dirty; });
+    const diarySentAt = {};
+    dirtyDiary.forEach(function(e){ diarySentAt[e.id] = e.updated_at; });
+    if(dirtyDiary.length){
+      const res = await sb("/rest/v1/brief_diary?on_conflict=user_id,id", {
+        method:"POST",
+        headers:{"Prefer":"resolution=merge-duplicates,return=representation"},
+        body:JSON.stringify(dirtyDiary.map(diaryRow))
+      });
+      if(!res.ok) throw new Error("brief_diary " + res.status + " " + (await res.text()).slice(0,140));
+      (await res.json()).forEach(function(row){
+        const e = S.diary.filter(function(x){ return x.id === row.id; })[0];
+        if(!e || e.updated_at !== diarySentAt[row.id]) return;
+        e.updated_at = row.updated_at; e.dirty = false;
+      });
+    }
+
+    /* 2. tira quello che è cambiato altrove */
+    const since = S.lastPull || "1970-01-01T00:00:00Z";
+    const [rm, rd] = await Promise.all([
+      sb("/rest/v1/brief_marks?select=*&updated_at=gt." + encodeURIComponent(since)),
+      sb("/rest/v1/brief_diary?select=*&updated_at=gt." + encodeURIComponent(since))
+    ]);
+    if(!rm.ok || !rd.ok) throw new Error("lettura " + rm.status + "/" + rd.status);
+
+    let changed = false;
+    (await rm.json()).forEach(function(row){
+      const local = S.marks[row.story];
+      if(local && local.dirty) return;                       /* il locale non ancora spinto vince */
+      if(local && local.updated_at && local.updated_at >= row.updated_at) return;
+      S.marks[row.story] = {
+        starred_at:row.starred_at, read_at:row.read_at, note:row.note || "",
+        links:row.links || [], vote:row.vote || 0, updated_at:row.updated_at, dirty:false
+      };
+      changed = true;
+    });
+    (await rd.json()).forEach(function(row){
+      const i = S.diary.findIndex(function(x){ return x.id === row.id; });
+      const entry = {
+        id:row.id, ts:new Date(row.ts).getTime(), text:row.text, tags:row.tags || [],
+        link:row.link, ref:row.ref, updated_at:row.updated_at,
+        deleted_at:row.deleted_at, dirty:false
+      };
+      if(i < 0){ S.diary.push(entry); changed = true; }
+      else if(!S.diary[i].dirty && (!S.diary[i].updated_at || S.diary[i].updated_at < row.updated_at)){
+        S.diary[i] = entry; changed = true;
+      }
+    });
+    if(changed){
+      S.diary.sort(function(a,b){ return b.ts - a.ts; });
+      repaint();
+    }
+
+    S.lastPull = new Date(Date.now() - 5000).toISOString();
+    saveNow();
+    refreshCounts();
+    pip("ok", "Sincronizzato");
+  }catch(err){
+    /* il motivo va almeno in console: il pallino rosso dice che qualcosa non
+       va, non dice cosa, e senza questa riga non restava traccia da nessuna parte */
+    console.warn("Sincronizzazione non riuscita:", err && err.message ? err.message : err);
+    pip("error", "Sincronizzazione non riuscita — riprovo tra poco");
+  }finally{
+    syncing = false;
+  }
+}
+
+async function loadBriefs(){
+  if(!CLOUD){ indexAll(); return; }
+  try{
+    const cached = JSON.parse(localStorage.getItem(K_BRIEFS) || "null");
+    if(cached && cached.length){ BRIEFS = cached; indexAll(); repaint(); }
+  }catch(e){}
+  try{
+    const res = await sb("/rest/v1/brief_editions?select=payload&order=date.desc&limit=400");
+    if(!res.ok) throw new Error("brief_editions " + res.status);
+    const rows = await res.json();
+    if(rows.length){
+      BRIEFS = rows.map(function(r){ return r.payload; });
+      try{ localStorage.setItem(K_BRIEFS, JSON.stringify(BRIEFS)); }catch(e){}
+      indexAll();
+      if(!currentDate || !BRIEFS.some(function(b){ return b.date === currentDate; })){
+        currentDate = BRIEFS[0].date;
+      }
+      repaint();
+    }
+  }catch(err){
+    if(!BRIEFS.length) toast("Nessuna edizione scaricata — controlla la connessione");
+  }
+}
+
+function indexAll(){
+  ALL = [];
+  EXTRAS = [];
+  BRIEFS.forEach(function(b){
+    (b.news || []).forEach(function(n){ ALL.push({brief:b, news:n, k:key(b.date, n.id)}); });
+    /* radar, banco e recap non sono notizie ma si salvano lo stesso: un video
+       da guardare dopo deve ricomparire fra i salvati come tutto il resto */
+    [["radar", "Radar"], ["banco", "Sul banco"], ["recap", "Se te lo fossi perso"]]
+      .forEach(function(sez){
+        (b[sez[0]] || []).forEach(function(it){
+          if(!it.id) return;
+          EXTRAS.push({brief:b, item:it, kind:sez[0], label:sez[1],
+                       k:key(b.date, sez[0] + ":" + it.id)});
+        });
+      });
+  });
+  indexThreads();
+  indexClaims();
+  indexFacts();
+}
+
+/* ================= fili e previsioni =================
+   Nessuna tabella in piu' da sincronizzare: fili e previsioni stanno dentro
+   le edizioni, e qui vengono ricostruiti a ogni caricamento. Per questo la
+   copia Artifact, che non puo' fare rete, si comporta esattamente uguale. */
+
+let THREADS = {};   /* slug -> {label, note, episodes} */
+let CLAIMS = [];    /* previsioni con il loro stato di oggi */
+
+function byDate(desc){
+  return BRIEFS.slice().sort(function(a, b){
+    return (a.date < b.date ? -1 : a.date > b.date ? 1 : 0) * (desc ? -1 : 1);
+  });
+}
+
+function indexThreads(){
+  THREADS = {};
+  byDate(true).forEach(function(b){
+    const labels = b.threads || {};
+    (b.news || []).forEach(function(n){
+      if(!n.thread) return;
+      let t = THREADS[n.thread];
+      if(!t) t = THREADS[n.thread] = {slug:n.thread, label:n.thread, note:"", episodes:[]};
+      /* l'etichetta piu' recente vince: se la rinomini, l'archivio si adegua */
+      const lab = labels[n.thread];
+      if(lab && !t.named){
+        t.label = (typeof lab === "string") ? lab : (lab.label || n.thread);
+        t.note = (typeof lab === "string") ? "" : (lab.note || "");
+        t.named = true;
+      }
+      t.episodes.push({date:b.date, brief:b, news:n});
+    });
+  });
+  Object.keys(THREADS).forEach(function(s){
+    THREADS[s].episodes.sort(function(a, b){ return a.date < b.date ? -1 : 1; });
+  });
+}
+
+const VERDICTS = ["confermato", "parziale", "smentito", "scaduto", "aperto"];
+
+const SOURCE_ALIASES = {
+  "gurman":"Mark Gurman (Bloomberg)", "mark gurman":"Mark Gurman (Bloomberg)",
+  "bloomberg":"Mark Gurman (Bloomberg)", "kuo":"Ming-Chi Kuo",
+  "ming-chi kuo":"Ming-Chi Kuo", "ross young":"Ross Young",
+  "counterpoint":"Counterpoint Research", "idc":"IDC",
+  "digitimes":"Digitimes", "etnews":"ETNews"
+};
+
+/* "9to5Mac (stime di analisti)" e "9to5Mac" sono la stessa fonte;
+   "Mark Gurman (Bloomberg)" no: la maiuscola distingue l'editore
+   dalla precisazione. */
+function canonSource(s){
+  let out = String(s || "ignota").replace(/\s+/g, " ").trim();
+  const m = out.match(/^(.*?)\s*\(([^)]*)\)$/);
+  if(m && m[2] && m[2][0] === m[2][0].toLowerCase() && m[2][0] !== m[2][0].toUpperCase()){
+    out = m[1].trim();
+  }
+  return SOURCE_ALIASES[out.toLowerCase()] || out;
+}
+
+function indexClaims(){
+  const opened = {}, closed = {};
+  byDate(false).forEach(function(b){
+    (b.news || []).forEach(function(n){
+      if(n.claim && n.claim.id && !opened[n.claim.id]){
+        opened[n.claim.id] = {
+          id:n.claim.id, text:n.claim.text || "", horizon:n.claim.horizon || "",
+          source:canonSource(n.claim.source || (n.sources || [])[0]),
+          date:b.date, brief:b, news:n
+        };
+      }
+      (n.resolves || []).forEach(function(r){
+        if(r && r.claim) closed[r.claim] = {
+          verdict:r.verdict, note:r.note || "", date:b.date, brief:b, news:n
+        };
+      });
+    });
+  });
+  const today = localDay(new Date());
+  CLAIMS = Object.keys(opened).map(function(id){
+    const c = opened[id], res = closed[id];
+    if(res && VERDICTS.indexOf(res.verdict) >= 0 && res.verdict !== "aperto"){
+      c.state = res.verdict; c.res = res;
+    } else if(c.horizon && c.horizon.slice(0, 10) < today){
+      c.state = "scaduto";
+    } else {
+      c.state = "aperto";
+    }
+    c.left = c.horizon ? Math.round((new Date(c.horizon.slice(0,10) + "T12:00:00") - new Date()) / 86400000) : null;
+    return c;
+  });
+  CLAIMS.sort(function(a, b){ return (a.horizon || "9999") < (b.horizon || "9999") ? -1 : 1; });
+}
+
+function claimById(id){
+  for(let i = 0; i < CLAIMS.length; i++){ if(CLAIMS[i].id === id) return CLAIMS[i]; }
+  return null;
+}
+
+/* ================= i numeri che si muovono ================= */
+let FACTS = {};   /* chiave -> letture in ordine di data */
+
+const UNIT_FMT = {
+  "USD":["$",""], "EUR":[""," €"], "%":["","%"], "mAh":[""," mAh"],
+  "mm":[""," mm"], "g":[""," g"], "pollici":["","”"],
+  "milioni":[""," mln"], "miliardi":[""," mld"], "":["",""]
+};
+const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
+
+function isDateVal(v){ return typeof v === "string" && ISO_DATE.test(v); }
+
+function fmtVal(value, unit){
+  if(isDateVal(value)) return fmtShort(value);
+  const u = UNIT_FMT[unit || ""] || ["", " " + (unit || "")];
+  if(typeof value !== "number") return (u[0] + value + u[1]).trim();
+  /* Separatori italiani scritti a mano: toLocaleString("it-IT") non raggruppa
+     i numeri di quattro cifre (1299 resta 1299) e non coinciderebbe con quello
+     che stampa facts.py sul terminale. */
+  const neg = value < 0;
+  const parts = String(Math.round(Math.abs(value) * 100) / 100).split(".");
+  const body = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+             + (parts[1] ? "," + parts[1] : "");
+  return ((neg ? "-" : "") + u[0] + body + u[1]).trim();
+}
+
+function indexFacts(){
+  FACTS = {};
+  byDate(false).forEach(function(b){
+    (b.news || []).forEach(function(n){
+      (n.facts || []).forEach(function(f){
+        if(!f || !f.key) return;
+        (FACTS[f.key] || (FACTS[f.key] = [])).push({
+          key:f.key, label:f.label || f.key, unit:f.unit || "",
+          value:f.value, kind:f.kind || "stima", source:f.source || "",
+          date:b.date, brief:b, news:n
+        });
+      });
+    });
+  });
+  Object.keys(FACTS).forEach(function(k){
+    FACTS[k].sort(function(a, b){ return a.date < b.date ? -1 : 1; });
+  });
+}
+
+/* Di quanto si è mossa una serie: testo e verso. */
+function factDelta(a, b){
+  if(isDateVal(a.value) && isDateVal(b.value)){
+    const days = Math.round((new Date(b.value + "T12:00:00") - new Date(a.value + "T12:00:00")) / 86400000);
+    if(!days) return {text:"ferma", dir:0};
+    return {text:(days > 0 ? "slittata di " : "anticipata di ") + Math.abs(days) + " giorni",
+            dir:days > 0 ? 1 : -1};
+  }
+  const x = Number(a.value), y = Number(b.value);
+  if(!isFinite(x) || !isFinite(y)) return {text:"", dir:0};
+  if(x === y) return {text:"stabile", dir:0};
+  const diff = y - x;
+  const pct = x ? Math.round(100 * diff / Math.abs(x)) : null;
+  return {text:(diff > 0 ? "+" : "") + fmtVal(diff, a.unit) + (pct !== null ? " (" + (pct > 0 ? "+" : "") + pct + "%)" : ""),
+          dir:diff > 0 ? 1 : -1};
+}
+
+/* Il blocco dei numeri: una riga per metrica, con la storia se ce l'ha. */
+function numbersNode(facts, title){
+  const keys = [];
+  (facts || []).forEach(function(f){ if(f && f.key && keys.indexOf(f.key) < 0) keys.push(f.key); });
+  if(!keys.length) return null;
+
+  const box = el("div", {class:"numbers"}, [el("span", {class:"lbl", text:title || "I numeri"})]);
+  keys.forEach(function(k){
+    const series = FACTS[k] || [];
+    if(!series.length) return;
+    const last = series[series.length - 1];
+    const row = el("div", {class:"num-row"}, [
+      el("div", {class:"num-head"}, [
+        el("span", {class:"lab", text:last.label}),
+        el("span", {class:"val", text:fmtVal(last.value, last.unit)}),
+        el("span", {class:"kind k-" + last.kind, text:last.kind})
+      ])
+    ]);
+    if(series.length > 1){
+      const hist = el("div", {class:"hist"});
+      series.slice(0, -1).forEach(function(r){
+        hist.appendChild(el("span", {class:"past", text:fmtVal(r.value, r.unit)}));
+        hist.appendChild(el("span", {class:"when", text:fmtShort(r.date)}));
+      });
+      const d = factDelta(series[0], last);
+      hist.appendChild(el("span", {
+        class:"move " + (d.dir > 0 ? "up" : d.dir < 0 ? "down" : "flat"),
+        text:(d.dir > 0 ? "↑ " : d.dir < 0 ? "↓ " : "= ") + d.text
+      }));
+      hist.appendChild(el("span", {text:"su " + series.length + " letture"}));
+      row.appendChild(hist);
+    } else if(last.source){
+      row.appendChild(el("div", {class:"hist"}, [el("span", {text:last.source})]));
+    }
+    box.appendChild(row);
+  });
+  return box.childNodes.length > 1 ? box : null;
+}
+
+const ORDINALS = ["", "1ª", "2ª", "3ª", "4ª", "5ª", "6ª", "7ª", "8ª", "9ª", "10ª"];
+function ordinal(i){ return ORDINALS[i] || (i + "ª"); }
+
+/* La notizia dentro l'edizione, non altrove: lo stesso identificativo esiste
+   anche nella vista dei salvati, che monta gli stessi blocchi. */
+function storyEl(id){
+  const scope = document.getElementById("view-oggi");
+  const all = scope ? scope.getElementsByClassName("story") : [];
+  for(let i = 0; i < all.length; i++){ if(all[i].id === "s-" + id) return all[i]; }
+  return null;
+}
+
+/* Porta la vista sulla notizia e la apre — *solo* apre. Un .click() secco sul
+   titolo e' un interruttore: chiamato su una notizia gia' aperta la chiudeva,
+   ed e' quello che succedeva arrivandoci dal sommario o dalla ricerca. */
+function openStory(id, block){
+  const t = storyEl(id);
+  if(!t) return null;
+  t.scrollIntoView({behavior:(block === "start" ? "smooth" : "auto"),
+                    block:block || "center"});
+  const head = t.querySelector(".story-head");
+  const body = t.querySelector(".story-body");
+  if(head && body && body.hidden) head.click();
+  return t;
+}
+
+/* Porta la vista sulla notizia, cambiando edizione se serve. */
+function jumpTo(date, id){
+  currentDate = date;
+  renderEdition();
+  show("oggi");
+  setTimeout(function(){ openStory(id); }, 40);
+}
+
+/* ================= campo di pallini =================
+   Il campo si ridisegna a ogni cambio di edizione, di scheda e di tema. Ogni
+   passaggio registrava il suo ascoltatore di ridimensionamento senza togliere
+   il precedente: dopo una mattinata di navigazione erano decine, tutti attaccati
+   a una tela ormai staccata dalla pagina. Ne resta uno solo, e a cambiarlo e'
+   l'ultimo campo acceso — che e' anche l'unico visibile. */
+let dotLive = null;
+
+function dotfield(canvas){
+  if(!canvas) return;
+  if(dotLive){ dotLive.stop(); dotLive = null; }
+  const ctx = canvas.getContext("2d");
+  const still = window.matchMedia("(prefers-reduced-motion:reduce)").matches;
+  const css = getComputedStyle(document.documentElement);
+  const palette = ["--red","--yellow","--blue","--orange"].map(function(v){ return css.getPropertyValue(v).trim(); });
+  let dots = [], raf = null, t0 = 0;
+
+  function layout(){
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const w = canvas.clientWidth, h = canvas.clientHeight;
+    if(!w || !h) return;
+    canvas.width = w * dpr; canvas.height = h * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const step = 19, r = 5.4;
+    dots = [];
+    for(let y = step/2; y < h; y += step){
+      for(let x = step/2; x < w; x += step){
+        if(Math.random() < 0.30 + 0.55 * (1 - x / w)){
+          dots.push({x:x, y:y, r:r, c:palette[(Math.random()*palette.length)|0], d:(x/w)*520 + Math.random()*260});
+        }
+      }
+    }
+  }
+  function draw(now){
+    const w = canvas.clientWidth, h = canvas.clientHeight;
+    ctx.clearRect(0, 0, w, h);
+    let done = true;
+    for(let i = 0; i < dots.length; i++){
+      const p = dots[i];
+      let k = still ? 1 : (now - t0 - p.d) / 460;
+      if(k < 0){ k = 0; done = false; } else if(k < 1){ done = false; } else k = 1;
+      if(k <= 0) continue;
+      const e = 1 - Math.pow(1 - k, 3);
+      ctx.globalAlpha = e;
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r * e, 0, 6.2832);
+      ctx.fillStyle = p.c;
+      ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+    if(!done) raf = requestAnimationFrame(draw);
+  }
+  layout(); t0 = performance.now();
+  raf = requestAnimationFrame(draw);
+
+  /* stop() legge "raf" dalla chiusura invece di una copia: draw() lo riassegna
+     a ogni fotogramma, e una copia presa qui sarebbe gia' vecchia al primo. */
+  const live = {timer:null, onResize:null, stop:function(){
+    window.removeEventListener("resize", live.onResize);
+    clearTimeout(live.timer);
+    cancelAnimationFrame(raf);
+  }};
+  live.onResize = function(){
+    clearTimeout(live.timer);
+    live.timer = setTimeout(function(){
+      layout(); t0 = performance.now() - 2000;
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(draw);
+    }, 180);
+  };
+  window.addEventListener("resize", live.onResize);
+  dotLive = live;
+}
+
+/* ================= i quattro pulsanti =================
+   Salva, Appunti, e i due pollici. Stessa forma, stessa misura, in fondo a
+   destra di ogni voce — notizie, radar, banco, recap. I due pollici dicono
+   una cosa diversa dagli altri due: non "mi serve", ma "meritava di stare
+   qui". Ripremere lo stesso pollice toglie il voto.
+
+   Le icone sono disegnate qui e non prese da un font: devono avere tutte lo
+   stesso peso ottico dentro un cerchio di 36 punti. */
+function ico(d){
+  return '<svg class="ico" viewBox="0 0 16 16" width="15" height="15" aria-hidden="true">' +
+         '<path fill="currentColor" d="' + d + '"/></svg>';
+}
+const I_STAR  = ico("M8 1.6l1.9 3.9 4.3.6-3.1 3 .7 4.3L8 11.4l-3.8 2 .7-4.3-3.1-3 4.3-.6z");
+const I_PEN   = ico("M2.2 11.5l6.9-6.9 2.3 2.3-6.9 6.9-3 .7zM10.2 3.5l1.3-1.3a1 1 0 0 1 1.4 0l.9.9a1 1 0 0 1 0 1.4l-1.3 1.3z");
+const I_THUMB = ico("M6.1 14.2H4.3a.8.8 0 0 1-.8-.8V7.6c0-.4.4-.8.8-.8h1.8v7.4zM13.9 8.1l-1.3 5.3c-.1.5-.5.8-1 .8H7V6.6l2.3-2.6c.3-.4.8-.5 1.2-.3.5.2.8.7.7 1.2l-.5 2.2h2.4c.6 0 1 .5.8 1z");
+
+function toolBtn(cls, title, glyph){
+  return el("button", {class:"tool " + cls, type:"button", title:title,
+                       "aria-label":title, html:glyph});
+}
+
+/* Il pannello degli appunti: testo, link allegati, invio al diario. Era dentro
+   la notizia, ora sta qui perche' lo usano anche radar, banco e recap — un
+   video da guardare dopo si salva e si annota come una notizia. */
+function notesPanel(k, ref, onPaint){
+  const panel = el("div", {class:"workspace", hidden:"hidden"});
+  const ta = el("textarea", {class:"note",
+    placeholder:"Cosa ti serve ricordare — un'idea, un angolo da approfondire, un follow-up."});
+  ta.value = (mk(k) && mk(k).note) || "";
+  const flag = el("span", {class:"saved-flag", text:""});
+
+  ta.addEventListener("input", function(){
+    mark(k).note = ta.value;
+    touched(k); onPaint();
+    flag.textContent = "salvato";
+    clearTimeout(ta._t); ta._t = setTimeout(function(){ flag.textContent = ""; }, 1400);
+  });
+
+  const linkList = el("ul", {class:"saved-links"});
+  function paintLinks(){
+    linkList.innerHTML = "";
+    ((mk(k) && mk(k).links) || []).forEach(function(l, i){
+      /* l'indirizzo si ricontrolla qui e non solo in scrittura: questi appunti
+         arrivano anche da un file importato e dalla sincronizzazione, e un
+         "javascript:" salvato altrove diventerebbe un bottone da premere */
+      const lu = safeUrl(l && l.url);
+      linkList.appendChild(el("li", {}, [
+        lu ? el("a", {href:lu, target:"_blank", rel:"noopener noreferrer", text:(l.label || lu)})
+           : el("span", {class:"broken", text:(l && l.label) || "indirizzo non valido"}),
+        el("button", {class:"kill", type:"button", title:"Rimuovi", text:"✕", onclick:function(){
+          mark(k).links.splice(i, 1); touched(k); paintLinks(); onPaint();
+        }})
+      ]));
+    });
+  }
+  paintLinks();
+
+  const urlIn = el("input", {type:"url", placeholder:"https:// video, articolo, thread…"});
+  const labIn = el("input", {type:"text", placeholder:"etichetta (facoltativa)"});
+  const addBtn = el("button", {class:"btn ghost", type:"button", text:"Aggiungi", onclick:function(){
+    const u = safeUrl(urlIn.value);
+    if(!u){ toast("Serve un indirizzo che inizi con http:// o https://"); return; }
+    const m = mark(k);
+    if(!m.links) m.links = [];
+    m.links.push({url:u, label:labIn.value.trim() || u.replace(/^https?:\/\//,"").split("/")[0]});
+    urlIn.value = ""; labIn.value = "";
+    touched(k); paintLinks(); onPaint();
+  }});
+
+  const diaryBtn = el("button", {class:"btn ghost", type:"button", text:"Manda al diario", onclick:function(){
+    const txt = (ta.value || "").trim();
+    if(!txt){ toast("Scrivi prima un appunto"); return; }
+    addDiary({text:txt, tags:["Da una notizia"], ref:ref});
+    toast("Aggiunto al diario");
+  }});
+
+  panel.appendChild(ta);
+  panel.appendChild(el("div", {class:"linkrow"}, [urlIn, labIn, addBtn]));
+  panel.appendChild(linkList);
+  panel.appendChild(el("div", {class:"linkrow"}, [diaryBtn, flag]));
+  panel.focusNote = function(){ ta.focus(); };
+  return panel;
+}
+
+function itemTools(k, opts){
+  opts = opts || {};
+  const bar = el("div", {class:"tools"});
+  const star = toolBtn("t-star", "Salva", I_STAR);
+  const note = toolBtn("t-note", "Appunti", I_PEN);
+  const up   = toolBtn("t-up vote", "Ci stava", I_THUMB);
+  const down = toolBtn("t-down vote", "Non ci stava", I_THUMB);
+  const panel = notesPanel(k, opts.ref, paintNote);
+
+  function paintStar(){
+    const on = !!(mk(k) && mk(k).starred_at);
+    star.classList.toggle("on", on);
+    star.setAttribute("aria-pressed", on ? "true" : "false");
+    star.title = on ? "Salvata — togli" : "Salva";
+  }
+  function paintNote(){
+    const m = mk(k);
+    const n = (m && m.links ? m.links.length : 0);
+    const on = !!(m && ((m.note || "").trim() || n));
+    note.classList.toggle("on", on);
+    note.setAttribute("data-count", n > 0 ? String(n) : "");
+  }
+  function paintVote(){
+    const v = (mk(k) && mk(k).vote) || 0;
+    up.classList.toggle("on", v > 0);
+    down.classList.toggle("on", v < 0);
+    up.setAttribute("aria-pressed", v > 0 ? "true" : "false");
+    down.setAttribute("aria-pressed", v < 0 ? "true" : "false");
+  }
+
+  star.addEventListener("click", function(ev){
+    ev.stopPropagation();
+    const m = mark(k);
+    m.starred_at = m.starred_at ? null : new Date().toISOString();
+    paintStar(); touched(k); refreshCounts();
+    toast(m.starred_at ? "Salvata" : "Tolta dai salvati");
+  });
+  note.addEventListener("click", function(ev){
+    ev.stopPropagation();
+    panel.hidden = !panel.hidden;
+    if(!panel.hidden){
+      if(opts.onNote) opts.onNote();
+      panel.focusNote();
+    }
+  });
+  function vota(v){
+    const m = mark(k);
+    m.vote = (m.vote === v) ? 0 : v;
+    paintVote(); touched(k);
+    toast(m.vote > 0 ? "Segnato: ci stava"
+        : m.vote < 0 ? "Segnato: non ci stava" : "Voto tolto");
+  }
+  up.addEventListener("click", function(ev){ ev.stopPropagation(); vota(1); });
+  down.addEventListener("click", function(ev){ ev.stopPropagation(); vota(-1); });
+
+  paintStar(); paintNote(); paintVote();
+  bar.appendChild(star); bar.appendChild(note); bar.appendChild(up); bar.appendChild(down);
+  return {bar:bar, panel:panel};
+}
+
+/* ================= notizia ================= */
+function storyNode(brief, n, index){
+  const k = key(brief.date, n.id);
+  const wrap = el("article", {class:"story", id:"s-" + n.id});
+  const m0 = mk(k);
+  if(m0 && m0.read_at) wrap.classList.add("is-read");
+
+  const chips = el("div", {class:"chips"});
+  if(n.tag) chips.appendChild(el("span", {class:tagClass(n.tag), text:n.tag}));
+  if(n.category) chips.appendChild(el("span", {class:"chip cat", text:n.category}));
+  if(n.reliability){
+    /* "affidabilita'" e "puntata" sono parole lunghe che sul telefono mandano a
+       capo la riga dei metadati: restano nella marcatura, le nasconde la CSS. */
+    chips.appendChild(el("span", {class:"chip rel rel-" + n.reliability}, [
+      el("span", {class:"dot"}),
+      el("span", {class:"long", text:"affidabilità"}),
+      el("span", {text:n.reliability})
+    ]));
+  }
+  const thread = n.thread ? THREADS[n.thread] : null;
+  const epIndex = thread ? thread.episodes.findIndex(function(e){
+    return e.date === brief.date && e.news.id === n.id;
+  }) : -1;
+  if(thread && thread.episodes.length > 1 && epIndex >= 0){
+    const chip = el("span", {class:"chip filo", role:"button", tabindex:"0",
+                             title:"Il filo: " + thread.label}, [
+      el("b", {text:ordinal(epIndex + 1)}),
+      el("span", {class:"long", text:" puntata"}),
+      el("span", {text:" di " + thread.episodes.length})
+    ]);
+    const open = function(ev){ ev.stopPropagation(); openThread(thread.slug); };
+    chip.addEventListener("click", open);
+    chip.addEventListener("keydown", function(ev){ if(ev.key === "Enter" || ev.key === " ") open(ev); });
+    chips.appendChild(chip);
+  }
+
+  const head = el("div", {class:"story-head"}, [
+    bead(typeof index === "number" ? index : 0, String(typeof index === "number" ? index + 1 : (n.rank || 0))),
+    chips,
+    el("h3", {text:n.title}),
+    el("p", {class:"lede", text:n.sintesi || ""})
+  ]);
+  if(n.image){
+    head.classList.add("with-thumb");
+    head.appendChild(el("img", {class:"thumb", src:n.image, alt:"", loading:"lazy", decoding:"async"}));
+  }
+
+  const body = el("div", {class:"story-body", hidden:"hidden"});
+  body.appendChild(el("p", {text:n.descrizione || ""}));
+  const nums = numbersNode(n.facts);
+  if(nums) body.appendChild(nums);
+  if(n.reliability_note){
+    body.appendChild(el("div", {class:"rel-note"}, [
+      el("b", {text:"Nota sulla fonte"}), el("span", {text:n.reliability_note})
+    ]));
+  }
+  /* La previsione di un rumor si mostra solo dopo che qualcuno l'ha chiusa:
+     aperta e' contabilita' interna, verificata e' una notizia. Il conto per
+     fonte non sta nell'app — si legge con pipeline/claims.py score. */
+  if(n.claim && n.claim.id){
+    const c = claimById(n.claim.id);
+    if(c && c.res){
+      const box = el("div", {class:"claim closed"}, [
+        el("span", {class:"lbl", text:"Come è andata a finire"}),
+        el("p", {class:"txt", text:n.claim.text || ""}),
+        el("div", {class:"foot"}, [
+          el("span", {class:"verdict v-" + c.state, text:c.state}),
+          el("span", {class:"eyebrow", text:"verificata il " + fmtShort(c.res.date)})
+        ])
+      ]);
+      if(c.res.note) box.appendChild(el("span", {text:c.res.note}));
+      box.appendChild(el("button", {class:"act", type:"button", text:"Vedi la notizia che l'ha chiusa",
+        onclick:function(ev){ ev.stopPropagation(); jumpTo(c.res.date, c.res.news.id); }}));
+      body.appendChild(box);
+    }
+  }
+
+  (n.resolves || []).forEach(function(r){
+    const c = claimById(r.claim);
+    const box = el("div", {class:"claim closed"}, [
+      el("span", {class:"lbl", text:"Chiude una previsione"}),
+      el("p", {class:"txt", text:c ? c.text : r.claim})
+    ]);
+    box.appendChild(el("div", {class:"foot"}, [
+      el("span", {class:"verdict v-" + (r.verdict || "aperto"), text:r.verdict || ""}),
+      c ? el("span", {class:"eyebrow", text:c.source + " · " + fmtShort(c.date)}) : null
+    ]));
+    if(r.note) box.appendChild(el("span", {text:r.note}));
+    if(c){
+      box.appendChild(el("button", {class:"act", type:"button", text:"Vedi dove era stata detta",
+        onclick:function(ev){ ev.stopPropagation(); jumpTo(c.date, c.news.id); }}));
+    }
+    body.appendChild(box);
+  });
+
+  if(thread && thread.episodes.length > 1){
+    const line = el("div", {class:"readmore"}, [
+      el("span", {class:"sources", text:"Filo — " + thread.label}),
+      el("a", {href:"#", text:"tutte le " + thread.episodes.length + " puntate →",
+        onclick:function(ev){ ev.preventDefault(); ev.stopPropagation(); openThread(thread.slug); }})
+    ]);
+    body.appendChild(line);
+  }
+
+  const read = el("div", {class:"readmore"});
+  const primary = safeUrl(n.link);
+  if(primary) read.appendChild(el("a", {class:"primary", href:primary, target:"_blank", rel:"noopener noreferrer", text:"Leggi l'articolo →"}));
+  (n.extra_links || []).forEach(function(l){
+    const u = safeUrl(l.url);
+    if(u) read.appendChild(el("a", {href:u, target:"_blank", rel:"noopener noreferrer", text:l.label}));
+  });
+  if(read.childNodes.length) body.appendChild(read);
+  if(n.sources && n.sources.length){
+    body.appendChild(el("p", {class:"sources", text:n.sources.length + (n.sources.length === 1 ? " fonte — " : " fonti — ") + n.sources.join(", ")}));
+  }
+
+  head.addEventListener("click", function(){
+    body.hidden = !body.hidden;
+    wrap.classList.toggle("is-open", !body.hidden);
+    if(!body.hidden && NOTES && !(mk(k) && mk(k).read_at)){
+      mark(k).read_at = new Date().toISOString();
+      wrap.classList.add("is-read");
+      touched(k);
+    }
+  });
+
+  wrap.appendChild(head);
+  wrap.appendChild(body);
+  if(!NOTES) return wrap;   /* copia di sola lettura: niente appunti */
+
+  const tools = itemTools(k, {
+    ref:{date:brief.date, id:n.id, title:n.title},
+    onNote:function(){ body.hidden = false; wrap.classList.add("is-open"); }
+  });
+  wrap.appendChild(tools.bar);
+  wrap.appendChild(tools.panel);
+  return wrap;
+}
+
+/* ================= diario: scritture ================= */
+function addDiary(fields){
+  const now = new Date().toISOString();
+  S.diary.unshift(Object.assign({
+    id:"d" + Date.now() + Math.random().toString(36).slice(2,6),
+    ts:Date.now(), text:"", tags:[], link:null, ref:null,
+    updated_at:now, deleted_at:null, dirty:true
+  }, fields));
+  save(); queueSync(); refreshCounts();
+}
+function removeDiary(id){
+  const e = S.diary.filter(function(x){ return x.id === id; })[0];
+  if(!e) return;
+  e.deleted_at = new Date().toISOString();
+  e.updated_at = e.deleted_at;
+  e.dirty = true;
+  save(); queueSync(); refreshCounts();
+}
+function liveDiary(){ return S.diary.filter(function(e){ return !e.deleted_at; }); }
+
+/* ================= vista edizione ================= */
+let currentDate = BRIEFS[0] ? BRIEFS[0].date : null;
+
+function renderEdition(){
+  const brief = BRIEFS.filter(function(b){ return b.date === currentDate; })[0] || BRIEFS[0];
+  const root = document.getElementById("view-oggi");
+  root.innerHTML = "";
+  if(!brief){
+    root.appendChild(el("div", {class:"empty", html:"<b>Nessuna edizione</b>La prima rassegna arriva domani mattina alle 7."}));
+    return;
+  }
+  document.getElementById("editionLabel").textContent = fmtShort(brief.date);
+
+  const col = el("div", {class:"col-main"});
+
+  if(!CLOUD && APP_URL){
+    col.appendChild(el("div", {class:"banner"}, [
+      el("span", {text:NOTES
+        ? "Copia di riserva: qui gli appunti restano su questo dispositivo. Quelli che ti seguono fra Mac e iPhone stanno nell'app sincronizzata — "
+        : "Questa è la copia di sola lettura. Appunti, salvati e diario stanno nell'app sincronizzata — "}),
+      el("a", {href:APP_URL, target:"_blank", rel:"noopener noreferrer", text:"aprila qui"}),
+      el("span", {text:"."})
+    ]));
+  }
+
+  const hero = el("div", {class:"hero"});
+  const canvas = el("canvas", {id:"dotfield", "aria-hidden":"true"});
+  hero.appendChild(canvas);
+  hero.appendChild(el("h2", {class:"date", text:fmtDate(brief.date)}));
+  hero.appendChild(el("p", {class:"eyebrow window", text:(brief.window || "ultime 24 ore") + " · le tre che contano"}));
+
+  const ol = el("ol", {class:"top3"});
+  (brief.top3 || []).forEach(function(t, i){
+    ol.appendChild(el("li", {}, [bead(i, String(i+1)), el("span", {class:"txt", text:t})]));
+  });
+  hero.appendChild(ol);
+  const lead = (brief.news || [])[0];
+  if(lead && lead.hero){
+    hero.appendChild(el("img", {
+      class:"hero-shot", src:lead.hero, alt:lead.title, decoding:"async"
+    }));
+  }
+  if(brief.intro) hero.appendChild(el("p", {class:"intro", text:brief.intro}));
+
+  const st = brief.stats || {};
+  const bits = [];
+  if(st.articoli_letti) bits.push(st.articoli_letti + " articoli scansionati");
+  if(st.notizie_selezionate) bits.push(st.notizie_selezionate + " selezionate");
+  if(st.fonti_attive) bits.push(st.fonti_attive + " fonti attive");
+  if(bits.length){
+    const m = el("div", {class:"meta-line"});
+    bits.forEach(function(b){ m.appendChild(el("span", {class:"eyebrow", text:b})); });
+    hero.appendChild(m);
+  }
+  col.appendChild(hero);
+
+  col.appendChild(el("div", {class:"section-head"}, [
+    el("span", {class:"pip"}), el("h2", {text:"Le notizie"}),
+    el("span", {class:"eyebrow hint", text:"tocca un titolo per aprirlo"})
+  ]));
+  (brief.news || []).forEach(function(n, i){ col.appendChild(storyNode(brief, n, i)); });
+
+  if(brief.radar && brief.radar.length){
+    const pipB = el("span", {class:"pip"}); pipB.style.background = "var(--blue)";
+    col.appendChild(el("div", {class:"section-head"}, [
+      pipB, el("h2", {text:"Radar"}),
+      el("span", {class:"eyebrow hint", text:"fuori perimetro, ma vicino"})
+    ]));
+    const ul = el("ul", {class:"radar"});
+    brief.radar.forEach(function(r){
+      const u = safeUrl(r.link);
+      /* le voci vecchie non hanno id: senza chiave stabile non si salvano */
+      const tools = (NOTES && r.id)
+        ? itemTools(key(brief.date, "radar:" + r.id),
+                    {ref:{date:brief.date, id:"radar:" + r.id, title:r.title}})
+        : null;
+      const foot = el("div", {class:"radar-foot"}, [
+        el("span", {class:"src", text:r.source || ""}),
+        tools ? tools.bar : null
+      ]);
+      ul.appendChild(el("li", {}, [
+        el("h4", {}, [u ? el("a", {href:u, target:"_blank", rel:"noopener noreferrer", text:r.title}) : el("span", {text:r.title})]),
+        el("p", {text:r.note || ""}),
+        foot,
+        tools ? tools.panel : null
+      ]));
+    });
+    col.appendChild(ul);
+  }
+
+  if(brief.banco && brief.banco.length){
+    const pipY = el("span", {class:"pip"}); pipY.style.background = "var(--yellow)";
+    col.appendChild(el("div", {class:"section-head"}, [
+      pipY, el("h2", {text:"Sul banco"}),
+      el("span", {class:"eyebrow hint", text:"la concorrenza, e chi la prova"})
+    ]));
+    const ul = el("ul", {class:"banco"});
+    brief.banco.forEach(function(b){
+      const u = safeUrl(b.link);
+      const tools = (NOTES && b.id)
+        ? itemTools(key(brief.date, "banco:" + b.id),
+                    {ref:{date:brief.date, id:"banco:" + b.id, title:b.title}})
+        : null;
+      const foot = el("div", {class:"foot"}, [
+        el("span", {class:"src", text:b.source || ""}),
+        tools ? tools.bar : null
+      ]);
+      ul.appendChild(el("li", {}, [
+        b.kind ? el("span", {class:"kind k-" + String(b.kind).toLowerCase().replace(/[^a-z]/g,""),
+                             text:b.kind}) : null,
+        el("h4", {}, [u ? el("a", {href:u, target:"_blank", rel:"noopener noreferrer", text:b.title})
+                        : el("span", {text:b.title})]),
+        b.note ? el("p", {text:b.note}) : null,
+        b.perche ? el("p", {class:"why", text:b.perche}) : null,
+        foot,
+        tools ? tools.panel : null
+      ]));
+    });
+    col.appendChild(ul);
+  }
+
+  if(brief.recap && brief.recap.length){
+    const pipO = el("span", {class:"pip"}); pipO.style.background = "var(--orange)";
+    col.appendChild(el("div", {class:"section-head"}, [
+      pipO, el("h2", {text:"Se te lo fossi perso"}),
+      el("span", {class:"eyebrow hint", text:"non è di oggi, ma ne hanno parlato tutti"})
+    ]));
+    const ul = el("ul", {class:"recap"});
+    brief.recap.forEach(function(m){
+      const u = safeUrl(m.link);
+      const head = el("div", {class:"head"}, [
+        el("span", {class:"when", text:fmtAgo(m.when, brief.date)})
+      ]);
+      if(m.signal) head.appendChild(el("span", {class:"signal", text:m.signal}));
+      const tools = (NOTES && m.id)
+        ? itemTools(key(brief.date, "recap:" + m.id),
+                    {ref:{date:brief.date, id:"recap:" + m.id, title:m.title}})
+        : null;
+      const foot = el("div", {class:"foot"}, [
+        el("span", {class:"src", text:m.source || ""}),
+        tools ? tools.bar : null
+      ]);
+      ul.appendChild(el("li", {}, [
+        head,
+        el("h4", {}, [u ? el("a", {href:u, target:"_blank", rel:"noopener noreferrer", text:m.title})
+                        : el("span", {text:m.title})]),
+        m.note ? el("p", {text:m.note}) : null,
+        foot,
+        tools ? tools.panel : null
+      ]));
+    });
+    col.appendChild(ul);
+  }
+
+  if(brief.social && brief.social.length){
+    const pipS = el("span", {class:"pip"}); pipS.style.background = "var(--red)";
+    col.appendChild(el("div", {class:"section-head"}, [
+      pipS, el("h2", {text:"Nelle discussioni"}),
+      el("span", {class:"eyebrow hint", text:"cosa si dice, non cosa è successo"})
+    ]));
+    col.appendChild(el("p", {class:"caveat", text:"Voci e opinioni raccolte su Reddit, Hacker News e altrove. Non sono notizie verificate: se una cosa qui dentro diventa un fatto, la ritrovi fra le notizie con la sua fonte."}));
+    const ul = el("ul", {class:"talk"});
+    brief.social.forEach(function(s){
+      const u = safeUrl(s.link);
+      const who = el("div", {class:"who"}, [
+        el("span", {class:"where" + (s.origine === "nuovo" ? " new" : ""), text:s.platform || ""})
+      ]);
+      if(s.signal) who.appendChild(el("span", {class:"heat", text:s.signal}));
+      if(s.origine === "nuovo"){
+        who.appendChild(el("span", {class:"heat", text:"non è ancora sulle testate"}));
+      }
+      ul.appendChild(el("li", {}, [
+        who,
+        el("h4", {}, [u ? el("a", {href:u, target:"_blank", rel:"noopener noreferrer", text:s.title})
+                        : el("span", {text:s.title})]),
+        s.note ? el("p", {text:s.note}) : null
+      ]));
+    });
+    col.appendChild(ul);
+  }
+
+  const rail = el("aside", {class:"rail"});
+  const readCount = (brief.news || []).filter(function(n){ const m = mk(key(brief.date, n.id)); return m && m.read_at; }).length;
+  const starCount = (brief.news || []).filter(function(n){ const m = mk(key(brief.date, n.id)); return m && m.starred_at; }).length;
+  const grid = el("div", {class:"statgrid"});
+  [[(brief.news||[]).length, "notizie", "--ink"], [readCount, "aperte", "--blue"],
+   [starCount, "salvate", "--yellow"], [(brief.radar||[]).length, "sul radar", "--red"]]
+   .forEach(function(p){
+     const b = el("b", {text:String(p[0])});
+     b.style.color = "var(" + p[2] + ")";
+     grid.appendChild(el("div", {class:"stat"}, [b, el("span", {text:p[1]})]));
+   });
+  rail.appendChild(grid);
+  rail.appendChild(el("h4", {text:"Sommario"}));
+  const nav = el("ol");
+  (brief.news || []).forEach(function(n, i){
+    const p = el("span", {class:"pip"});
+    p.style.background = "var(" + BEADS[i % BEADS.length] + ")";
+    nav.appendChild(el("li", {}, [
+      el("button", {type:"button", onclick:function(){ openStory(n.id, "start"); }},
+         [p, el("span", {text:n.title})])
+    ]));
+  });
+  rail.appendChild(nav);
+  /* Lo stato delle fonti non compare piu' nell'app: e' diagnostica della
+     pipeline, la legge chi la manutiene. `feed_notes` resta nell'edizione e
+     si guarda dal Mac, con lint.py e feedcheck.py. */
+
+  root.appendChild(el("div", {class:"columns"}, [col, rail]));
+  dotfield(canvas);
+
+  const srcs = {};
+  (brief.news || []).forEach(function(n){ (n.sources || []).forEach(function(s){ srcs[s] = 1; }); });
+  document.getElementById("colophonSrc").textContent = "Fonti di questa edizione — " + Object.keys(srcs).join(", ");
+  document.getElementById("colophonNote").textContent = CLOUD
+    ? "Appunti e diario sincronizzati tra i tuoi dispositivi"
+    : (NOTES ? "Appunti e diario salvati su questo dispositivo — usa ↧ per farne una copia"
+             : "Copia di sola lettura");
+}
+
+/* ================= archivio ================= */
+function renderArchive(){
+  const root = document.getElementById("view-archivio");
+  root.innerHTML = "";
+  const col = el("div", {class:"col-main"});
+  col.appendChild(el("div", {class:"section-head"}, [
+    el("span", {class:"pip"}), el("h2", {text:"Archivio"}),
+    el("span", {class:"eyebrow hint", text:BRIEFS.length + (BRIEFS.length === 1 ? " edizione" : " edizioni")})
+  ]));
+  const ul = el("ul", {class:"archive-list"});
+  BRIEFS.forEach(function(b, i){
+    const n = (b.news || []).length;
+    const starred = (b.news || []).filter(function(x){ const m = mk(key(b.date, x.id)); return m && m.starred_at; }).length;
+    ul.appendChild(el("li", {}, [
+      el("button", {type:"button", onclick:function(){ currentDate = b.date; renderEdition(); show("oggi"); window.scrollTo(0,0); }}, [
+        bead(i, String(new Date(b.date + "T12:00:00").getDate())),
+        el("span", {}, [
+          el("span", {class:"eyebrow d", text:fmtDate(b.date)}),
+          el("span", {class:"h", text:(b.top3 || [""])[0]}),
+          el("span", {class:"m", text:n + " notizie" + (starred ? " · " + starred + " salvate" : "")})
+        ])
+      ])
+    ]));
+  });
+  col.appendChild(ul);
+  root.appendChild(col);
+}
+
+/* ================= salvati ================= */
+function renderStarred(){
+  const root = document.getElementById("view-salvati");
+  root.innerHTML = "";
+  const col = el("div", {class:"col-main"});
+  const picked = ALL.concat(EXTRAS)
+                    .filter(function(x){ const m = mk(x.k); return m && m.starred_at; })
+                    .sort(function(a,b){ return mk(b.k).starred_at < mk(a.k).starred_at ? -1 : 1; });
+  const pip2 = el("span", {class:"pip"}); pip2.style.background = "var(--yellow)";
+  col.appendChild(el("div", {class:"section-head"}, [
+    pip2, el("h2", {text:"Salvati"}),
+    el("span", {class:"eyebrow hint", text:picked.length + " in totale"})
+  ]));
+  if(!picked.length){
+    col.appendChild(el("div", {class:"empty", html:"<b>Ancora niente qui</b>La stella in fondo a una notizia, a una voce del radar o a un video sul banco la mette da parte qui."}));
+  } else {
+    picked.forEach(function(x, i){
+      const node = x.news ? storyNode(x.brief, x.news, i) : briefNode(x);
+      node.insertBefore(el("p", {class:"eyebrow", text:fmtDate(x.brief.date)}), node.firstChild);
+      col.appendChild(node);
+    });
+  }
+  root.appendChild(col);
+}
+
+/* Una voce breve salvata — radar, banco, recap — fuori dalla sua sezione:
+   basta dire da dove viene, cosa era e come ritrovarla. */
+function briefNode(x){
+  const it = x.item;
+  const u = safeUrl(it.link);
+  const wrap = el("article", {class:"story brief-item"});
+  wrap.appendChild(el("div", {class:"chips"}, [
+    el("span", {class:"chip cat", text:x.label}),
+    it.kind ? el("span", {class:"chip", text:it.kind}) : null
+  ]));
+  wrap.appendChild(el("h3", {}, [
+    u ? el("a", {href:u, target:"_blank", rel:"noopener noreferrer", text:it.title})
+      : el("span", {text:it.title})
+  ]));
+  if(it.note) wrap.appendChild(el("p", {class:"lede", text:it.note}));
+  if(it.source) wrap.appendChild(el("p", {class:"sources", text:it.source}));
+  if(NOTES){
+    const tools = itemTools(x.k, {ref:{date:x.brief.date, id:x.kind + ":" + it.id, title:it.title}});
+    wrap.appendChild(tools.bar);
+    wrap.appendChild(tools.panel);
+  }
+  return wrap;
+}
+
+/* ================= diario ================= */
+const TAGS = ["Idea", "Lavoro", "Da approfondire", "Video", "Contenuto", "Personale"];
+let draftTags = [];
+
+function renderDiary(){
+  const root = document.getElementById("view-diario");
+  root.innerHTML = "";
+  const col = el("div", {class:"col-main"});
+  const rows0 = liveDiary();
+  const pipR = el("span", {class:"pip"}); pipR.style.background = "var(--red)";
+  col.appendChild(el("div", {class:"section-head"}, [
+    pipR, el("h2", {text:"Diario"}),
+    el("span", {class:"eyebrow hint", text:rows0.length + " voci"})
+  ]));
+
+  const ta = el("textarea", {placeholder:"Un'idea, un angolo da sviluppare, un appunto sulla giornata…"});
+  const picker = el("div", {class:"tagpicker"});
+  draftTags = [];
+  TAGS.forEach(function(t){
+    const b = el("button", {type:"button", text:t});
+    b.addEventListener("click", function(){
+      const i = draftTags.indexOf(t);
+      if(i >= 0) draftTags.splice(i,1); else draftTags.push(t);
+      b.classList.toggle("on", draftTags.indexOf(t) >= 0);
+    });
+    picker.appendChild(b);
+  });
+  const linkIn = el("input", {type:"url", placeholder:"link o video da allegare (facoltativo)"});
+  const addBtn = el("button", {class:"btn", type:"button", text:"Salva nel diario", onclick:function(){
+    const txt = ta.value.trim();
+    if(!txt){ toast("Scrivi qualcosa prima di salvare"); return; }
+    addDiary({text:txt, tags:draftTags.slice(), link:safeUrl(linkIn.value)});
+    renderDiary(); toast("Salvato");
+  }});
+
+  col.appendChild(el("div", {class:"composer"}, [
+    ta, picker, el("div", {class:"linkrow"}, [linkIn]),
+    el("div", {class:"composer-foot"}, [el("span", {class:"spacer"}), addBtn])
+  ]));
+
+  if(!rows0.length){
+    col.appendChild(el("div", {class:"empty", html:"<b>Il diario è vuoto</b>Scrivi qui le idee, oppure mandale al diario dagli appunti di una notizia."}));
+  } else {
+    const filterRow = el("div", {class:"tagpicker", style:"margin:.4rem 0 1.2rem"});
+    const active = {v:null};
+    ["Tutte"].concat(TAGS).concat(["Da una notizia"]).forEach(function(t){
+      const b = el("button", {type:"button", text:t});
+      if(t === "Tutte") b.classList.add("on");
+      b.addEventListener("click", function(){
+        active.v = (t === "Tutte") ? null : t;
+        Array.prototype.forEach.call(filterRow.children, function(c){ c.classList.toggle("on", c === b); });
+        paint();
+      });
+      filterRow.appendChild(b);
+    });
+    col.appendChild(filterRow);
+
+    const list = el("div", {});
+    function paint(){
+      list.innerHTML = "";
+      const rows = liveDiary().filter(function(e){ return !active.v || (e.tags || []).indexOf(active.v) >= 0; });
+      if(!rows.length){ list.appendChild(el("div", {class:"empty", text:"Nessuna voce con questa etichetta."})); return; }
+      rows.forEach(function(e){
+        const meta = el("div", {class:"entry-meta"}, [el("time", {text:fmtStamp(e.ts)})]);
+        (e.tags || []).forEach(function(t){ meta.appendChild(el("span", {class:"chip", text:t})); });
+        meta.appendChild(el("button", {class:"kill", type:"button", text:"elimina", onclick:function(){
+          removeDiary(e.id); renderDiary();
+        }}));
+        const node = el("div", {class:"entry"}, [meta, el("p", {class:"entry-text", text:e.text})]);
+        const eu = safeUrl(e.link);
+        if(eu) node.appendChild(el("p", {}, [el("a", {href:eu, target:"_blank", rel:"noopener noreferrer", text:eu})]));
+        if(e.ref) node.appendChild(el("p", {class:"ctx", text:"da: " + e.ref.title + " · " + fmtShort(e.ref.date)}));
+        list.appendChild(node);
+      });
+    }
+    paint();
+    col.appendChild(list);
+  }
+  root.appendChild(col);
+}
+
+/* ================= ricerca ================= */
+function renderSearch(){
+  const root = document.getElementById("view-cerca");
+  root.innerHTML = "";
+  const col = el("div", {class:"col-main"});
+  const input = el("input", {type:"search", placeholder:"Cerca…"});
+  const results = el("div", {});
+  col.appendChild(el("div", {class:"searchbar"}, [input]));
+  col.appendChild(el("p", {class:"eyebrow", text:NOTES ? "archivio notizie, appunti e diario" : "archivio notizie"}));
+  col.appendChild(results);
+  root.appendChild(col);
+
+  function hl(text, q){
+    const i = text.toLowerCase().indexOf(q);
+    if(i < 0) return esc(text.slice(0, 180));
+    const from = Math.max(0, i - 60);
+    const snip = (from > 0 ? "…" : "") + text.slice(from, i + q.length + 120);
+    const j = snip.toLowerCase().indexOf(q);
+    return esc(snip.slice(0, j)) + "<mark>" + esc(snip.slice(j, j + q.length)) + "</mark>" + esc(snip.slice(j + q.length));
+  }
+
+  input.addEventListener("input", function(){
+    const q = input.value.trim().toLowerCase();
+    results.innerHTML = "";
+    if(q.length < 2) return;
+
+    const hits = ALL.filter(function(x){
+      const m = mk(x.k);
+      const hay = [x.news.title, x.news.sintesi, x.news.descrizione,
+                   (x.news.sources || []).join(" "), (m && m.note) || ""].join("   ");
+      return hay.toLowerCase().indexOf(q) >= 0;
+    });
+    results.appendChild(el("div", {class:"section-head"}, [
+      el("span", {class:"pip"}), el("h2", {text:"Notizie"}),
+      el("span", {class:"eyebrow hint", text:hits.length + " risultati"})
+    ]));
+    if(!hits.length) results.appendChild(el("div", {class:"empty", text:"Nessuna notizia trovata."}));
+    hits.slice(0, 40).forEach(function(x){
+      const m = mk(x.k);
+      results.appendChild(el("div", {class:"entry"}, [
+        el("div", {class:"entry-meta"}, [
+          el("time", {text:fmtShort(x.brief.date)}),
+          el("span", {class:tagClass(x.news.tag), text:x.news.tag || ""})
+        ]),
+        el("h4", {}, [el("a", {href:"#", onclick:function(ev){
+          ev.preventDefault(); jumpTo(x.brief.date, x.news.id);
+        }, text:x.news.title})]),
+        el("p", {class:"entry-text", html:hl(x.news.descrizione || x.news.sintesi || "", q)}),
+        (m && m.note) ? el("p", {class:"ctx", text:"tuo appunto: " + m.note.slice(0,140)}) : null
+      ]));
+    });
+
+    if(!NOTES) return;
+    const dhits = liveDiary().filter(function(e){
+      return (e.text + " " + (e.tags || []).join(" ")).toLowerCase().indexOf(q) >= 0;
+    });
+    if(dhits.length){
+      const p = el("span", {class:"pip"}); p.style.background = "var(--red)";
+      results.appendChild(el("div", {class:"section-head"}, [
+        p, el("h2", {text:"Diario"}),
+        el("span", {class:"eyebrow hint", text:dhits.length + " voci"})
+      ]));
+      dhits.slice(0, 25).forEach(function(e){
+        results.appendChild(el("div", {class:"entry"}, [
+          el("div", {class:"entry-meta"}, [el("time", {text:fmtStamp(e.ts)})]),
+          el("p", {class:"entry-text", html:hl(e.text, q)})
+        ]));
+      });
+    }
+  });
+}
+
+/* ================= i fili delle storie ================= */
+const EPISODES_SHOWN = 4;
+
+function threadList(){
+  return Object.keys(THREADS).map(function(s){ return THREADS[s]; })
+    .filter(function(t){ return t.episodes.length > 1; })
+    .sort(function(a, b){
+      const la = a.episodes[a.episodes.length-1].date, lb = b.episodes[b.episodes.length-1].date;
+      if(la !== lb) return la < lb ? 1 : -1;
+      return b.episodes.length - a.episodes.length;
+    });
+}
+
+function openThread(slug){
+  show("fili");
+  window.scrollTo({top:0});
+  setTimeout(function(){
+    const t = document.getElementById("t-" + slug);
+    if(t) t.scrollIntoView({behavior:"smooth", block:"start"});
+  }, 30);
+}
+
+function renderThreads(){
+  const root = document.getElementById("view-fili");
+  root.innerHTML = "";
+  const col = el("div", {class:"col-main"});
+  const list = threadList();
+
+  const pipT = el("span", {class:"pip"}); pipT.style.background = "var(--blue)";
+  col.appendChild(el("div", {class:"section-head"}, [
+    pipT, el("h2", {text:"I fili"}),
+    el("span", {class:"eyebrow hint", text:list.length + (list.length === 1 ? " storia aperta" : " storie aperte")})
+  ]));
+
+  if(!list.length){
+    col.appendChild(el("div", {class:"empty", html:"<b>Ancora nessun filo</b>Un filo nasce quando una storia torna: la seconda puntata la lega alla prima, e da lì in poi la rassegna ha memoria."}));
+    root.appendChild(col);
+    return;
+  }
+
+  col.appendChild(el("p", {class:"intro", text:"Le storie che non finiscono in un giorno, dalla prima puntata all'ultima. Tocca una riga per aprire quella notizia nella sua edizione."}));
+
+  list.forEach(function(t){
+    const first = t.episodes[0].date, last = t.episodes[t.episodes.length-1].date;
+    const span = el("div", {class:"span"}, [
+      el("span", {class:"eyebrow", text:t.episodes.length + " puntate"}),
+      el("span", {class:"eyebrow", text:"dal " + fmtShort(first) + " al " + fmtShort(last)})
+    ]);
+    const card = el("article", {class:"thread", id:"t-" + t.slug}, [
+      el("h3", {text:t.label}),
+      t.note ? el("p", {class:"note", text:t.note}) : null,
+      span
+    ]);
+
+    const ul = el("ul", {class:"timeline"});
+    const ordered = t.episodes.slice().reverse();   /* l'ultima puntata in cima */
+    let collapsed = ordered.length > EPISODES_SHOWN;
+
+    function paint(){
+      ul.innerHTML = "";
+      const shown = collapsed ? ordered.slice(0, EPISODES_SHOWN) : ordered;
+      shown.forEach(function(e, i){
+        const li = el("li", {class:i === 0 ? "last" : ""});
+        li.appendChild(el("button", {type:"button", onclick:function(){ jumpTo(e.date, e.news.id); }}, [
+          el("span", {class:"when", text:fmtShort(e.date)}),
+          el("span", {class:"what", text:e.news.title})
+        ]));
+        ul.appendChild(li);
+      });
+    }
+    paint();
+    card.appendChild(ul);
+
+    /* i numeri del filo: la stessa metrica letta in puntate diverse */
+    const seen = {}, threadFacts = [];
+    t.episodes.forEach(function(e){
+      (e.news.facts || []).forEach(function(f){
+        if(f && f.key && !seen[f.key]){ seen[f.key] = 1; threadFacts.push(f); }
+      });
+    });
+    const tn = numbersNode(threadFacts, "I numeri di questo filo");
+    if(tn) card.appendChild(tn);
+    if(ordered.length > EPISODES_SHOWN){
+      const more = el("button", {class:"expand", type:"button"});
+      const label = function(){
+        more.textContent = collapsed
+          ? "↓ le altre " + (ordered.length - EPISODES_SHOWN) + " puntate"
+          : "↑ mostra solo le ultime " + EPISODES_SHOWN;
+      };
+      more.addEventListener("click", function(){ collapsed = !collapsed; paint(); label(); });
+      label();
+      card.appendChild(more);
+    }
+    col.appendChild(card);
+  });
+
+  root.appendChild(col);
+}
+
+/* ================= navigazione ================= */
+const views = ["oggi","fili","archivio","salvati","diario","cerca"];
+let currentView = "oggi";
+
+function show(name){
+  currentView = name;
+  views.forEach(function(v){ document.getElementById("view-" + v).hidden = (v !== name); });
+  Array.prototype.forEach.call(document.querySelectorAll(".tab"), function(t){
+    const on = t.dataset.view === name;
+    t.setAttribute("aria-current", on ? "true" : "false");
+    /* con sei schede la barra sul telefono non ci sta: la scheda attiva si
+       porta sempre dentro la finestra, cosi' non resta mezza tagliata */
+    if(on && t.scrollIntoView) t.scrollIntoView({block:"nearest", inline:"nearest"});
+  });
+  tabsOverflow();
+  if(name === "fili") renderThreads();
+  if(name === "archivio") renderArchive();
+  if(name === "salvati") renderStarred();
+  if(name === "diario") renderDiary();
+  if(name === "cerca"){ renderSearch(); const i = document.querySelector("#view-cerca input"); if(i) i.focus(); }
+}
+function repaint(){
+  if(currentView === "oggi") renderEdition();
+  else if(currentView === "fili") renderThreads();
+  else if(currentView === "archivio") renderArchive();
+  else if(currentView === "salvati") renderStarred();
+  else if(currentView === "diario") renderDiary();
+  refreshCounts();
+}
+Array.prototype.forEach.call(document.querySelectorAll(".tab"), function(t){
+  t.addEventListener("click", function(){ show(t.dataset.view); window.scrollTo({top:0, behavior:"smooth"}); });
+});
+
+/* Sfumatura sul bordo della barra quando ci sono schede oltre il margine:
+   dice che si scorre senza aggiungere frecce o altro arredo. */
+function tabsOverflow(){
+  const nav = document.querySelector("nav.tabs");
+  if(!nav) return;
+  const max = nav.scrollWidth - nav.clientWidth;
+  nav.classList.toggle("more-right", max - nav.scrollLeft > 4);
+  nav.classList.toggle("more-left", nav.scrollLeft > 4);
+}
+(function(){
+  const nav = document.querySelector("nav.tabs");
+  if(!nav) return;
+  nav.addEventListener("scroll", tabsOverflow, {passive:true});
+  window.addEventListener("resize", tabsOverflow);
+  tabsOverflow();
+})();
+
+function refreshCounts(){
+  document.getElementById("cArch").textContent = BRIEFS.length;
+  /* la scheda dei fili compare solo quando c'e' almeno una storia con seguito */
+  const nFili = threadList().length;
+  document.getElementById("cFili").textContent = nFili || "";
+  const tabFili = document.querySelector('.tab[data-view="fili"]');
+  if(tabFili) tabFili.hidden = !nFili;
+  const stars = Object.keys(S.marks).filter(function(k){ return S.marks[k].starred_at; }).length;
+  document.getElementById("cStar").textContent = stars || "";
+  document.getElementById("cDiary").textContent = liveDiary().length || "";
+}
+
+/* ================= tema ================= */
+document.getElementById("themeBtn").addEventListener("click", function(){
+  const r = document.documentElement;
+  const dark = r.getAttribute("data-theme") === "dark" ||
+    (!r.getAttribute("data-theme") && window.matchMedia("(prefers-color-scheme:dark)").matches);
+  r.setAttribute("data-theme", dark ? "light" : "dark");
+  try{ localStorage.setItem("tmb-theme", dark ? "light" : "dark"); }catch(e){}
+  dotfield(document.getElementById("dotfield"));
+});
+try{
+  const saved = localStorage.getItem("tmb-theme");
+  if(saved) document.documentElement.setAttribute("data-theme", saved);
+}catch(e){}
+
+/* ================= esporta / importa ================= */
+document.getElementById("exportBtn").addEventListener("click", async function(){
+  const payload = JSON.stringify({app:"the-morning-brief", version:2, exported:new Date().toISOString(), data:S}, null, 1);
+  const name = "morning-brief-appunti-" + localDay(new Date()) + ".json";
+  try{
+    if(window.claude && window.claude.downloads && window.claude.downloads.save){
+      await window.claude.downloads.save({filename:name, data:payload});
+      toast("Copia salvata"); return;
+    }
+  }catch(err){ toast("Salvataggio annullato"); return; }
+  const blob = new Blob([payload], {type:"application/json"});
+  const a = el("a", {href:URL.createObjectURL(blob), download:name});
+  document.body.appendChild(a); a.click(); a.remove();
+  toast("Copia scaricata");
+});
+document.getElementById("importBtn").addEventListener("click", function(){
+  document.getElementById("fileInput").click();
+});
+document.getElementById("fileInput").addEventListener("change", function(ev){
+  const f = ev.target.files && ev.target.files[0];
+  if(!f) return;
+  const fr = new FileReader();
+  fr.onload = function(){
+    try{
+      const parsed = JSON.parse(fr.result);
+      const d = parsed.data || parsed;
+      const now = new Date().toISOString();
+      /* versione 1: stars/notes/links/read separati */
+      if(d.stars || d.notes || d.links || d.read){
+        const keys = {};
+        ["stars","notes","links","read"].forEach(function(fl){
+          Object.keys(d[fl] || {}).forEach(function(k){ keys[k] = 1; });
+        });
+        Object.keys(keys).forEach(function(k){
+          const m = mark(k);
+          if(d.stars && d.stars[k] && !m.starred_at) m.starred_at = new Date(d.stars[k]).toISOString();
+          if(d.read && d.read[k] && !m.read_at) m.read_at = new Date(d.read[k]).toISOString();
+          if(d.notes && d.notes[k] && !m.note) m.note = d.notes[k];
+          if(d.links && d.links[k] && !(m.links || []).length) m.links = d.links[k];
+          m.updated_at = now; m.dirty = true;
+        });
+      }
+      /* versione 2: marks già nella forma giusta */
+      Object.keys(d.marks || {}).forEach(function(k){
+        const inc = d.marks[k], cur = S.marks[k];
+        if(!cur || (inc.updated_at || "") > (cur.updated_at || "")){
+          S.marks[k] = Object.assign({}, inc, {updated_at:now, dirty:true});
+        }
+      });
+      (d.diary || []).forEach(function(e){
+        if(!e || !e.id) return;
+        if(!S.diary.some(function(x){ return x.id === e.id; })){
+          S.diary.push(Object.assign({deleted_at:null}, e, {updated_at:now, dirty:true}));
+        }
+      });
+      S.diary.sort(function(a,b){ return b.ts - a.ts; });
+      saveNow(); queueSync(); repaint(); show("oggi");
+      toast("Appunti importati");
+    }catch(e){
+      toast("File non leggibile: serve un export di questa app");
+    }
+  };
+  fr.readAsText(f);
+  ev.target.value = "";
+});
+
+/* ================= avvio ================= */
+function boot(){
+  document.getElementById("gate").hidden = true;
+  document.getElementById("masthead").hidden = false;
+  document.getElementById("main").hidden = false;
+  document.getElementById("colophon").hidden = false;
+  if(!NOTES){
+    ["salvati","diario"].forEach(function(v){
+      const t = document.querySelector('.tab[data-view="' + v + '"]');
+      if(t) t.hidden = true;
+    });
+    ["exportBtn","importBtn"].forEach(function(id){
+      const n = document.getElementById(id);
+      if(n) n.hidden = true;
+    });
+  }
+  if(!CLOUD){
+    ["syncPip","outBtn"].forEach(function(id){
+      const n = document.getElementById(id);
+      if(n) n.hidden = true;
+    });
+  }
+  indexAll();
+  if(!currentDate && BRIEFS[0]) currentDate = BRIEFS[0].date;
+  refreshCounts();
+  renderEdition();
+  show("oggi");
+  if(CLOUD){
+    loadBriefs();
+    sync();
+    setInterval(function(){ if(!document.hidden) sync(); }, 90000);
+    document.addEventListener("visibilitychange", function(){ if(!document.hidden) sync(); });
+    window.addEventListener("online", sync);
+    window.addEventListener("offline", function(){ pip("offline", "Offline — gli appunti restano sul dispositivo"); });
+  }
+}
+
+function openGate(msg){
+  const g = document.getElementById("gate");
+  g.hidden = false;
+  document.getElementById("masthead").hidden = true;
+  document.getElementById("main").hidden = true;
+  document.getElementById("colophon").hidden = true;
+  if(msg) document.getElementById("gateErr").textContent = msg;
+  dotfield(document.getElementById("gatefield"));
+}
+
+document.getElementById("gateForm").addEventListener("submit", async function(ev){
+  ev.preventDefault();
+  const btn = document.getElementById("gateBtn");
+  const err = document.getElementById("gateErr");
+  err.textContent = ""; btn.disabled = true; btn.textContent = "Un attimo…";
+  try{
+    await login(document.getElementById("gateEmail").value.trim(), document.getElementById("gatePass").value);
+    boot();
+  }catch(e){
+    err.textContent = /invalid/i.test(e.message) ? "Email o password non corrette." : e.message;
+  }finally{
+    btn.disabled = false; btn.textContent = "Entra";
+  }
+});
+document.getElementById("outBtn").addEventListener("click", function(){
+  clearAuth();
+  localStorage.removeItem(K_BRIEFS);
+  location.reload();
+});
+
+if(CLOUD && !(AUTH && AUTH.refresh_token)) openGate();
+else boot();
+})();
+</script>
