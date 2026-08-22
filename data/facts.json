@@ -23,6 +23,12 @@
   "note": "Telefoni sopra i 600$ all'ingrosso, rilevazione Counterpoint. Era il 74% nel 2022.",
   "opened": null
  },
+ "apple-tasse-irlanda": {
+  "label": "Tasse Apple pagate all'Irlanda, annue",
+  "unit": "miliardi USD",
+  "note": "Include le tasse arretrate della disputa UE conclusa nel 2024; nuove disclosure imposte dalle regole UE per le grandi aziende.",
+  "opened": "2026-08-22"
+ },
  "appstore-linkout-commissione": {
   "label": "Commissione Apple sui link esterni al App Store",
   "unit": "%",
@@ -58,6 +64,12 @@
   "unit": "mAh",
   "note": "Modello americano senza carrellino SIM. L'iPhone 17 Pro equivalente e' 4.252 mAh.",
   "opened": "2026-08-11"
+ },
+ "iphone18-pro-camera-plateau-spessore": {
+  "label": "Aumento spessore plateau fotocamera, iPhone 18 Pro",
+  "unit": "mm",
+  "note": "Stima di un leaker Weibo sull'aumento dello spessore del pannello posteriore per il modulo fotocamera principale ingrandito.",
+  "opened": "2026-08-22"
  },
  "iphone18-pro-prezzo": {
   "label": "Prezzo di partenza, iPhone 18 Pro",

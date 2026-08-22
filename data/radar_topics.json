@@ -4,8 +4,8 @@
   "since": "2026-08-12",
   "up": 3,
   "down": 0,
-  "seen": 12,
-  "last": "2026-08-20",
+  "seen": 13,
+  "last": "2026-08-21",
   "axis": "ai"
  },
  "ai-regole": {
@@ -13,8 +13,8 @@
   "since": "2026-08-12",
   "up": 3,
   "down": 0,
-  "seen": 12,
-  "last": "2026-08-20",
+  "seen": 13,
+  "last": "2026-08-21",
   "axis": "ai"
  },
  "anthropic": {
@@ -22,8 +22,8 @@
   "since": "2026-08-12",
   "up": 1,
   "down": 0,
-  "seen": 3,
-  "last": "2026-08-16",
+  "seen": 4,
+  "last": "2026-08-21",
   "axis": "ai"
  },
  "apple-contorno": {
@@ -31,8 +31,8 @@
   "since": "2026-08-09",
   "up": 1,
   "down": 0,
-  "seen": 4,
-  "last": "2026-08-16"
+  "seen": 5,
+  "last": "2026-08-21"
  },
  "auto-elettriche": {
   "state": "in pausa",
@@ -93,8 +93,8 @@
   "since": "2026-08-09",
   "up": 1,
   "down": 0,
-  "seen": 5,
-  "last": "2026-08-20"
+  "seen": 6,
+  "last": "2026-08-21"
  },
  "modelli-ai": {
   "state": "in pausa",
@@ -143,12 +143,13 @@
   "last": "2026-08-12"
  },
  "regolamentazione-tech": {
-  "state": "in prova",
-  "since": "2026-08-15",
+  "state": "in pausa",
+  "since": "2026-08-22",
   "up": 0,
   "down": 0,
-  "seen": 2,
-  "last": "2026-08-18"
+  "seen": 3,
+  "last": "2026-08-21",
+  "paused_until": "2026-10-03"
  },
  "robotica": {
   "state": "in pausa",

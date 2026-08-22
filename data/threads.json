@@ -82,5 +82,11 @@
   "closed": null,
   "label": "Apple e l'udito",
   "note": "Apparecchi acustici compatibili, funzioni sanitarie delle cuffie, il percorso che ha reso gli AirPods un dispositivo medico."
+ },
+ "vision-pro-ridimensionamento": {
+  "label": "Il ridimensionamento di Vision Pro",
+  "note": "Dallo scioglimento del team VR ai tagli su Siri: come Apple sposta risorse da Vision Pro verso occhiali AI e Siri AI.",
+  "opened": "2026-08-22",
+  "closed": null
  }
 }
