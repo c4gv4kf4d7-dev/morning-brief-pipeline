@@ -47,6 +47,12 @@
   "note": "La forchetta di stima parte da qui e arriva a 2.499.",
   "opened": null
  },
+ "iphone-spedizioni-2026": {
+  "label": "Spedizioni iPhone, variazione 2026",
+  "unit": "%",
+  "note": "Stima Counterpoint Research; il mercato globale smartphone e' atteso in calo del 14,3%.",
+  "opened": "2026-08-23"
+ },
  "iphone17-pro-prezzo": {
   "label": "Prezzo di partenza, iPhone 17 Pro",
   "unit": "USD",
@@ -95,10 +101,34 @@
   "note": "Le stime degli analisti sono in disaccordo: Pu e Nystedt dicono 12, Kuo dice 9.",
   "opened": "2026-08-14"
  },
+ "macbookpro14-touch-prezzo": {
+  "label": "Prezzo stimato, MacBook Pro 14\" touch",
+  "unit": "USD",
+  "note": "Prima stima editoriale (9to5Mac) per il redesign con schermo touch atteso a ottobre 2026.",
+  "opened": "2026-08-23"
+ },
+ "macbookpro16-touch-prezzo": {
+  "label": "Prezzo stimato, MacBook Pro 16\" touch",
+  "unit": "USD",
+  "note": "Prima stima editoriale (9to5Mac) per il redesign con schermo touch atteso a ottobre 2026.",
+  "opened": "2026-08-23"
+ },
  "mercato-pc-spedizioni": {
   "label": "Spedizioni PC, variazione annua",
   "unit": "%",
   "note": "Dati IDC sul trimestre. Apple e' l'unica grande in crescita.",
   "opened": null
+ },
+ "mercato-smartphone-spedizioni-2026": {
+  "label": "Spedizioni globali smartphone, variazione 2026",
+  "unit": "%",
+  "note": "Stima Counterpoint Research, caro-componenti (memorie e chipset).",
+  "opened": "2026-08-23"
+ },
+ "samsung-spedizioni-2026": {
+  "label": "Spedizioni Samsung, variazione 2026",
+  "unit": "%",
+  "note": "Stima Counterpoint Research; Samsung tornerebbe primo produttore mondiale.",
+  "opened": "2026-08-23"
  }
 }
