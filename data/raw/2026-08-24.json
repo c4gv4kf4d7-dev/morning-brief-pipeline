@@ -1,0 +1,1462 @@
+{
+ "fetched_at": "2026-08-24T05:04:00.894934+00:00",
+ "window_hours": 26.0,
+ "feed_status": {
+  "9to5Mac": {
+   "state": "ok",
+   "items": 5,
+   "newest": "2026-08-24T02:54:40+00:00",
+   "stale_hours": 2.2
+  },
+  "Andrea Galeazzi": {
+   "state": "ok",
+   "items": 1,
+   "newest": "2026-08-23T08:30:01+00:00",
+   "stale_hours": 20.6
+  },
+  "Android Authority": {
+   "state": "ok",
+   "items": 7,
+   "newest": "2026-08-24T03:24:53+00:00",
+   "stale_hours": 1.7
+  },
+  "Apple Developer": {
+   "state": "ok",
+   "items": 0,
+   "newest": "2026-08-18T08:00:38-07:00",
+   "stale_hours": 134.1
+  },
+  "Apple Newsroom": {
+   "state": "ok",
+   "items": 0,
+   "newest": "2026-08-18T15:59:46.948000+00:00",
+   "stale_hours": 133.1
+  },
+  "Ars Technica": {
+   "state": "ok",
+   "items": 2,
+   "newest": "2026-08-23T14:30:16+00:00",
+   "stale_hours": 14.6
+  },
+  "Ars Technica AI": {
+   "state": "ok",
+   "items": 0,
+   "newest": "2026-08-21T11:00:53+00:00",
+   "stale_hours": 66.1
+  },
+  "BGR": {
+   "state": "ok",
+   "items": 20,
+   "newest": "2026-08-24T03:47:00+00:00",
+   "stale_hours": 1.3
+  },
+  "DDay.it": {
+   "state": "ok",
+   "items": 0,
+   "newest": "2026-08-22T15:44:00+02:00",
+   "stale_hours": 39.3
+  },
+  "GSMArena": {
+   "state": "ok",
+   "items": 3,
+   "newest": "2026-08-23T15:02:02+02:00",
+   "stale_hours": 16.0
+  },
+  "Google DeepMind": {
+   "state": "ok",
+   "items": 0,
+   "newest": "2026-08-21T11:59:48+00:00",
+   "stale_hours": 65.1
+  },
+  "HDblog": {
+   "state": "ok",
+   "items": 20,
+   "newest": "2026-08-23T20:10:00+02:00",
+   "stale_hours": 10.9
+  },
+  "MIT Technology Review AI": {
+   "state": "ok",
+   "items": 0,
+   "newest": "2026-08-20T15:42:39+00:00",
+   "stale_hours": 85.4
+  },
+  "MKBHD": {
+   "state": "ok",
+   "items": 0,
+   "newest": "2026-08-21T18:53:07+00:00",
+   "stale_hours": 58.2
+  },
+  "MacRumors": {
+   "state": "ok",
+   "items": 4,
+   "newest": "2026-08-23T12:20:20-07:00",
+   "stale_hours": 9.7
+  },
+  "Macitynet": {
+   "state": "ok",
+   "items": 11,
+   "newest": "2026-08-23T17:32:37+00:00",
+   "stale_hours": 11.5
+  },
+  "OpenAI": {
+   "state": "ok",
+   "items": 0,
+   "newest": "2026-08-20T07:00:00+00:00",
+   "stale_hours": 94.1
+  },
+  "TechCrunch": {
+   "state": "ok",
+   "items": 6,
+   "newest": "2026-08-23T20:01:36+00:00",
+   "stale_hours": 9.0
+  },
+  "TechCrunch AI": {
+   "state": "ok",
+   "items": 4,
+   "newest": "2026-08-23T20:01:36+00:00",
+   "stale_hours": 9.0
+  },
+  "The Decoder": {
+   "state": "ok",
+   "items": 5,
+   "newest": "2026-08-23T12:31:59+00:00",
+   "stale_hours": 16.5
+  },
+  "The Verge": {
+   "state": "ok",
+   "items": 3,
+   "newest": "2026-08-23T15:14:37-04:00",
+   "stale_hours": 9.8
+  },
+  "Tom's Hardware IT": {
+   "state": "ok",
+   "items": 12,
+   "newest": "2026-08-24T02:57:00+02:00",
+   "stale_hours": 4.1
+  },
+  "iSpazio": {
+   "state": "ok",
+   "items": 2,
+   "newest": "2026-08-23T17:05:03+00:00",
+   "stale_hours": 12.0
+  }
+ },
+ "count": 101,
+ "items": [
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "What Can Happen If You Never Restart Your Router?",
+   "link": "https://www.bgr.com/2239564/what-happens-never-restart-router/",
+   "date": "2026-08-24T03:47:00+00:00",
+   "age_hours": 1.3,
+   "summary": "Turning electronics off and back on again to fix problems may be a cliche, but it turns out you absolutely should be regularly restarting your router.",
+   "categories": [
+    "Technology"
+   ]
+  },
+  {
+   "source": "Android Authority",
+   "tier": "banco",
+   "title": "Another major Android phone maker caves to soaring RAM costs with price hikes",
+   "link": "https://www.androidauthority.com/xiaomi-smartphones-price-hike-3701917/",
+   "date": "2026-08-24T03:24:53+00:00",
+   "age_hours": 1.7,
+   "summary": "Xiaomi says it can no longer manintain competitive prices for some of its models thanks to the memory crunch.",
+   "categories": [
+    "News",
+    "Xiaomi"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "How To Connect Android Auto Via Bluetooth",
+   "link": "https://www.bgr.com/2239898/how-to-connect-android-auto-via-bluetooth/",
+   "date": "2026-08-24T03:17:00+00:00",
+   "age_hours": 1.8,
+   "summary": "Android Auto can be incredibly convenient during a long commute, and even more convenient if you can connect your phone via Bluetooth.",
+   "categories": [
+    "Apps & Software",
+    "Android"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "tier": "redazionale",
+   "title": "Migliori impastatrici planetarie (agosto 2026)",
+   "link": "https://www.tomshw.it/offerte/migliori-impastatrici-planetarie",
+   "date": "2026-08-24T02:57:00+02:00",
+   "age_hours": 4.1,
+   "summary": "Kenwood Chef XL KVL4100S è la migliore impastatrice planetaria della selezione per struttura in metallo, ciotola da 6,7 litri e oltre 25 accessori opzionali. La solidità, la capacità effettiva con gli...",
+   "categories": []
+  },
+  {
+   "source": "9to5Mac",
+   "tier": "redazionale",
+   "title": "These are the best MacBook deals right now: August 2026 Buyer’s Guide",
+   "link": "https://9to5mac.com/2026/08/23/best-apple-macbook-deals-right-now-august/",
+   "date": "2026-08-24T02:54:40+00:00",
+   "age_hours": 2.2,
+   "summary": "In recent years, Macs had been getting more and more affordable. Cheaper starting points, more memory and storage per dollar, and the introduction of MacBook Neo. For the first time, Apple had started to become one of the best values on the market. Unfortunately, Apple just drastically increased its prices because of the ongoing memory shortage. Macs aren’t as appealing as they were a few weeks ago, that said, there’s still some decent deals out there – and if you’re in need of a new computer, I’d still say todays Macs are a good value against the rest of the computing market.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "How Do Screen Protectors Actually Work?",
+   "link": "https://www.bgr.com/2239956/how-screen-protector-works-explained/",
+   "date": "2026-08-24T02:17:00+00:00",
+   "age_hours": 2.8,
+   "summary": "Many people use screen protectors to keep their mobile phones safe and in good working order. But how do they work to prevent damage and scratching?",
+   "categories": [
+    "Mobile"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "How Far Away Can You Hear AI Data Centers?",
+   "link": "https://www.bgr.com/2239786/how-far-away-can-you-hear-ai-data-center-noise/",
+   "date": "2026-08-24T01:47:00+00:00",
+   "age_hours": 3.3,
+   "summary": "The unpleasant noise caused by the massive AI data centers being built around the U.S. has become a hot topic, but how far does it actually travel?",
+   "categories": [
+    "Artificial Intelligence"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "4 Disadvantages Of Using Bluetooth For Everything",
+   "link": "https://www.bgr.com/2239780/disadvantages-using-bluetooth-for-everything/",
+   "date": "2026-08-24T01:17:00+00:00",
+   "age_hours": 3.8,
+   "summary": "Bluetooth has often been touted as the future of wireless connectivity, but is it really that great? Here are the downsides of using Bluetooth everywhere.",
+   "categories": [
+    "Technology"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "Who Owns Dell?",
+   "link": "https://www.bgr.com/2239833/who-owns-dell-explained/",
+   "date": "2026-08-24T00:47:00+00:00",
+   "age_hours": 4.3,
+   "summary": "Dell started out as a budget alternative to IBM's computers and evolved into one of the world's biggest names in the PC market. Here's who really owns it today.",
+   "categories": [
+    "Computers"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "What Is Chuwi, The Laptop Brand Challenging Apple?",
+   "link": "https://www.bgr.com/2239789/what-is-chuwi-laptop-brand-challenging-apple/",
+   "date": "2026-08-24T00:17:00+00:00",
+   "age_hours": 4.8,
+   "summary": "You may not know Chuwi, but the laptop brand aims to challenge Apple. Here's what you should know about Chuwi to help you decide if its products are for you.",
+   "categories": [
+    "Computers"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "You Can Report Hazards On Apple Maps Without Touching Your Phone, Here's How",
+   "link": "https://www.bgr.com/2239781/how-to-report-hazards-apple-maps-siri/",
+   "date": "2026-08-23T23:47:00+00:00",
+   "age_hours": 5.3,
+   "summary": "Apple Maps includes several ways to report road incidents, including a hands-free option that can help you keep your attention focused on driving.",
+   "categories": [
+    "Apps & Software"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "5 Essential Apps For Your New TCL TV",
+   "link": "https://www.bgr.com/2236906/essential-tcl-tv-apps-should-install/",
+   "date": "2026-08-23T23:17:00+00:00",
+   "age_hours": 5.8,
+   "summary": "If you've just unwrapped your new TCL TV and are looking for some useful apps to make the most of it, here are our recommendations for the best ones.",
+   "categories": [
+    "Apps & Software",
+    "Home Entertainment"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "Should Your Router's Universal Plug And Play (UPnP) Be On Or Off?",
+   "link": "https://www.bgr.com/2239861/should-router-upnp-be-on-or-off/",
+   "date": "2026-08-23T22:47:00+00:00",
+   "age_hours": 6.3,
+   "summary": "Most consumer routers offer a helpful setting called Universal Plug And Play (UpnP), but what exactly does it do, and is it safe to use on your network?",
+   "categories": [
+    "Technology"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "Do All USB-C Ports Support Video?",
+   "link": "https://www.bgr.com/2239690/do-all-usb-c-ports-support-video/",
+   "date": "2026-08-23T22:17:00+00:00",
+   "age_hours": 6.8,
+   "summary": "Unlike its cousin, USB-A, USB-C supports video output. But does that really apply to every little USB-C port out there? How can you tell? Read on to find out.",
+   "categories": [
+    "Accessories"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "If Your Car's 12V Port Is Charging Your Devices Slowly, This Might Be Why",
+   "link": "https://www.bgr.com/2239644/how-to-fix-car-12v-charging-port-slow/",
+   "date": "2026-08-23T21:47:00+00:00",
+   "age_hours": 7.3,
+   "summary": "Slow device charging got you down? Don't blame your car! Here's why devices might not be charging as fast as it could be from the car's 12V power outlet.",
+   "categories": [
+    "Accessories"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "Why Are ASUS Vivobook Laptops So Much Cheaper Than Zenbooks?",
+   "link": "https://www.bgr.com/2239597/why-asus-vivobook-laptops-are-cheaper-than-zenbooks/",
+   "date": "2026-08-23T21:17:00+00:00",
+   "age_hours": 7.8,
+   "summary": "Most ASUS laptop buyers gravitate toward one of two main offerings from the company: the Vivobook and the Zenbook. Here's why the Vivobook is so much cheaper.",
+   "categories": [
+    "Computers"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "5 Of The Best Android Phone Apps For Home Improvement Projects",
+   "link": "https://www.bgr.com/2239128/best-android-phone-apps-home-improvement-projects/",
+   "date": "2026-08-23T20:47:00+00:00",
+   "age_hours": 8.3,
+   "summary": "While no app can replace a well-made tool, these Android apps can definitely help when you're in a tough spot during your next home improvement project.",
+   "categories": [
+    "Apps & Software",
+    "Android"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "tier": "redazionale",
+   "title": "POCO C81 Pro al 45% tiene fino a 2,37 giorni, a soli 109,90€",
+   "link": "https://www.tomshw.it/offerte/poco-c81-pro-al-45-tiene-fino-a-237-giorni-a-soli-10990eur",
+   "date": "2026-08-23T20:33:19+02:00",
+   "age_hours": 10.5,
+   "summary": "POCO C81 Pro costa 109,90€ su Amazon, con uno sconto del 45% sul listino di 199,90€. È il minimo storico per uno smartphone con batteria da 6000 mAh, schermo a 120 Hz e 128GB di archiviazione. POCO C...",
+   "categories": []
+  },
+  {
+   "source": "9to5Mac",
+   "tier": "redazionale",
+   "title": "Hands-on: Mophie’s new battery banks offer pocketable power, built-in cables at low price",
+   "link": "https://9to5mac.com/2026/08/23/mophie-new-pocketable-battery-banks-for-iphone/",
+   "date": "2026-08-23T20:27:08+00:00",
+   "age_hours": 8.6,
+   "summary": "Recently, Mophie debuted four new power banks for the iPhone. They slide nicely into your pocket, come in two finishes, offer built-in cables, and pack 5000mAh or 10000mAh of capacity. They’re by no means the smallest battery banks on the market, though they hit a price point that makes them worthwhile.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "Before Star Wars, John Boyega Fought Aliens In This Cult Sci-Fi Movie",
+   "link": "https://www.bgr.com/2241402/star-wars-john-boyega-aliens-sci-fi-cult-classic-attack-the-block/",
+   "date": "2026-08-23T20:17:00+00:00",
+   "age_hours": 8.8,
+   "summary": "While John Boyega rose to fame with \"Star Wars,\" it wasn't his first time fighting aliens. He previously starred in this underrated British sci-fi movie.",
+   "categories": [
+    "Movies"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "iPhone 18 Pro costerà di più, i rumor insistono: ecco quanto",
+   "link": "https://www.hdblog.it/smartphone/articoli/n668112/apple-iphone-18-pro-prezzo-aumento-ram-memorie/",
+   "date": "2026-08-23T20:10:00+02:00",
+   "age_hours": 10.9,
+   "summary": "Mark Gurman di Bloomberg ci dà un suggerimento.",
+   "categories": [
+    "Apple"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "10 Reliable Instant Photo Printers Worth Buying In 2026",
+   "link": "https://www.bgr.com/2241382/reliable-instant-photo-printers-worth-buying-2026/",
+   "date": "2026-08-23T20:02:00+00:00",
+   "age_hours": 9.0,
+   "summary": "Print your favorite photos anywhere with these reliable instant photo printers, featuring models from Canon, Fujifilm, Polaroid, Kodak, and more.",
+   "categories": [
+    "Technology"
+   ]
+  },
+  {
+   "source": "TechCrunch AI",
+   "tier": "ai",
+   "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
+   "link": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+   "date": "2026-08-23T20:01:36+00:00",
+   "age_hours": 9.0,
+   "summary": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.",
+   "categories": [
+    "AI",
+    "openrouter"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "3 Of The Most Powerful Gaming Smartphones On The Market In 2026",
+   "link": "https://www.bgr.com/2239911/most-powerful-gaming-smartphones-2026/",
+   "date": "2026-08-23T19:47:00+00:00",
+   "age_hours": 9.3,
+   "summary": "If you're a smartphone gamer and are looking for a phone that can play anything you throw at it, here are some of the most powerful gaming phones you can buy.",
+   "categories": [
+    "Mobile",
+    "Guides"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "tier": "redazionale",
+   "title": "Philips Hue Play Gradient al 50%, l’affare che sincronizza luci e TV",
+   "link": "https://www.tomshw.it/offerte/philips-hue-play-gradient-al-50-laffare-che-sincronizza-luci-e-tv",
+   "date": "2026-08-23T19:34:12+02:00",
+   "age_hours": 11.5,
+   "summary": "Philips Hue Play Gradient Lightstrip 65” costa 109,99€ su Amazon, con il 50% di sconto sul listino di 219,99€ e 110€ lasciati in tasca. La striscia porta i colori di film e videogiochi sulla parete di...",
+   "categories": []
+  },
+  {
+   "source": "TechCrunch",
+   "tier": "larga",
+   "title": "Uber faces fine of nearly $1B over automated driver suspensions",
+   "link": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
+   "date": "2026-08-23T19:30:00+00:00",
+   "age_hours": 9.6,
+   "summary": "The Dutch Data Protection Authority is fining Uber €825 million in the second largest penalty issued under Europe’s GDPR.",
+   "categories": [
+    "Apps",
+    "Government & Policy",
+    "TC",
+    "Transportation",
+    "Uber"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "5 Car Speaker Upgrades With Superb Audio Quality",
+   "link": "https://www.bgr.com/2239530/car-speaker-upgrades-best-audio-quality/",
+   "date": "2026-08-23T19:17:00+00:00",
+   "age_hours": 9.8,
+   "summary": "From clearer vocals to deeper bass, these speaker upgrades can give your car's audio system a serious boost and make every drive sound better.",
+   "categories": [
+    "Cars",
+    "Audio"
+   ]
+  },
+  {
+   "source": "TechCrunch AI",
+   "tier": "ai",
+   "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+   "link": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+   "date": "2026-08-23T19:14:08+00:00",
+   "age_hours": 9.8,
+   "summary": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
+   "categories": [
+    "AI",
+    "Apps",
+    "Gadgets",
+    "Hardware",
+    "smart calendar"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "tier": "redazionale",
+   "title": "43,55€ in meno sul Corsair RM850e, da prendere al volo per il PC gaming",
+   "link": "https://www.tomshw.it/offerte/4355eur-in-meno-sul-corsair-rm850e-da-prendere-al-volo-per-il-pc-gaming",
+   "date": "2026-08-23T19:03:21+02:00",
+   "age_hours": 12.0,
+   "summary": "Il Corsair RM850e (2025) costa 96,35€ su Amazon, con uno sconto del 31% sul listino di 139,90€ e un risparmio di 43,55€. Cablaggio completamente modulare, standard ATX 3.1 e supporto PCIe 5.1 lo prepa...",
+   "categories": []
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "tier": "redazionale",
+   "title": "Xiaomi TV S 65″ mette il Mini LED a 699€, minimo storico per film e console",
+   "link": "https://www.tomshw.it/offerte/xiaomi-tv-s-65-mette-il-mini-led-a-699eur-minimo-storico-per-film-e-console",
+   "date": "2026-08-23T18:34:50+02:00",
+   "age_hours": 12.5,
+   "summary": "La Xiaomi TV S Mini LED da 65 pollici costa 699€ su Amazon, il minimo storico, contro un prezzo di listino di 749€ e con uno sconto del 7%. Il pannello QD-Mini LED, Google TV e la modalità Game Boost...",
+   "categories": []
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "tier": "redazionale",
+   "title": "Cifra folle per la RTX Pro 6000 Blackwell autografata",
+   "link": "https://www.tomshw.it/hardware/nvidia-rtx-pro-6000-blackwell-workstation-edition-firmata-57-450-dollari",
+   "date": "2026-08-23T18:30:35+02:00",
+   "age_hours": 12.6,
+   "summary": "Non è bastata una firma a rendere speciale questa NVIDIA RTX Pro 6000 Blackwell Workstation Edition. Jensen Huang ha autografato sia la GPU sia la confezione originale, contribuendo a trasformare un c...",
+   "categories": []
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "AppleCare Vs. Carrier Insurance: Which iPhone Protection Plan Has Better Value?",
+   "link": "https://www.bgr.com/2239423/applecare-vs-insurance-differences-explained/",
+   "date": "2026-08-23T18:17:00+00:00",
+   "age_hours": 10.8,
+   "summary": "Insurance on an iPhone can be a good investment, as repairs can cost hundreds of dollars. But what's the better option, AppleCare or insurance via your carrier?",
+   "categories": [
+    "iPhone"
+   ]
+  },
+  {
+   "source": "BGR",
+   "tier": "redazionale",
+   "title": "The 7 Best Robot Lawn Mowers That Can Trim Over An Acre Daily",
+   "link": "https://www.bgr.com/2240591/best-robot-lawn-mowers-for-1-acre/",
+   "date": "2026-08-23T18:02:00+00:00",
+   "age_hours": 11.0,
+   "summary": "We've gathered seven of the best robot lawn mowers that can trim over an acre daily, with other helpful features that make them worth buying too.",
+   "categories": [
+    "Accessories",
+    "Tools"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "HONOR 600 Pro in sconto su Amazon: ora è un vero flagship killer",
+   "link": "https://www.hdblog.it/smartphone/offerte/n668111/honor-600-pro-offerta-amazon-agosto2026/",
+   "date": "2026-08-23T18:00:00+02:00",
+   "age_hours": 13.1,
+   "summary": "HONOR 600 Pro è in offerta su Amazon e diventa un vero e proprio flagship killer con un rapporto qualità/prezzo ottimo.",
+   "categories": [
+    "Smartphone",
+    "Amazon"
+   ]
+  },
+  {
+   "source": "Macitynet",
+   "tier": "redazionale",
+   "title": "Il pieghevole Apple nelle mani dei tester: cosa piace e cosa no",
+   "link": "https://www.macitynet.it/il-pieghevole-apple-nelle-mani-dei-tester-cosa-piace-e-cosa-no/",
+   "date": "2026-08-23T17:32:37+00:00",
+   "age_hours": 11.5,
+   "summary": "Il primo iPhone pieghevole è già nelle mani di alcuni tester. Le impressioni raccolte da Mark Gurman sono positive soprattutto per formato, cerniera, solidità e software. Ma ci sono anche dubbi. - su macitynet.it Il pieghevole Apple nelle mani dei tester: cosa piace e cosa no",
+   "categories": [
+    "Futuroscopio",
+    "iPhone"
+   ]
+  },
+  {
+   "source": "iSpazio",
+   "tier": "redazionale",
+   "title": "Pixel 11 Pro Fold contro iPhone Ultra: com’è fatto il pieghevole di Google e cosa sappiamo del primo iPhone pieghevole",
+   "link": "https://www.ispazio.net/2261464/pixel-11-pro-fold-vs-iphone-ultra-pieghevole",
+   "date": "2026-08-23T17:05:03+00:00",
+   "age_hours": 12.0,
+   "summary": "Pixel 11 Pro Fold contro iPhone Ultra: com’è fatto il pieghevole di Google e cosa sappiamo del primo iPhone pieghevole Google ha completato la nuova gamma Pixel 11 ed il pezzo più interessante non è uno dei tre modelli tradizionali, ma il Pixel 11 Pro Fold, il pieghevole arrivato nei negozi il 20 agosto. Il tempismo non è casuale e rende il confronto quasi obbligato: mancano poche settimane all’evento in cui Apple dovrebbe presentare il […]",
+   "categories": [
+    "Concorrenza",
+    "iPhone ULTRA",
+    "Google",
+    "Google Pixel 11",
+    "iPhone 18 Pro",
+    "iphone pieghevole",
+    "iPhone ultra",
+    "pieghevoli"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "tier": "redazionale",
+   "title": "Pokémon Z-A per Switch 2 costa 49,90€ e rinnova le lotte, ne vale la spesa",
+   "link": "https://www.tomshw.it/offerte/pokemon-z-a-per-switch-2-costa-4990eur-e-rinnova-le-lotte-ne-vale-la-spesa",
+   "date": "2026-08-23T17:04:06+02:00",
+   "age_hours": 14.0,
+   "summary": "Leggende Pokémon: Z-A per Nintendo Switch 2 costa 49,90€ su Amazon: il listino è di 69,99€ e lo sconto applicato è del 29%. Le lotte in tempo reale danno all’avventura di Luminopoli un ritmo diverso d...",
+   "categories": []
+  },
+  {
+   "source": "Macitynet",
+   "tier": "redazionale",
+   "title": "DAZN Full costa 20 euro al mese se avete dieci decimi",
+   "link": "https://www.macitynet.it/dazn-full-costa-20-euro-al-mese-se-avete-dieci-decimi/",
+   "date": "2026-08-23T16:52:04+00:00",
+   "age_hours": 12.2,
+   "summary": "Arriva DAZN Full Mobile a 19,99€: tutto lo sport del piano Full, ma solo su smartphone. Niente TV o mirroring. - su macitynet.it DAZN Full costa 20 euro al mese se avete dieci decimi",
+   "categories": [
+    "Internet",
+    "DAZN"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "Samsung Galaxy S27 Ultra raddoppia? Due versioni e design in stile iPhone nei leak",
+   "link": "https://www.hdblog.it/smartphone/articoli/n668109/samsung-galaxy-s27-ultra-pro-design-leak-modelli/",
+   "date": "2026-08-23T16:50:00+02:00",
+   "age_hours": 14.2,
+   "summary": "Samsung sembra pronta a cambiare tanto con i prossimi flagship.",
+   "categories": [
+    "Android",
+    "Samsung"
+   ]
+  },
+  {
+   "source": "Macitynet",
+   "tier": "redazionale",
+   "title": "Beats Studio Pro sotto i 180 euro: Amazon firma il minimo storico",
+   "link": "https://www.macitynet.it/beats-studio-pro-sotto-i-180-euro-amazon-firma-il-minimo-storico/",
+   "date": "2026-08-23T16:36:39+00:00",
+   "age_hours": 12.5,
+   "summary": "Le Beats Studio Pro scendono al minimo storico su Amazon: 179,99 euro invece di 399,99 euro, con uno sconto del 55% su cuffie premium con ANC, Audio Spaziale, USB-C e fino a 40 ore di autonomia. - su macitynet.it Beats Studio Pro sotto i 180 euro: Amazon firma il minimo storico",
+   "categories": [
+    "News",
+    "Offerte",
+    "Sconti speciali",
+    "ADV",
+    "Offerte Amazon"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "tier": "redazionale",
+   "title": "Motorola Razr 50 al 45%, un affare per usare il telefono anche da chiuso",
+   "link": "https://www.tomshw.it/offerte/motorola-razr-50-al-45-un-affare-per-usare-il-telefono-anche-da-chiuso",
+   "date": "2026-08-23T16:33:29+02:00",
+   "age_hours": 14.5,
+   "summary": "Il Motorola Razr 50 costa 498€ su Amazon, con uno sconto del 45% che riduce di 401€ il prezzo di listino di 899€. Il formato flip incontra un ampio schermo esterno pOLED da 3,63 pollici, utile per ges...",
+   "categories": []
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "Redmi Note 15 5G in offerta: un'ottima scelta per un nuovo smartphone a prezzo contenuto",
+   "link": "https://www.hdblog.it/smartphone/offerte/n668108/xiaomi-redmi-15-5g-offerta-fine-agosto-2206/",
+   "date": "2026-08-23T16:20:00+02:00",
+   "age_hours": 14.7,
+   "summary": "Lo Xiaomi Redmi Note 15 5g è in offerta e può diventare il modello giusto da prendere per chi cerca uno smartphone economico.",
+   "categories": [
+    "Smartphone",
+    "Xiaomi"
+   ]
+  },
+  {
+   "source": "TechCrunch",
+   "tier": "larga",
+   "title": "TechCrunch Mobility: The custom chip driving Waymo’s robotaxi ambitions",
+   "link": "https://techcrunch.com/2026/08/23/techcrunch-mobility-the-custom-chip-driving-waymos-robotaxi-ambitions/",
+   "date": "2026-08-23T16:03:00+00:00",
+   "age_hours": 13.0,
+   "summary": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
+   "categories": [
+    "Transportation",
+    "Tesla",
+    "Uber",
+    "Waymo",
+    "wayve",
+    "robotaxis"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "Netflix: tutti i film e le serie TV in arrivo a settembre 2026",
+   "link": "https://www.hdblog.it/spettacolo/articoli/n668090/netflix-film-serie-tv-settembre-2026/",
+   "date": "2026-08-23T15:55:00+02:00",
+   "age_hours": 15.2,
+   "summary": "Ecco le novità si settembre 2026 su Netflix",
+   "categories": [
+    "Articolo"
+   ]
+  },
+  {
+   "source": "iSpazio",
+   "tier": "redazionale",
+   "title": "Apple Vision Pro non doveva chiamarsi così: una stringa interna svela il nome originale",
+   "link": "https://www.ispazio.net/2261445/apple-vision-pro-nome-originale-reality-pro-realityos",
+   "date": "2026-08-23T15:46:34+00:00",
+   "age_hours": 13.3,
+   "summary": "Apple Vision Pro non doveva chiamarsi così: una stringa interna svela il nome originale Doveva essere il prodotto del futuro, ma con lo smantellamento del team della divisione XR, quello che si è occupato dello sviluppo di Apple Vision Pro, il suo futuro sembra ormai piuttosto compromesso. Ed è proprio mentre quel capitolo si chiude che emerge un dettaglio curioso sulle origini del progetto: il visore, in principio, non […]",
+   "categories": [
+    "Apple Vision Pro",
+    "Curiosità",
+    "Apple",
+    "Kosutami",
+    "marchi Apple",
+    "Mark Gurman",
+    "Reality Pro",
+    "realityOS"
+   ]
+  },
+  {
+   "source": "TechCrunch AI",
+   "tier": "ai",
+   "title": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
+   "link": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
+   "date": "2026-08-23T15:30:00+00:00",
+   "age_hours": 13.6,
+   "summary": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused.",
+   "categories": [
+    "Hardware",
+    "AI",
+    "Government & Policy",
+    "flock safety"
+   ]
+  },
+  {
+   "source": "9to5Mac",
+   "tier": "redazionale",
+   "title": "Report: Apple launching updated iMac with M6 chip and new colors later this year",
+   "link": "https://9to5mac.com/2026/08/23/apple-refreshed-imac-m6-chip-new-colors/",
+   "date": "2026-08-23T15:20:34+00:00",
+   "age_hours": 13.7,
+   "summary": "After a two year hiatus, Apple is working on a new iMac with the M6 chipset and updated color options, per Bloomberg’s Mark Gurman . It should release “before the end of the year.”",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "The Verge",
+   "tier": "redazionale",
+   "title": "GTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto series",
+   "link": "https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games",
+   "date": "2026-08-23T15:14:37-04:00",
+   "age_hours": 9.8,
+   "summary": "It’s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GTA VI has faced multiple delays, with developer Rockstar Games bumping back its predicted release date twice, first to May 26th, 2026, then again to November 19th, 2026, a full year after […]",
+   "categories": [
+    "Entertainment",
+    "Gaming",
+    "News",
+    "Tech"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "tier": "redazionale",
+   "title": "RTX 5060 e 180 Hz sull’Acer Nitro V 16 AI a 1089€, per giocare sul serio",
+   "link": "https://www.tomshw.it/offerte/rtx-5060-e-180-hz-sullacer-nitro-v-16-ai-a-1089eur-per-giocare-sul-serio",
+   "date": "2026-08-23T15:03:27+02:00",
+   "age_hours": 16.0,
+   "summary": "Acer Nitro V 16 AI costa 1089€ su Amazon anziché 1199€, con uno sconto del 9%. La combinazione di GeForce RTX 5060 e pannello IPS WUXGA da 180 Hz punta dritta a chi vuole frame rate elevati senza lega...",
+   "categories": []
+  },
+  {
+   "source": "GSMArena",
+   "tier": "banco",
+   "title": "Huawei Pura X View previewed, more iPhone 18 Pro leaks, Week 34 in review",
+   "link": "https://www.gsmarena.com/huawei_pura_x_view_previewed_more_iphone_18_pro_leaks_week_34_in_review-news-74283.php",
+   "date": "2026-08-23T15:02:02+02:00",
+   "age_hours": 16.0,
+   "summary": "Here’s a recap of this past week’s top stories. Huawei previewed its Pura X View featuring a 6.39-inch OLED and a wide 16:9.5 aspect ratio. This is a proper wide boy, with Huawei advertising its expanded horizontal real estate for more immersive reading, gaming and other content consumption. Huawei Pura X View unveiled with a 16:9.5 wide display, 7,000mAh battery It will be available in four color options. We did not get its full spec sheet yet, but we did get confirmation of a sizeable 7,000mAh battery despite the phone’s...",
+   "categories": [
+    "news"
+   ]
+  },
+  {
+   "source": "TechCrunch AI",
+   "tier": "ai",
+   "title": "Is it legal to train AI models on copyrighted books? It’s complicated",
+   "link": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+   "date": "2026-08-23T15:00:00+00:00",
+   "age_hours": 14.1,
+   "summary": "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?",
+   "categories": [
+    "AI",
+    "Exclusive"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "Le scorie nucleari potrebbero alimentare centrali da 500 MW",
+   "link": "https://www.hdblog.it/green/articoli/n668088/reattore-sali-fusi-scorie-nucleari-500-mw/",
+   "date": "2026-08-23T14:55:00+02:00",
+   "age_hours": 16.2,
+   "summary": "Un reattore a sali fusi punta a recuperare lenergia ancora nascosta nel combustibile nucleare usato.",
+   "categories": [
+    "Green"
+   ]
+  },
+  {
+   "source": "9to5Mac",
+   "tier": "redazionale",
+   "title": "Here’s what people who have used the iPhone Ultra like most",
+   "link": "https://9to5mac.com/2026/08/23/heres-what-people-who-have-used-the-iphone-ultra-like-most/",
+   "date": "2026-08-23T14:41:50+00:00",
+   "age_hours": 14.4,
+   "summary": "We’re just a few weeks away from the rumored launch of the foldable iPhone Ultra. As we’ve written before , excitement for the device is mounting. A new report from Bloomberg today outlines what people inside Apple who have used the iPhone Ultra love about it.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "9to5Mac",
+   "tier": "redazionale",
+   "title": "Apple Stores preparing ‘significant’ changes for new Home product launches: report",
+   "link": "https://9to5mac.com/2026/08/23/apple-preparing-for-homepod-mini-apple-tv-smart-home-launches/",
+   "date": "2026-08-23T14:33:51+00:00",
+   "age_hours": 14.5,
+   "summary": "According to Bloomberg’s Mark Gurman , Apple is preparing significant changes at its retail stores in preparation for upcoming Home product launches. At the very least, Apple should debut a refreshed HomePod mini and Apple TV 4K this fall, though the changes would suggest a third, more significant product is also on its way.",
+   "categories": [
+    "News"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "tier": "redazionale",
+   "title": "Philips Airfryer 3000 XL a 144€ cucina fino a 5 porzioni senza complicazioni",
+   "link": "https://www.tomshw.it/offerte/philips-airfryer-3000-xl-a-144eur-cucina-fino-a-5-porzioni-senza-complicazioni",
+   "date": "2026-08-23T14:33:33+02:00",
+   "age_hours": 16.5,
+   "summary": "La Philips Airfryer 3000 Serie XL costa 144€ su Amazon invece dei 178,11€ di listino, con uno sconto del 19% e 34,11€ lasciati nel portafoglio. Il cestello da 6,2 litri punta sulle cene di famiglia: p...",
+   "categories": []
+  },
+  {
+   "source": "Ars Technica",
+   "tier": "larga",
+   "title": "Due to need for 'absolute success,' China delays critical Moon launch to 2027",
+   "link": "https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/",
+   "date": "2026-08-23T14:30:16+00:00",
+   "age_hours": 14.6,
+   "summary": "\"The Chang’e 7 mission does not meet the conditions for launch.\"",
+   "categories": [
+    "Space",
+    "blue origin",
+    "chang'e 7",
+    "china",
+    "space"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "Il robot che non teme scale, pioggia e caldo: ecco DR02 | Video",
+   "link": "https://www.hdblog.it/tecnologia/articoli/n668087/deep-robotics-dr02-robot-umanoide-scale/",
+   "date": "2026-08-23T14:10:00+02:00",
+   "age_hours": 16.9,
+   "summary": "DR02 affronta scale e terreni difficili puntando al lavoro industriale reale.",
+   "categories": [
+    "Tecnologia"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "iPhone 17 Pro al minimo su Amazon: ecco perché è il momento giusto per acquistarlo",
+   "link": "https://www.hdblog.it/smartphone/offerte/n668105/iphone-17-pro-offerta-amazon-agosto-2026/",
+   "date": "2026-08-23T14:00:00+02:00",
+   "age_hours": 17.1,
+   "summary": "iPhone 17 Pro è in offerta su Amazon e diventa un best buy: ecco perché è il momento giusto per comprarlo.",
+   "categories": [
+    "Apple"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "Dreame Chrona: ho provato la maschera LED antiage | Video",
+   "link": "https://www.hdblog.it/home/recensioni/n667971/dreame-chrona-provato-maschera-led-antiage-video/",
+   "date": "2026-08-23T13:31:00+02:00",
+   "age_hours": 17.6,
+   "summary": "Quindici giorni con Dreame Chrona, la maschera LED antiage",
+   "categories": [
+    "Home"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "tier": "redazionale",
+   "title": "BLUETTI Elite 30 V2 a 288€, minimo storico con pannello solare incluso",
+   "link": "https://www.tomshw.it/offerte/bluetti-elite-30-v2-a-288eur-minimo-storico-con-pannello-solare-incluso",
+   "date": "2026-08-23T13:04:15+02:00",
+   "age_hours": 18.0,
+   "summary": "BLUETTI Elite 30 V2 con pannello solare da 60W costa 288€ su Amazon, dai 428€ di listino con uno sconto del 33%. Il kit unisce una batteria LiFePO4 trasportabile, uscita AC e ricarica solare per campe...",
+   "categories": []
+  },
+  {
+   "source": "The Decoder",
+   "tier": "ai",
+   "title": "An AI boss fired its first employee but only after humans reminded it of its own rules",
+   "link": "https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules/",
+   "date": "2026-08-23T12:31:59+00:00",
+   "age_hours": 16.5,
+   "summary": "Andon Labs' AI agent Luna fired a human employee at a San Francisco store for the first time but needed a clear push from the operators to do it. When the scenario was replayed with seven models, more capable AIs recommended termination more consistently, while weaker ones hesitated. When it came to hiring, nearly all models were uncritical. The article An AI boss fired its first employee but only after humans reminded it of its own rules appeared first on The Decoder .",
+   "categories": [
+    "AI in practice",
+    "Artificial Intelligence",
+    "AI agents",
+    "AI at work"
+   ]
+  },
+  {
+   "source": "MacRumors",
+   "tier": "redazionale",
+   "title": "Apple Retail Stores Preparing for New Home Product Launches",
+   "link": "https://www.macrumors.com/2026/08/23/apple-stores-prepare-new-home-products/",
+   "date": "2026-08-23T12:20:20-07:00",
+   "age_hours": 9.7,
+   "summary": "Bloomberg 's Mark Gurman reports that Apple is reorganizing parts of its brick-and-mortar stores this fall to make room for new home products. Writing in his latest Power On newsletter , Gurman says the teams responsible for store layouts are preparing changes to the \"Avenues,\" or the perimeter walls in Apple's newer stores, where accessories like HomePod, Apple TV, AirPods, and Beats are displayed alongside third-party accessories. The work is said to involve rearranging sections of the Avenues and adding accessory bays for upcoming new devices. Apple is already believed to have an upgraded Apple TV and a new HomePod mini coming up. Gurman said in July that both were nearly ready, with faster chips for Siri AI but no major design changes. Rumors indicate an A17 Pro chip or better in the new Apple TV, and an S9-series chip, improved sound, and a red finish for the HomePod mini, the curre",
+   "categories": [
+    "Apple TV",
+    "Featured",
+    "HomePod mini",
+    "Apple Command Center"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "Fusione nucleare: il segreto per triplicare lenergia è nel diamante",
+   "link": "https://www.hdblog.it/green/articoli/n668089/fusione-nucleare-diamante-guadagno-energia/",
+   "date": "2026-08-23T12:10:00+02:00",
+   "age_hours": 18.9,
+   "summary": "Capire come fonde il diamante potrebbe aumentare fino a tre volte il guadagno della fusione laser",
+   "categories": [
+    "Green"
+   ]
+  },
+  {
+   "source": "Tom's Hardware IT",
+   "tier": "redazionale",
+   "title": "Redmi Note 15 sotto i 190€, 6000 mAh per tutto il giorno: ne vale la spesa",
+   "link": "https://www.tomshw.it/offerte/redmi-note-15-sotto-i-190eur-6000-mah-per-tutto-il-giorno-ne-vale-la-spesa",
+   "date": "2026-08-23T12:03:22+02:00",
+   "age_hours": 19.0,
+   "summary": "Xiaomi Redmi Note 15 8+128GB costa 189,90€ su Amazon, anziché 219,90€, con uno sconto del 14%. La batteria da 6000 mAh lo rende particolarmente interessante per chi usa intensamente lo smartphone dura...",
+   "categories": []
+  },
+  {
+   "source": "Android Authority",
+   "tier": "banco",
+   "title": "How I fixed the most annoying thing about Claude in less than five minutes",
+   "link": "https://www.androidauthority.com/claude-i-have-adhd-skill-how-use-3697353/",
+   "date": "2026-08-23T12:00:23+00:00",
+   "age_hours": 17.1,
+   "summary": "The \"I have ADHD\" skill is a lifesaver.",
+   "categories": [
+    "Features",
+    "AI",
+    "Anthropic",
+    "Claude"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "Amazon aumenta i prezzi di Echo, Fire TV e Kindle: per ora le offerte attenuano i rincari",
+   "link": "https://www.hdblog.it/amazon/articoli/n668104/amazon-aumenta-prezzi-echo-kindle-fire-tv/",
+   "date": "2026-08-23T11:55:00+02:00",
+   "age_hours": 19.2,
+   "summary": "I rincari in alcuni casi superano il 40%",
+   "categories": [
+    "Economia e Mercato",
+    "Amazon"
+   ]
+  },
+  {
+   "source": "MacRumors",
+   "tier": "redazionale",
+   "title": "M6 iMac Coming This Year in New Colors",
+   "link": "https://www.macrumors.com/2026/08/23/m6-imac-this-year-new-colors/",
+   "date": "2026-08-23T11:36:39-07:00",
+   "age_hours": 10.5,
+   "summary": "Apple is readying new iMac models with an upgraded chip and new color options, according to Bloomberg 's Mark Gurman . Writing in his latest Power On newsletter , Gurman says the new version is likely to be an updated 24-inch model with an M6 chip, replacing the existing M4 model that arrived in October 2024. New colors are also said to be on the menu, though Gurman does not say what they are. The current ‌iMac‌ comes in seven colors, including green, yellow, orange, pink, purple, blue, and silver. Otherwise, no major design changes are expected. Apple is reportedly developing a 24-inch ‌iMac‌ with an OLED display, but this won't arrive for several years . \"All signs point to the M6 models being close to launch,\" says Gurman, with the new models expected to arrive before the end of the year. Related Roundup: iMac Tag: Mark Gurman Buyer's Guide: iMac (Don't Buy) Related Forum: iMac This a",
+   "categories": [
+    "Featured",
+    "iMac",
+    "Mark Gurman"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "La NASA insegna ai satelliti a orientarsi nello spazio senza GPS",
+   "link": "https://www.hdblog.it/tecnologia/articoli/n668086/nasa-starling-navigazione-senza-gps/",
+   "date": "2026-08-23T11:35:00+02:00",
+   "age_hours": 19.5,
+   "summary": "FALCON usa satelliti e detriti come riferimenti per navigare autonomamente nello spazio.",
+   "categories": [
+    "Tecnologia"
+   ]
+  },
+  {
+   "source": "Macitynet",
+   "tier": "redazionale",
+   "title": "Cambiamento al vertice di Apple: cosa ci si aspetta da John Ternus",
+   "link": "https://www.macitynet.it/cambiamento-al-vertice-di-apple-cosa-ci-si-aspetta-da-john-ternus/",
+   "date": "2026-08-23T11:29:49+00:00",
+   "age_hours": 17.6,
+   "summary": "Con l'addio di Tim Cook, il nuovo CEO John Ternus si appresta a guidare la società verso investimenti più audaci tra intelligenza artificiale, robotica e dispositivi indossabili. - su macitynet.it Cambiamento al vertice di Apple: cosa ci si aspetta da John Ternus",
+   "categories": [
+    "Finanza e Mercato",
+    "Apple"
+   ]
+  },
+  {
+   "source": "MacRumors",
+   "tier": "redazionale",
+   "title": "Gurman: iPhone Ultra Wows Early Testers, Except for Its Camera",
+   "link": "https://www.macrumors.com/2026/08/23/apple-foldable-iphone-early-tester-thoughts/",
+   "date": "2026-08-23T11:19:25-07:00",
+   "age_hours": 10.7,
+   "summary": "Apple's upcoming foldable iPhone Ultra is winning over the few people who have had hands-on time with the device, though the camera setup may leave some users wanting, according to Bloomberg 's Mark Gurman. Writing in his latest Power On newsletter , Gurman says people who have used the device – which is reportedly referred to internally as the iPhone Ultra – like how it fits in your pocket, as well as the feel and durability of its hinge mechanism. Testers have also apparently praised the new iPad-like app layouts that take advantage of the larger internal display when the phone is unfolded. Beyond productivity, video, and gaming, Gurman says Apple's foldable device also performs well as a camera viewfinder. However, the device lacks a telephoto lens, which could cost Apple some sales given the expected price. The device is expected to feature a dual-lens rear camera system built around",
+   "categories": [
+    "Featured",
+    "iPhone Fold",
+    "Foldable iPhone",
+    "iPhone Ultra",
+    "Mark Gurman"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "Chromebook: le funzioni da non sottovalutare per sfruttarlo al meglio",
+   "link": "https://www.hdblog.it/portatili/articoli/n667990/chromebook-google-come-sfruttarlo-meglio/",
+   "date": "2026-08-23T11:10:00+02:00",
+   "age_hours": 19.9,
+   "summary": "Come utilizzare ChromeOS al pari degli altri sistemi.",
+   "categories": [
+    "Google"
+   ]
+  },
+  {
+   "source": "Ars Technica",
+   "tier": "larga",
+   "title": "Volcanoes that made history",
+   "link": "https://arstechnica.com/science/2026/08/volcanoes-that-made-history/",
+   "date": "2026-08-23T11:02:54+00:00",
+   "age_hours": 18.0,
+   "summary": "Enormous eruptions altered Earth’s climate and societies all over the globe.",
+   "categories": [
+    "Science",
+    "super volcanoes",
+    "syndication",
+    "volcanoes"
+   ]
+  },
+  {
+   "source": "GSMArena",
+   "tier": "banco",
+   "title": "Deals: Pixel 11 series available, Galaxy Z Fold8 Ultra price drop, Oppo Reno16 series on sale",
+   "link": "https://www.gsmarena.com/deals_pixel_11_series_available_galaxy_z_fold8_ultra_price_drop_oppo_reno16_series_on_sale-news-74287.php",
+   "date": "2026-08-23T11:01:02+02:00",
+   "age_hours": 20.0,
+   "summary": "We noticed that the Samsung Galaxy Z Fold8 Ultra is now down to €1,810 for the base 12/256GB model – it was €2,120 last week and it has an MSRP of €2,200 (here it is on Samsung.com). This also makes it cheaper than the Galaxy Z Fold8, which is €1,945 for the base 12/256GB model, pretty much the same price as last week. Samsung Galaxy Z Fold8 Ultra €410 off Read our review 12/256GB - €1,810 at Amazon DE If you need help deciding between the two, check out our...",
+   "categories": [
+    "news"
+   ]
+  },
+  {
+   "source": "Android Authority",
+   "tier": "banco",
+   "title": "I canceled Netflix a year ago — here’s the unexpected alternative I finally stuck with",
+   "link": "https://www.androidauthority.com/using-apple-tv-as-netflix-alternative-3698847/",
+   "date": "2026-08-23T11:00:24+00:00",
+   "age_hours": 18.1,
+   "summary": "I never expected to find myself fawning over Apple TV.",
+   "categories": [
+    "Features",
+    "Apple TV",
+    "Netflix",
+    "Streaming"
+   ]
+  },
+  {
+   "source": "The Verge",
+   "tier": "redazionale",
+   "title": "We’re All Going to the World’s Fair is an intimate coming-of-age horror film",
+   "link": "https://www.theverge.com/entertainment/983177/jane-schoenbrun-were-all-going-to-the-worlds-fair-horror-movie-review",
+   "date": "2026-08-23T11:00:00-04:00",
+   "age_hours": 14.1,
+   "summary": "Jane Schoenbrun's latest film, Teenage Sex and Death at Camp Miasma, is making a splash in theaters right now. So it seems like the perfect time to revisit their first film, We're All Going to the World's Fair. I fell in love with this film when I first saw it at Sundance in 2021. We […]",
+   "categories": [
+    "Column",
+    "Entertainment",
+    "Film",
+    "Movie Review"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "In Cina arriva lo skateboard volante elettrico a otto rotori",
+   "link": "https://www.hdblog.it/tecnologia/articoli/n668083/cina-skateboard-volante-elettrico-otto-rotori/",
+   "date": "2026-08-23T10:55:00+02:00",
+   "age_hours": 20.2,
+   "summary": "Uno skateboard volante elettrico a otto rotori riporta in vita unidea nata negli anni Cinquanta.",
+   "categories": [
+    "Tecnologia"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "Stick 2 arriva su Apple TV: Rhea Seehorn entra nel cast",
+   "link": "https://www.hdblog.it/apple/articoli/n668085/stick-2-apple-tv-rhea-seehorn/",
+   "date": "2026-08-23T10:35:00+02:00",
+   "age_hours": 20.5,
+   "summary": "Stick torna il 4 novembre con Owen Wilson e Rhea Seehorn nel cast.",
+   "categories": [
+    "Apple"
+   ]
+  },
+  {
+   "source": "Android Authority",
+   "tier": "banco",
+   "title": "Pixel 11 specs might disappoint, but Google got one crucial detail right",
+   "link": "https://www.androidauthority.com/pixel-11-pixelsnap-great-why-3699383/",
+   "date": "2026-08-23T10:30:06+00:00",
+   "age_hours": 18.6,
+   "summary": "Pixelsnap (thankfully) hasn't gone anywhere.",
+   "categories": [
+    "Features",
+    "Google",
+    "Google Pixel",
+    "Google Pixel 11",
+    "Phones"
+   ]
+  },
+  {
+   "source": "Macitynet",
+   "tier": "redazionale",
+   "title": "Batterie e sigarette elettroniche nei rifiuti: nel Regno Unito è emergenza incendi",
+   "link": "https://www.macitynet.it/batterie-e-sigarette-elettroniche-nei-rifiuti-nel-regno-unito-e-emergenza-incendi/",
+   "date": "2026-08-23T10:20:51+00:00",
+   "age_hours": 18.7,
+   "summary": "Aumentati in modo vertiginoso i roghi causati da dispositivi come le sigarette elettroniche nei centri di raccolta e nei camion dei rifiuti, con danni stimati a un miliardo di sterline all'anno. Associazione chiede l'introduzione di una cauzione obbligatoria per incentivarne il corretto smaltimento. - su macitynet.it Batterie e sigarette elettroniche nei rifiuti: nel Regno Unito è emergenza incendi",
+   "categories": [
+    "Internet"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "Apple CarPlay e Android Auto: cosa cambia tra i due sistemi di infotainment",
+   "link": "https://www.hdblog.it/android/articoli/n667967/apple-carplay-android-auto-differenze/",
+   "date": "2026-08-23T10:20:00+02:00",
+   "age_hours": 20.7,
+   "summary": "Un confronto tra le funzioni delle due piattaforme.",
+   "categories": [
+    "Apps"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "LinkedIn ha trovato un modo per fermare linvasione dei post AI",
+   "link": "https://www.hdblog.it/tecnologia/articoli/n668084/linkedin-ai-slop-post-intelligenza-artificiale/",
+   "date": "2026-08-23T10:10:00+02:00",
+   "age_hours": 20.9,
+   "summary": "LinkedIn riduce del 40% le visualizzazioni dei post classificati come AI slop",
+   "categories": [
+    "Tecnologia"
+   ]
+  },
+  {
+   "source": "The Decoder",
+   "tier": "ai",
+   "title": "AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter",
+   "link": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/",
+   "date": "2026-08-23T10:02:00+00:00",
+   "age_hours": 19.0,
+   "summary": "AI agents have consumed more tokens than humans on OpenRouter since February 6, 2025. Agentic usage has grown 14x since then, while human usage is up just 2.8x. Nearly 70 percent of agent token consumption comes from cheap cached prompts, though, so actual costs are rising far more slowly than the raw numbers suggest. The article AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter appeared first on The Decoder .",
+   "categories": [
+    "AI in practice",
+    "Artificial Intelligence",
+    "Short News",
+    "Token"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "Recensione Boox Go 6 Gen 2: il piccolo e-reader con Android e supporto alla penna",
+   "link": "https://www.hdblog.it/tablet/recensioni/n667969/boox-go-6-gen-2-recensione-e-reader/",
+   "date": "2026-08-23T10:01:00+02:00",
+   "age_hours": 21.1,
+   "summary": "Dopo aver provato Boox Note Air5 C e il BOOX Go 7, tocca ora al piccolo Boox Go 6 Gen 2",
+   "categories": [
+    "Android"
+   ]
+  },
+  {
+   "source": "Android Authority",
+   "tier": "banco",
+   "title": "After over a decade with Android, these are the 6 apps I’ve used the longest",
+   "link": "https://www.androidauthority.com/android-apps-ive-used-longest-3696721/",
+   "date": "2026-08-23T10:00:44+00:00",
+   "age_hours": 19.1,
+   "summary": "While there are plenty of apps out there, some are worth keeping around longer than others.",
+   "categories": [
+    "Features",
+    "Google Play"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "Gboard legge tra le righe sui Pixel 11: l'AI di Gemini suggerisce le risposte",
+   "link": "https://www.hdblog.it/google/articoli/n668077/pixel-11-gboard-gemini-suggerimenti-personalizzati/",
+   "date": "2026-08-23T09:45:00+02:00",
+   "age_hours": 21.3,
+   "summary": "Gboard prova a capire come scrivi: ecco come funziona.",
+   "categories": [
+    "Android",
+    "Google"
+   ]
+  },
+  {
+   "source": "HDblog",
+   "tier": "banco",
+   "title": "GTA 6, leak e polemiche non smuovono Rockstar: confermato l'evento Netflix",
+   "link": "https://www.hdblog.it/games/articoli/n668076/gta-6-leak-rockstar-evento-netflix-27-agosto-vi/",
+   "date": "2026-08-23T09:35:00+02:00",
+   "age_hours": 21.5,
+   "summary": "Il polverone di questi giorni non cambia i piani.",
+   "categories": [
+    "Games"
+   ]
+  },
+  {
+   "source": "Android Authority",
+   "tier": "banco",
+   "title": "Google’s foldable strategy is broken, and the Pixel 11 Pro Fold proves it",
+   "link": "https://www.androidauthority.com/google-foldable-strategy-broken-pixel-11-pro-fold-proves-3698972/",
+   "date": "2026-08-23T09:30:08+00:00",
+   "age_hours": 19.6,
+   "summary": "This Fold left me cold.",
+   "categories": [
+    "Features",
+    "Foldable Phones",
+    "Google",
+    "Google Pixel",
+    "Google Pixel 11",
+    "Motorola Razr"
+   ]
+  },
+  {
+   "source": "Macitynet",
+   "tier": "redazionale",
+   "title": "Echo Dot a meno della metà del nuovo prezzo: 39,99 euro",
+   "link": "https://www.macitynet.it/echo-dot-a-meno-della-meta-del-nuovo-prezzo-3999-euro/",
+   "date": "2026-08-23T09:29:37+00:00",
+   "age_hours": 19.6,
+   "summary": "Echo Dot resta a 39,99 euro nonostante il nuovo listino sia salito a 89,99 euro. Il risultato è uno sconto del 56% e un risparmio di 50 euro, difficile da ritrovare quando le promozioni verranno aggiornate. - su macitynet.it Echo Dot a meno della metà del nuovo prezzo: 39,99 euro",
+   "categories": [
+    "Offerte",
+    "Sconti speciali",
+    "ADV",
+    "Offerte Amazon"
+   ]
+  },
+  {
+   "source": "The Decoder",
+   "tier": "ai",
+   "title": "AI could make scientists do more work less well, not less work better, study argues",
+   "link": "https://the-decoder.com/ai-could-make-scientists-do-more-work-less-well-not-less-work-better-study-argues/",
+   "date": "2026-08-23T09:01:17+00:00",
+   "age_hours": 20.0,
+   "summary": "Even if language models worked perfectly, they could make research worse, not better. A new theoretical study argues that because AI saves time, researchers' remaining hours become more valuable and get funneled into starting new projects instead of improving existing ones. In two out of three modeled scenarios, the quality of individual publications drops. The article AI could make scientists do more work less well, not less work better, study argues appeared first on The Decoder .",
+   "categories": [
+    "AI research",
+    "Artificial Intelligence"
+   ]
+  },
+  {
+   "source": "Android Authority",
+   "tier": "banco",
+   "title": "6 Android phones with microSD card slots you can still buy in 2026",
+   "link": "https://www.androidauthority.com/android-phones-with-microsd-card-slots-still-buy-2026-3695885/",
+   "date": "2026-08-23T09:00:06+00:00",
+   "age_hours": 20.1,
+   "summary": "Say \"no\" to overpriced storage.",
+   "categories": [
+    "Features",
+    "Cheap Android Phones",
+    "microSD",
+    "Motorola",
+    "Samsung",
+    "Samsung Galaxy A55 5G",
+    "Sony",
+    "TCL"
+   ]
+  },
+  {
+   "source": "Macitynet",
+   "tier": "redazionale",
+   "title": "I migliori libri per potenziare la nostra vita professionale (e non solo)",
+   "link": "https://www.macitynet.it/libri-vita-professionale/",
+   "date": "2026-08-23T08:59:29+00:00",
+   "age_hours": 20.1,
+   "summary": "‌Una selezione di letture che affrontano abitudini, carriera, negoziazione, marketing, imprevisto e persuasione: strumenti concreti per chi vuole ripensare il proprio modo di lavorare e di stare al mondo - su macitynet.it I migliori libri per potenziare la nostra vita professionale (e non solo)",
+   "categories": [
+    "iGuida",
+    "ebook",
+    "Libri"
+   ]
+  },
+  {
+   "source": "Andrea Galeazzi",
+   "tier": "banco",
+   "title": "RISTRUTTURAZIONE TECH dalla A alla Z Ep.1 - RILIEVO, RENDERING, ORGANIZZAZIONE",
+   "link": "https://www.youtube.com/watch?v=sQS0NAnTLWc",
+   "date": "2026-08-23T08:30:01+00:00",
+   "age_hours": 20.6,
+   "summary": "SITO DAVIDE: https://dvdv.it/",
+   "categories": []
+  },
+  {
+   "source": "Macitynet",
+   "tier": "redazionale",
+   "title": "AirPods come due occhi, le idee più innovative di Apple per capire il mondo",
+   "link": "https://www.macitynet.it/airpods-come-due-occhi-le-idee-piu-innovative-di-apple-per-capire-il-mondo/",
+   "date": "2026-08-23T08:25:51+00:00",
+   "age_hours": 20.6,
+   "summary": "Due videocamere, immagini sincronizzate, modalità attiva e passiva, elaborazione locale e una spia per la privacy: il codice di macOS Tahoe 26.7 svela come Apple vuole trasformare gli AirPods in sensori capaci di comprendere lo spazio circostante. - su macitynet.it AirPods come due occhi, le idee più innovative di Apple per capire il mondo",
+   "categories": [
+    "Futuroscopio",
+    "iPhone Accessori",
+    "AirPods",
+    "Apple"
+   ]
+  },
+  {
+   "source": "The Decoder",
+   "tier": "ai",
+   "title": "Memory shortage reportedly drives Nvidia AI server prices up about 15 percent",
+   "link": "https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent/",
+   "date": "2026-08-23T08:15:28+00:00",
+   "age_hours": 20.8,
+   "summary": "Nvidia servers with Vera Rubin and Grace Blackwell chips are set to cost about 15 percent more due to an ongoing DRAM shortage from Samsung, SK Hynix, and Micron, Bloomberg reports. The price hikes hit cloud giants like Microsoft, Google, and Meta, which are pouring billions into AI infrastructure while bankrolling the market power of the very supplier they're trying to break free from. The article Memory shortage reportedly drives Nvidia AI server prices up about 15 percent appeared first on The Decoder .",
+   "categories": [
+    "AI in practice",
+    "Artificial Intelligence",
+    "Short News",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "The Verge",
+   "tier": "redazionale",
+   "title": "Grand Theft Auto VI exists in its own universe",
+   "link": "https://www.theverge.com/column/983410/grand-theft-auto-vi-exists-in-its-own-universe",
+   "date": "2026-08-23T08:00:00-04:00",
+   "age_hours": 17.1,
+   "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on GTA VI and the state of the video game industry, follow Andrew Webster. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Four years ago, fans […]",
+   "categories": [
+    "Column",
+    "Entertainment",
+    "Gaming",
+    "Tech",
+    "The Stepback"
+   ]
+  },
+  {
+   "source": "The Decoder",
+   "tier": "ai",
+   "title": "How China's gray market sells Claude tokens at a fraction of the price",
+   "link": "https://the-decoder.com/how-chinas-gray-market-sells-claude-tokens-at-a-fraction-of-the-price/",
+   "date": "2026-08-23T07:48:33+00:00",
+   "age_hours": 21.3,
+   "summary": "Anthropic's strict access controls against China, from geoblocking to selfie verification, are being systematically bypassed through a thriving network of so-called \"transfer stations.\" Chinese developers can buy Claude tokens for as little as ten percent of the list price. Analyst Zilan Qian warns that the circumvention infrastructure weakens export controls and Anthropic's own safety systems. The article How China's gray market sells Claude tokens at a fraction of the price appeared first on The Decoder .",
+   "categories": [
+    "AI in practice",
+    "Artificial Intelligence",
+    "AI in China",
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "GSMArena",
+   "tier": "banco",
+   "title": "Weekly poll: would you buy the Honor Robot Phone and why?",
+   "link": "https://www.gsmarena.com/weekly_poll_would_you_buy_the_honor_robot_phone_and_why-news-74243.php",
+   "date": "2026-08-23T07:31:01+02:00",
+   "age_hours": 23.5,
+   "summary": "After months of teasers and red carpet events, the Honor Robot Phone is finally official and it is now available in stores – only in China, but you didn’t want one anyway, right? Wait, did you? The robot-like arm that acts as the gimbal on this device (and gives it its name) feels like the end-stage of popup-camera evolution. It provides stabilization on the move and, if you put the phone on a tripod, it does object tracking better than any phone out there. And yes, it can even look forward for selfies and vlog-style videos. Honor Robot Phone's gimbal in action This teeny, tiny...",
+   "categories": [
+    "news"
+   ]
+  },
+  {
+   "source": "Macitynet",
+   "tier": "redazionale",
+   "title": "Amazon alza i prezzi: Echo, Kindle e Fire TV rincarano fino a quasi il 50%",
+   "link": "https://www.macitynet.it/amazon-alza-i-prezzi-echo-kindle-e-fire-tv-rincarano-fino-a-quasi-il-60/",
+   "date": "2026-08-23T06:59:09+00:00",
+   "age_hours": 22.1,
+   "summary": "Amazon ha aumentato in modo deciso i prezzi di numerosi dispositivi Echo, Kindle e Fire TV, attribuendo la scelta al forte incremento dei costi di memoria e storage. La società spiega di aver assorbito questi rincari il più a lungo possibile, ma di essere arrivata al punto di doverli trasferire almeno in parte sui prezzi […] - su macitynet.it Amazon alza i prezzi: Echo, Kindle e Fire TV rincarano fino a quasi il 50%",
+   "categories": [
+    "Voci dalla Rete",
+    "Amazon"
+   ]
+  },
+  {
+   "source": "MacRumors",
+   "tier": "redazionale",
+   "title": "AirTag 2 4-Pack Hits New Low Price of $85 on Amazon",
+   "link": "https://www.macrumors.com/2026/08/23/airtag-2-85-amazon/",
+   "date": "2026-08-23T06:52:53-07:00",
+   "age_hours": 15.2,
+   "summary": "Apple's AirTag 2 is on sale for $85.00 this weekend on Amazon, down from $99.00. This deal is on the 4-Pack of the AirTag 2, and it's a new record low price for the accessory, beating the previous low by about $4. Note: MacRumors is an affiliate partner with Amazon. When you click a link and make a purchase, we may receive a small payment, which helps us keep the site running. We're also tracking a smaller deal on the AirTag 2 1-Pack, available for $24.00 , down from $29.00. This is another record low price on the AirTag 2, and both have estimated delivery dates of August 28. $5 OFF AirTag 2 (1-Pack) for $24.00 $14 OFF AirTag 2 (4-Pack) for $85.00 The new AirTag is equipped with a second-generation Ultra Wideband chip, enabling the Precision Finding feature to work up to 50% farther away from an item compared to the previous-generation model. If you're on the hunt for more discounts, be ",
+   "categories": [
+    "Deals",
+    "Featured"
+   ]
+  },
+  {
+   "source": "Macitynet",
+   "tier": "redazionale",
+   "title": "GEEKOM U9 Mini PC IT13 Max, speciale offerta back-to-school: 15 % di sconto, sotto 680 € fino al 23 Agosto",
+   "link": "https://www.macitynet.it/geekom-it13-max-offerta-back-to-school-sconto-15/",
+   "date": "2026-08-23T06:29:42+00:00",
+   "age_hours": 22.6,
+   "summary": "Core Ultra 9 185H, 24 GB di RAM e SSD da 500 GB in un Mini PC ricco di porte: con il codice MCITMX15 il prezzo scende a meno di 740 € - su macitynet.it GEEKOM U9 Mini PC IT13 Max, speciale offerta back-to-school: 15 % di sconto, sotto 680 € fino al 23 Agosto",
+   "categories": [
+    "Offerte",
+    "Sconti speciali",
+    "ADV",
+    "Geekom",
+    "Offerte Amazon"
+   ]
+  },
+  {
+   "source": "Macitynet",
+   "tier": "redazionale",
+   "title": "Ha inizializzato lo smartphone al controllo della dogana ed ora è accusato di ostruzione alla giustizia",
+   "link": "https://www.macitynet.it/ha-inizializzato-lo-smartphone-alla-dogana/",
+   "date": "2026-08-23T05:44:49+00:00",
+   "age_hours": 23.3,
+   "summary": "Accusato di ostruzione alla giustizia per aver fornito alla polizia di frontiera un PIN \"self-destruct\" che ha formattato il telefono: la difesa dell'attivista riapre lo scontro tra sicurezza nazionale e diritto alla privacy. - su macitynet.it Ha inizializzato lo smartphone al controllo della dogana ed ora è accusato di ostruzione alla giustizia",
+   "categories": [
+    "Internet",
+    "Privacy",
+    "Sicurezza"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,166 @@
+{
+ "fetched_at": "2026-08-24T05:04:08.373131+00:00",
+ "window_hours": 30.0,
+ "count": 14,
+ "items": [
+  {
+   "platform": "Reddit r/apple",
+   "rank": 1,
+   "title": "iPhone Ultra: what people who've used it like most",
+   "link": "https://www.reddit.com/r/apple/comments/1vw9032/iphone_ultra_what_people_whove_used_it_like_most/",
+   "author": "/u/pdfu",
+   "when": "2026-08-23T14:43:03+00:00",
+   "tipo": "discussione",
+   "signal": "1º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "Here’s what people who have used the iPhone Ultra like most"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 2,
+   "title": "Apple Stores preparing 'significant' changes for new Home product launches: report",
+   "link": "https://www.reddit.com/r/apple/comments/1vw8tmd/apple_stores_preparing_significant_changes_for/",
+   "author": "/u/pdfu",
+   "when": "2026-08-23T14:35:24+00:00",
+   "tipo": "discussione",
+   "signal": "2º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "Apple Stores preparing ‘significant’ changes for new Home product launches: report"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 3,
+   "title": "Apple’s Foldable iPhone Will Help Bring Some Magic Back | Also: Get ready for iPhone price hikes.",
+   "link": "https://www.reddit.com/r/apple/comments/1vw80bl/apples_foldable_iphone_will_help_bring_some_magic/",
+   "author": "/u/pdfu",
+   "when": "2026-08-23T14:01:43+00:00",
+   "tipo": "assistenza",
+   "signal": "3º fra i più votati del giorno su r/apple",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/mac",
+   "rank": 4,
+   "title": "Apple launching updated iMac with M6 chip and new colors later this year",
+   "link": "https://www.reddit.com/r/mac/comments/1vwb7d7/apple_launching_updated_imac_with_m6_chip_and_new/",
+   "author": "/u/CRK_76",
+   "when": "2026-08-23T16:08:42+00:00",
+   "tipo": "discussione",
+   "signal": "4º fra i più votati del giorno su r/mac",
+   "origine": "eco",
+   "eco_di": "Report: Apple launching updated iMac with M6 chip and new colors later this year"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 5,
+   "title": "iPhone 18 Pro event date: Six years of Apple announcements",
+   "link": "https://www.reddit.com/r/apple/comments/1vw0p1r/iphone_18_pro_event_date_six_years_of_apple/",
+   "author": "/u/RenatsMC",
+   "when": "2026-08-23T07:36:14+00:00",
+   "tipo": "discussione",
+   "signal": "5º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "iPhone 18 Pro event date: When Apple announced its event over the last six years"
+  },
+  {
+   "platform": "Reddit r/mac",
+   "rank": 6,
+   "title": "Guys, what does this mean…?",
+   "link": "https://www.reddit.com/r/mac/comments/1vw5lvg/guys_what_does_this_mean/",
+   "author": "/u/Pixelied",
+   "when": "2026-08-23T12:13:21+00:00",
+   "tipo": "discussione",
+   "signal": "6º fra i più votati del giorno su r/mac",
+   "origine": "eco",
+   "eco_di": "What Does The Battery Symbol Next To A USB Port Mean?"
+  },
+  {
+   "platform": "Reddit r/AppleWatch",
+   "rank": 7,
+   "title": "Just picked up the Ultra 3!",
+   "link": "https://www.reddit.com/r/AppleWatch/comments/1vwg8qf/just_picked_up_the_ultra_3/",
+   "author": "/u/Mad_Season_1994",
+   "when": "2026-08-23T19:18:40+00:00",
+   "tipo": "discussione",
+   "signal": "7º fra i più votati del giorno su r/AppleWatch",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/mac",
+   "rank": 8,
+   "title": "Found this scarf at a thrift store",
+   "link": "https://www.reddit.com/r/mac/comments/1vwhr05/found_this_scarf_at_a_thrift_store/",
+   "author": "/u/PomeloBrilliant1504",
+   "when": "2026-08-23T20:16:45+00:00",
+   "tipo": "discussione",
+   "signal": "8º fra i più votati del giorno su r/mac",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 9,
+   "title": "Every training app I tried was for lifting or for cardio, and wanted a subscription. So I built a free one that does both.",
+   "link": "https://www.reddit.com/r/apple/comments/1vw5e82/every_training_app_i_tried_was_for_lifting_or_for/",
+   "author": "/u/cocomanz",
+   "when": "2026-08-23T12:02:34+00:00",
+   "tipo": "discussione",
+   "signal": "9º fra i più votati del giorno su r/apple",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/mac",
+   "rank": 10,
+   "title": "What if you turned a 2010 Mac mini into a Windows XP retro gaming console? 🎮🍎",
+   "link": "https://www.reddit.com/r/mac/comments/1vw26pp/what_if_you_turned_a_2010_mac_mini_into_a_windows/",
+   "author": "/u/Fun-Equivalent-7785",
+   "when": "2026-08-23T09:03:53+00:00",
+   "tipo": "discussione",
+   "signal": "10º fra i più votati del giorno su r/mac",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/AppleWatch",
+   "rank": 11,
+   "title": "I don’t remember waking up at all, is there any way to disable the ‘’wake ups’’? Today I slept longer than usual, usually 10-10.5hrs of sleep, but yesterday I had a good day so I slept a bit more",
+   "link": "https://www.reddit.com/r/AppleWatch/comments/1vw4ciu/i_dont_remember_waking_up_at_all_is_there_any_way/",
+   "author": "/u/blissoflife22",
+   "when": "2026-08-23T11:07:30+00:00",
+   "tipo": "discussione",
+   "signal": "11º fra i più votati del giorno su r/AppleWatch",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 12,
+   "title": "Antinote 2.0 it out! A beautiful productivity scratchpad now w/ iCloud, VIM, JS Extensions - (absolutely no subscription)",
+   "link": "https://www.reddit.com/r/apple/comments/1vwal9q/antinote_20_it_out_a_beautiful_productivity/",
+   "author": "/u/johnsonjohnson",
+   "when": "2026-08-23T15:45:09+00:00",
+   "tipo": "discussione",
+   "signal": "12º fra i più votati del giorno su r/apple",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/VisionPro",
+   "rank": 13,
+   "title": "Sharing Panoramas: Created High-Resolution AI for custom Environments based on my tastes",
+   "link": "https://www.reddit.com/r/VisionPro/comments/1vw1ba7/sharing_panoramas_created_highresolution_ai_for/",
+   "author": "/u/charlieboy85",
+   "when": "2026-08-23T08:12:47+00:00",
+   "tipo": "discussione",
+   "signal": "13º fra i più votati del giorno su r/VisionPro",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/AppleWatch",
+   "rank": 14,
+   "title": "Going through one of the most stressful times in my life and my sleep looks like this every night",
+   "link": "https://www.reddit.com/r/AppleWatch/comments/1vwkbxz/going_through_one_of_the_most_stressful_times_in/",
+   "author": "/u/midsommarminx",
+   "when": "2026-08-23T22:00:21+00:00",
+   "tipo": "discussione",
+   "signal": "14º fra i più votati del giorno su r/AppleWatch",
+   "origine": "nuovo"
+  }
+ ]
+}
