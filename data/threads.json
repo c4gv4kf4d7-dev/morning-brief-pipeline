@@ -23,6 +23,12 @@
   "opened": "2026-08-13",
   "closed": null
  },
+ "hub-domestico": {
+  "label": "L'hub per la casa di Apple",
+  "note": "Il primo hub per la smart home con display: dai lavori negli Store ai dettagli che emergono dal codice, fino al lancio.",
+  "opened": "2026-08-25",
+  "closed": null
+ },
  "ios27": {
   "opened": "2026-08-08",
   "closed": null,
@@ -76,6 +82,12 @@
   "closed": null,
   "label": "Gli avvisi spyware di Apple",
   "note": "Le notifiche periodiche agli utenti bersaglio di spyware mercenario: quanti paesi coinvolti, e come cambia la soglia d'allarme nel tempo."
+ },
+ "ternus-successione": {
+  "label": "La successione da Cook a Ternus",
+  "note": "Il passaggio di consegne alla guida di Apple: dal primo annuncio alla cerimonia d'addio, fino al debutto di Ternus da CEO.",
+  "opened": "2026-08-25",
+  "closed": null
  },
  "udito-mfi": {
   "opened": "2026-08-08",

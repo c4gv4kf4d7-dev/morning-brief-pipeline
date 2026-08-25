@@ -52,8 +52,14 @@
     "Bloomberg"
    ],
    "extra_links": [
-    "https://9to5mac.com/2026/08/23/heres-what-people-who-have-used-the-iphone-ultra-like-most/",
-    "https://www.macitynet.it/il-pieghevole-apple-nelle-mani-dei-tester-cosa-piace-e-cosa-no/"
+    {
+     "label": "9to5Mac",
+     "url": "https://9to5mac.com/2026/08/23/heres-what-people-who-have-used-the-iphone-ultra-like-most/"
+    },
+    {
+     "label": "Macitynet",
+     "url": "https://www.macitynet.it/il-pieghevole-apple-nelle-mani-dei-tester-cosa-piace-e-cosa-no/"
+    }
    ],
    "thread": "iphone-pieghevole",
    "claim": {
@@ -91,7 +97,10 @@
     "Bloomberg"
    ],
    "extra_links": [
-    "https://www.macrumors.com/2026/08/23/m6-imac-this-year-new-colors/"
+    {
+     "label": "MacRumors",
+     "url": "https://www.macrumors.com/2026/08/23/m6-imac-this-year-new-colors/"
+    }
    ],
    "thread": "silicio-mac",
    "claim": {
@@ -119,7 +128,10 @@
     "Bloomberg"
    ],
    "extra_links": [
-    "https://www.macrumors.com/2026/08/23/apple-stores-prepare-new-home-products/"
+    {
+     "label": "MacRumors",
+     "url": "https://www.macrumors.com/2026/08/23/apple-stores-prepare-new-home-products/"
+    }
    ],
    "claim": {
     "id": "apple-home-hub-2026",
@@ -145,7 +157,10 @@
     "HDblog"
    ],
    "extra_links": [
-    "https://www.hdblog.it/smartphone/articoli/n668112/apple-iphone-18-pro-prezzo-aumento-ram-memorie/"
+    {
+     "label": "HDblog",
+     "url": "https://www.hdblog.it/smartphone/articoli/n668112/apple-iphone-18-pro-prezzo-aumento-ram-memorie/"
+    }
    ],
    "thread": "iphone18-settembre",
    "claim": {
