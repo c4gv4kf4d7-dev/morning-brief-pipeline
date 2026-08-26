@@ -113,6 +113,18 @@
   "note": "Prima stima editoriale (9to5Mac) per il redesign con schermo touch atteso a ottobre 2026.",
   "opened": "2026-08-23"
  },
+ "macmini-m6-prezzo": {
+  "label": "Prezzo di partenza, Mac mini con M6",
+  "unit": "USD",
+  "note": "Listino americano al lancio, 25 agosto 2026. Il modello M4 precedente partiva da 599 dollari.",
+  "opened": "2026-08-26"
+ },
+ "macstudio-m5ultra-prezzo": {
+  "label": "Prezzo di partenza, Mac Studio con M5 Ultra",
+  "unit": "USD",
+  "note": "Listino americano al lancio, 25 agosto 2026.",
+  "opened": "2026-08-26"
+ },
  "mercato-pc-spedizioni": {
   "label": "Spedizioni PC, variazione annua",
   "unit": "%",
