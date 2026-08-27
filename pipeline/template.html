@@ -1116,6 +1116,21 @@ async function sync(){
   }
 }
 
+/* la cache locale delle edizioni non ha spazio garantito: l'archivio
+   cresce di circa 150-200 KB al giorno (foto incorporate comprese) e prima
+   o poi supera la quota di localStorage. Invece di lasciar fallire lo
+   scrive in silenzio (e restare bloccati per sempre sull'ultimo salvataggio
+   riuscito, magari di settimane prima), si scarta la coda piu' vecchia
+   finche' non ci sta */
+function saveBriefsCache(list){
+  let slice = list;
+  while(slice.length){
+    try{ localStorage.setItem(K_BRIEFS, JSON.stringify(slice)); return; }
+    catch(e){ slice = slice.slice(0, Math.max(1, Math.floor(slice.length / 2))); }
+  }
+  try{ localStorage.removeItem(K_BRIEFS); }catch(e){}
+}
+
 async function loadBriefs(){
   if(!CLOUD){ indexAll(); return; }
   try{
@@ -1128,7 +1143,7 @@ async function loadBriefs(){
     const rows = await res.json();
     if(rows.length){
       BRIEFS = rows.map(function(r){ return r.payload; });
-      try{ localStorage.setItem(K_BRIEFS, JSON.stringify(BRIEFS)); }catch(e){}
+      saveBriefsCache(BRIEFS);
       indexAll();
       if(!currentDate || !BRIEFS.some(function(b){ return b.date === currentDate; })){
         currentDate = BRIEFS[0].date;
