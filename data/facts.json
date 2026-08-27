@@ -17,6 +17,12 @@
   "note": "Rilevazione trimestrale Counterpoint Research su spedizioni; era al 25% un anno prima di questa lettura.",
   "opened": "2026-08-21"
  },
+ "apple-quota-pieghevoli-2026": {
+  "label": "Quota Apple, mercato pieghevoli 2026",
+  "unit": "%",
+  "note": "Stima Counterpoint Research su spedizioni pieghevoli nell'anno del debutto dell'iPhone pieghevole.",
+  "opened": "2026-08-27"
+ },
  "apple-quota-premium": {
   "label": "Quota Apple nella fascia premium",
   "unit": "%",
@@ -47,6 +53,12 @@
   "note": "La forchetta di stima parte da qui e arriva a 2.499.",
   "opened": null
  },
+ "iphone-pieghevole-spedizioni-anno1": {
+  "label": "Spedizioni stimate, iPhone pieghevole (primo anno)",
+  "unit": "milioni",
+  "note": "Stima IDC via Bloomberg, spedizioni nel primo anno di disponibilita' del prodotto (non anno solare).",
+  "opened": "2026-08-27"
+ },
  "iphone-spedizioni-2026": {
   "label": "Spedizioni iPhone, variazione 2026",
   "unit": "%",
@@ -64,6 +76,12 @@
   "unit": "mAh",
   "note": "",
   "opened": null
+ },
+ "iphone17-quota-mondiale": {
+  "label": "Quota vendite mondiali, iPhone 17",
+  "unit": "%",
+  "note": "Rilevazione trimestrale Counterpoint Research sulle vendite unitarie globali di smartphone.",
+  "opened": "2026-08-27"
  },
  "iphone18-pro-batteria": {
   "label": "Batteria, iPhone 18 Pro (eSIM)",
