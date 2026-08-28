@@ -159,9 +159,59 @@
    "story": "2026-08-18/banco:pixel11-diecimila-lettori",
    "vote": 1,
    "updated_at": "2026-08-18T05:39:47.754788+00:00"
+  },
+  {
+   "story": "2026-08-28/apple-dona-alluvioni-nepal-tibet",
+   "vote": 1,
+   "updated_at": "2026-08-28T05:26:46.156063+00:00"
+  },
+  {
+   "story": "2026-08-28/apple-vietnam-formazione",
+   "vote": 1,
+   "updated_at": "2026-08-28T05:26:54.100221+00:00"
+  },
+  {
+   "story": "2026-08-28/apple-tv-4k-rumor",
+   "vote": 1,
+   "updated_at": "2026-08-28T05:27:00.552764+00:00"
+  },
+  {
+   "story": "2026-08-28/ios27-passwords-autocambio",
+   "vote": 1,
+   "updated_at": "2026-08-28T05:27:07.848399+00:00"
+  },
+  {
+   "story": "2026-08-28/m6-tabella-di-marcia",
+   "vote": 1,
+   "updated_at": "2026-08-28T05:27:13.935835+00:00"
+  },
+  {
+   "story": "2026-08-28/sei-prodotti-9-settembre",
+   "vote": 1,
+   "updated_at": "2026-08-28T05:27:16.938553+00:00"
+  },
+  {
+   "story": "2026-08-28/idc-crollo-spedizioni-prezzi-su",
+   "vote": 1,
+   "updated_at": "2026-08-28T05:27:21.208758+00:00"
+  },
+  {
+   "story": "2026-08-28/m6-mac-mini-dettagli-nascosti",
+   "vote": 1,
+   "updated_at": "2026-08-28T05:27:25.527291+00:00"
+  },
+  {
+   "story": "2026-08-28/gurman-render-rossi-xiaomi",
+   "vote": 1,
+   "updated_at": "2026-08-28T05:27:27.951431+00:00"
+  },
+  {
+   "story": "2026-08-28/tim-cook-lascia-ceo",
+   "vote": 1,
+   "updated_at": "2026-08-28T05:27:30.236055+00:00"
   }
  ],
- "pulled": "2026-08-27T05:04:30",
+ "pulled": "2026-08-28T06:19:49",
  "last_report": "2026-08-09",
  "rules": [
   {

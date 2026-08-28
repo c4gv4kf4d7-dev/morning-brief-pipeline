@@ -1,152 +1,158 @@
 {
- "a20-pro-efficienza": {
-  "label": "Efficienza energetica, A20 Pro vs A19 Pro",
-  "unit": "%",
-  "note": "Guadagno dichiarato dalle fonti della catena di fornitura. Primo chip Apple a 2 nm.",
-  "opened": "2026-08-18"
- },
- "app-store-ricavi-usa": {
-  "label": "Ricavi da commissioni App Store USA, variazione annua",
-  "unit": "%",
-  "note": "Primo semestre 2026. Stima di analisti, non un dato di bilancio Apple dedicato a questa voce.",
-  "opened": "2026-08-19"
- },
- "apple-quota-europa": {
-  "label": "Quota Apple, mercato smartphone Europa",
-  "unit": "%",
-  "note": "Rilevazione trimestrale Counterpoint Research su spedizioni; era al 25% un anno prima di questa lettura.",
-  "opened": "2026-08-21"
- },
- "apple-quota-pieghevoli-2026": {
-  "label": "Quota Apple, mercato pieghevoli 2026",
-  "unit": "%",
-  "note": "Stima Counterpoint Research su spedizioni pieghevoli nell'anno del debutto dell'iPhone pieghevole.",
-  "opened": "2026-08-27"
- },
- "apple-quota-premium": {
-  "label": "Quota Apple nella fascia premium",
-  "unit": "%",
-  "note": "Telefoni sopra i 600$ all'ingrosso, rilevazione Counterpoint. Era il 74% nel 2022.",
-  "opened": null
- },
- "apple-tasse-irlanda": {
-  "label": "Tasse Apple pagate all'Irlanda, annue",
-  "unit": "miliardi USD",
-  "note": "Include le tasse arretrate della disputa UE conclusa nel 2024; nuove disclosure imposte dalle regole UE per le grandi aziende.",
-  "opened": "2026-08-22"
- },
- "appstore-linkout-commissione": {
-  "label": "Commissione Apple sui link esterni al App Store",
-  "unit": "%",
-  "note": "La cifra che Apple ha proposto al tribunale distrettuale per le app standard; resta da vedere cosa fissera' la corte.",
-  "opened": "2026-08-14"
- },
- "iphone-pieghevole-display": {
-  "label": "Display interno, iPhone pieghevole",
-  "unit": "pollici",
-  "note": "",
-  "opened": null
- },
- "iphone-pieghevole-prezzo": {
-  "label": "Prezzo stimato, iPhone pieghevole",
-  "unit": "USD",
-  "note": "La forchetta di stima parte da qui e arriva a 2.499.",
-  "opened": null
- },
- "iphone-pieghevole-spedizioni-anno1": {
-  "label": "Spedizioni stimate, iPhone pieghevole (primo anno)",
-  "unit": "milioni",
-  "note": "Stima IDC via Bloomberg, spedizioni nel primo anno di disponibilita' del prodotto (non anno solare).",
-  "opened": "2026-08-27"
- },
- "iphone-spedizioni-2026": {
-  "label": "Spedizioni iPhone, variazione 2026",
-  "unit": "%",
-  "note": "Stima Counterpoint Research; il mercato globale smartphone e' atteso in calo del 14,3%.",
-  "opened": "2026-08-23"
- },
- "iphone17-pro-prezzo": {
-  "label": "Prezzo di partenza, iPhone 17 Pro",
-  "unit": "USD",
-  "note": "Listino americano in corso, il termine di paragone per il rincaro atteso.",
-  "opened": null
- },
- "iphone17-promax-batteria": {
-  "label": "Batteria, iPhone 17 Pro Max",
-  "unit": "mAh",
-  "note": "",
-  "opened": null
- },
- "iphone17-quota-mondiale": {
-  "label": "Quota vendite mondiali, iPhone 17",
-  "unit": "%",
-  "note": "Rilevazione trimestrale Counterpoint Research sulle vendite unitarie globali di smartphone.",
-  "opened": "2026-08-27"
- },
- "iphone18-pro-batteria": {
-  "label": "Batteria, iPhone 18 Pro (eSIM)",
-  "unit": "mAh",
-  "note": "Modello americano senza carrellino SIM. L'iPhone 17 Pro equivalente e' 4.252 mAh.",
-  "opened": "2026-08-11"
- },
- "iphone18-pro-camera-plateau-spessore": {
-  "label": "Aumento spessore plateau fotocamera, iPhone 18 Pro",
-  "unit": "mm",
-  "note": "Stima di un leaker Weibo sull'aumento dello spessore del pannello posteriore per il modulo fotocamera principale ingrandito.",
-  "opened": "2026-08-22"
- },
- "iphone18-pro-prezzo": {
-  "label": "Prezzo di partenza, iPhone 18 Pro",
-  "unit": "USD",
-  "note": "Stime degli analisti sul listino americano. L'iPhone 17 Pro parte da 1.099.",
-  "opened": null
- },
- "iphone18-promax-batteria": {
-  "label": "Batteria, iPhone 18 Pro Max (eSIM)",
-  "unit": "mAh",
-  "note": "Dai leak della catena di fornitura: la versione senza carrellino SIM guadagna spazio.",
-  "opened": null
- },
- "iphone18-promax-prezzo": {
-  "label": "Prezzo di partenza, iPhone 18 Pro Max",
-  "unit": "USD",
-  "note": "Stime sul listino americano. L'iPhone 17 Pro Max parte da 1.199.",
-  "opened": "2026-08-12"
- },
- "iphone18-ram": {
-  "label": "RAM, iPhone 18 base",
-  "unit": "GB",
-  "note": "Le stime degli analisti sono in disaccordo: Pu e Nystedt dicono 12, Kuo dice 9.",
-  "opened": "2026-08-14"
- },
- "macbookpro14-touch-prezzo": {
-  "label": "Prezzo stimato, MacBook Pro 14\" touch",
-  "unit": "USD",
-  "note": "Prima stima editoriale (9to5Mac) per il redesign con schermo touch atteso a ottobre 2026.",
-  "opened": "2026-08-23"
- },
- "macbookpro16-touch-prezzo": {
-  "label": "Prezzo stimato, MacBook Pro 16\" touch",
-  "unit": "USD",
-  "note": "Prima stima editoriale (9to5Mac) per il redesign con schermo touch atteso a ottobre 2026.",
-  "opened": "2026-08-23"
- },
- "mercato-pc-spedizioni": {
-  "label": "Spedizioni PC, variazione annua",
-  "unit": "%",
-  "note": "Dati IDC sul trimestre. Apple e' l'unica grande in crescita.",
-  "opened": null
- },
- "mercato-smartphone-spedizioni-2026": {
-  "label": "Spedizioni globali smartphone, variazione 2026",
-  "unit": "%",
-  "note": "Stima Counterpoint Research, caro-componenti (memorie e chipset).",
-  "opened": "2026-08-23"
- },
- "samsung-spedizioni-2026": {
-  "label": "Spedizioni Samsung, variazione 2026",
-  "unit": "%",
-  "note": "Stima Counterpoint Research; Samsung tornerebbe primo produttore mondiale.",
-  "opened": "2026-08-23"
- }
+  "a20-pro-efficienza": {
+    "label": "Efficienza energetica, A20 Pro vs A19 Pro",
+    "unit": "%",
+    "note": "Guadagno dichiarato dalle fonti della catena di fornitura. Primo chip Apple a 2 nm.",
+    "opened": "2026-08-18"
+  },
+  "app-store-ricavi-usa": {
+    "label": "Ricavi da commissioni App Store USA, variazione annua",
+    "unit": "%",
+    "note": "Primo semestre 2026. Stima di analisti, non un dato di bilancio Apple dedicato a questa voce.",
+    "opened": "2026-08-19"
+  },
+  "apple-quota-europa": {
+    "label": "Quota Apple, mercato smartphone Europa",
+    "unit": "%",
+    "note": "Rilevazione trimestrale Counterpoint Research su spedizioni; era al 25% un anno prima di questa lettura.",
+    "opened": "2026-08-21"
+  },
+  "apple-quota-pieghevoli-2026": {
+    "label": "Quota Apple, mercato pieghevoli 2026",
+    "unit": "%",
+    "note": "Stima Counterpoint Research su spedizioni pieghevoli nell'anno del debutto dell'iPhone pieghevole.",
+    "opened": "2026-08-27"
+  },
+  "apple-quota-premium": {
+    "label": "Quota Apple nella fascia premium",
+    "unit": "%",
+    "note": "Telefoni sopra i 600$ all'ingrosso, rilevazione Counterpoint. Era il 74% nel 2022.",
+    "opened": null
+  },
+  "apple-tasse-irlanda": {
+    "label": "Tasse Apple pagate all'Irlanda, annue",
+    "unit": "miliardi USD",
+    "note": "Include le tasse arretrate della disputa UE conclusa nel 2024; nuove disclosure imposte dalle regole UE per le grandi aziende.",
+    "opened": "2026-08-22"
+  },
+  "appstore-linkout-commissione": {
+    "label": "Commissione Apple sui link esterni al App Store",
+    "unit": "%",
+    "note": "La cifra che Apple ha proposto al tribunale distrettuale per le app standard; resta da vedere cosa fissera' la corte.",
+    "opened": "2026-08-14"
+  },
+  "iphone-pieghevole-display": {
+    "label": "Display interno, iPhone pieghevole",
+    "unit": "pollici",
+    "note": "",
+    "opened": null
+  },
+  "iphone-pieghevole-prezzo": {
+    "label": "Prezzo stimato, iPhone pieghevole",
+    "unit": "USD",
+    "note": "La forchetta di stima parte da qui e arriva a 2.499.",
+    "opened": null
+  },
+  "iphone-pieghevole-spedizioni-anno1": {
+    "label": "Spedizioni stimate, iPhone pieghevole (primo anno)",
+    "unit": "milioni",
+    "note": "Stima IDC via Bloomberg, spedizioni nel primo anno di disponibilita' del prodotto (non anno solare).",
+    "opened": "2026-08-27"
+  },
+  "iphone-spedizioni-2026": {
+    "label": "Spedizioni iPhone, variazione 2026",
+    "unit": "%",
+    "note": "Stima Counterpoint Research; il mercato globale smartphone e' atteso in calo del 14,3%.",
+    "opened": "2026-08-23"
+  },
+  "iphone17-pro-prezzo": {
+    "label": "Prezzo di partenza, iPhone 17 Pro",
+    "unit": "USD",
+    "note": "Listino americano in corso, il termine di paragone per il rincaro atteso.",
+    "opened": null
+  },
+  "iphone17-promax-batteria": {
+    "label": "Batteria, iPhone 17 Pro Max",
+    "unit": "mAh",
+    "note": "",
+    "opened": null
+  },
+  "iphone17-quota-mondiale": {
+    "label": "Quota vendite mondiali, iPhone 17",
+    "unit": "%",
+    "note": "Rilevazione trimestrale Counterpoint Research sulle vendite unitarie globali di smartphone.",
+    "opened": "2026-08-27"
+  },
+  "iphone18-pro-batteria": {
+    "label": "Batteria, iPhone 18 Pro (eSIM)",
+    "unit": "mAh",
+    "note": "Modello americano senza carrellino SIM. L'iPhone 17 Pro equivalente e' 4.252 mAh.",
+    "opened": "2026-08-11"
+  },
+  "iphone18-pro-camera-plateau-spessore": {
+    "label": "Aumento spessore plateau fotocamera, iPhone 18 Pro",
+    "unit": "mm",
+    "note": "Stima di un leaker Weibo sull'aumento dello spessore del pannello posteriore per il modulo fotocamera principale ingrandito.",
+    "opened": "2026-08-22"
+  },
+  "iphone18-pro-prezzo": {
+    "label": "Prezzo di partenza, iPhone 18 Pro",
+    "unit": "USD",
+    "note": "Stime degli analisti sul listino americano. L'iPhone 17 Pro parte da 1.099.",
+    "opened": null
+  },
+  "iphone18-promax-batteria": {
+    "label": "Batteria, iPhone 18 Pro Max (eSIM)",
+    "unit": "mAh",
+    "note": "Dai leak della catena di fornitura: la versione senza carrellino SIM guadagna spazio.",
+    "opened": null
+  },
+  "iphone18-promax-prezzo": {
+    "label": "Prezzo di partenza, iPhone 18 Pro Max",
+    "unit": "USD",
+    "note": "Stime sul listino americano. L'iPhone 17 Pro Max parte da 1.199.",
+    "opened": "2026-08-12"
+  },
+  "iphone18-ram": {
+    "label": "RAM, iPhone 18 base",
+    "unit": "GB",
+    "note": "Le stime degli analisti sono in disaccordo: Pu e Nystedt dicono 12, Kuo dice 9.",
+    "opened": "2026-08-14"
+  },
+  "macbookpro14-touch-prezzo": {
+    "label": "Prezzo stimato, MacBook Pro 14\" touch",
+    "unit": "USD",
+    "note": "Prima stima editoriale (9to5Mac) per il redesign con schermo touch atteso a ottobre 2026.",
+    "opened": "2026-08-23"
+  },
+  "macbookpro16-touch-prezzo": {
+    "label": "Prezzo stimato, MacBook Pro 16\" touch",
+    "unit": "USD",
+    "note": "Prima stima editoriale (9to5Mac) per il redesign con schermo touch atteso a ottobre 2026.",
+    "opened": "2026-08-23"
+  },
+  "mercato-pc-spedizioni": {
+    "label": "Spedizioni PC, variazione annua",
+    "unit": "%",
+    "note": "Dati IDC sul trimestre. Apple e' l'unica grande in crescita.",
+    "opened": null
+  },
+  "mercato-smartphone-spedizioni-2026": {
+    "label": "Spedizioni globali smartphone, variazione 2026",
+    "unit": "%",
+    "note": "Stima Counterpoint Research, caro-componenti (memorie e chipset).",
+    "opened": "2026-08-23"
+  },
+  "samsung-spedizioni-2026": {
+    "label": "Spedizioni Samsung, variazione 2026",
+    "unit": "%",
+    "note": "Stima Counterpoint Research; Samsung tornerebbe primo produttore mondiale.",
+    "opened": "2026-08-23"
+  },
+  "smartphone-prezzo-medio-2026": {
+    "label": "Prezzo medio di vendita, smartphone globale",
+    "unit": "USD",
+    "note": "Stima IDC (Worldwide Quarterly Mobile Phone Tracker); la stima di tre mesi prima si fermava a 550 dollari.",
+    "opened": "2026-08-28"
+  }
 }
