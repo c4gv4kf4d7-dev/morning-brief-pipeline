@@ -143,6 +143,12 @@
   "note": "Stima Counterpoint Research, caro-componenti (memorie e chipset).",
   "opened": "2026-08-23"
  },
+ "prezzo-medio-smartphone-2026": {
+  "label": "Prezzo medio di vendita, smartphone globale 2026",
+  "unit": "USD",
+  "note": "Stima IDC, rivista al rialzo trimestre su trimestre per via del rincaro di memorie NAND/DRAM.",
+  "opened": "2026-08-28"
+ },
  "samsung-spedizioni-2026": {
   "label": "Spedizioni Samsung, variazione 2026",
   "unit": "%",
