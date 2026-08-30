@@ -1,14 +1,11 @@
 {
- "capitali-ai": {
-  "state": "nuovo"
- },
  "ai-agenti": {
   "state": "confermato",
   "since": "2026-08-12",
   "up": 3,
   "down": 0,
-  "seen": 19,
-  "last": "2026-08-28",
+  "seen": 20,
+  "last": "2026-08-29",
   "axis": "ai"
  },
  "ai-finanza": {
@@ -25,8 +22,8 @@
   "since": "2026-08-12",
   "up": 3,
   "down": 0,
-  "seen": 19,
-  "last": "2026-08-28",
+  "seen": 20,
+  "last": "2026-08-29",
   "axis": "ai"
  },
  "anthropic": {
@@ -34,8 +31,8 @@
   "since": "2026-08-12",
   "up": 1,
   "down": 0,
-  "seen": 10,
-  "last": "2026-08-28",
+  "seen": 11,
+  "last": "2026-08-29",
   "axis": "ai"
  },
  "apple-contorno": {
@@ -43,8 +40,8 @@
   "since": "2026-08-09",
   "up": 1,
   "down": 0,
-  "seen": 10,
-  "last": "2026-08-28"
+  "seen": 11,
+  "last": "2026-08-29"
  },
  "auto-elettriche": {
   "state": "in pausa",
@@ -72,6 +69,14 @@
   "seen": 3,
   "last": "2026-08-17",
   "paused_until": "2026-09-29"
+ },
+ "capitali-ai": {
+  "state": "in prova",
+  "up": 0,
+  "down": 0,
+  "seen": 1,
+  "last": "2026-08-29",
+  "since": "2026-08-30"
  },
  "chip-ai": {
   "state": "in pausa",
@@ -106,8 +111,8 @@
   "since": "2026-08-09",
   "up": 1,
   "down": 0,
-  "seen": 12,
-  "last": "2026-08-28"
+  "seen": 13,
+  "last": "2026-08-29"
  },
  "modelli-ai": {
   "state": "in pausa",

@@ -131,6 +131,12 @@
   "note": "Prima stima editoriale (9to5Mac) per il redesign con schermo touch atteso a ottobre 2026.",
   "opened": "2026-08-23"
  },
+ "macmini-prezzo-ingresso": {
+  "label": "Prezzo di partenza, Mac mini (Italia)",
+  "unit": "EUR",
+  "note": "Listino ufficiale Apple Store Italia; il Mac mini M4 debuttò a 729 euro nell'ottobre 2024.",
+  "opened": "2026-08-30"
+ },
  "mercato-pc-spedizioni": {
   "label": "Spedizioni PC, variazione annua",
   "unit": "%",
