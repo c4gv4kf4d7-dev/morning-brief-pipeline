@@ -23,6 +23,12 @@
   "note": "Stima Counterpoint Research su spedizioni pieghevoli nell'anno del debutto dell'iPhone pieghevole.",
   "opened": "2026-08-27"
  },
+ "apple-quota-pieghevoli-2027": {
+  "label": "Quota Apple, mercato pieghevoli 2027",
+  "unit": "%",
+  "note": "Stima IDC (Nabila Popal) via Bloomberg su spedizioni pieghevoli mondiali nel 2027, secondo anno di presenza Apple sul mercato.",
+  "opened": "2026-08-31"
+ },
  "apple-quota-premium": {
   "label": "Quota Apple nella fascia premium",
   "unit": "%",
