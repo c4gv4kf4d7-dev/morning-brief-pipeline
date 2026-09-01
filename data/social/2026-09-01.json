@@ -1,0 +1,65 @@
+{
+ "fetched_at": "2026-09-01T05:04:38.218867+00:00",
+ "window_hours": 30.0,
+ "count": 4,
+ "items": [
+  {
+   "platform": "Hacker News",
+   "rank": null,
+   "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
+   "link": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+   "discussion": "https://news.ycombinator.com/item?id=49508982",
+   "author": "thm",
+   "when": "2026-08-31T12:41:22Z",
+   "points": 355,
+   "comments": 395,
+   "tipo": "discussione",
+   "signal": "355 punti, 395 commenti su Hacker News",
+   "origine": "eco",
+   "eco_di": "Apple Caught Off Guard by AI Demand for Mac Mini and Mac Studio"
+  },
+  {
+   "platform": "Hacker News",
+   "rank": null,
+   "title": "RavynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source",
+   "link": "https://ravynos.com/",
+   "discussion": "https://news.ycombinator.com/item?id=49511534",
+   "author": "Bluestein",
+   "when": "2026-08-31T16:19:36Z",
+   "points": 185,
+   "comments": 105,
+   "tipo": "discussione",
+   "signal": "185 punti, 105 commenti su Hacker News",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Hacker News",
+   "rank": null,
+   "title": "Apple CEO Tim Cook's Legacy Is Dull Products and Spineless Capitulation",
+   "link": "https://karlbode.com/apple-ceo-tim-cooks-legacy-is-dull-products-and-spineless-capitulation/",
+   "discussion": "https://news.ycombinator.com/item?id=49512867",
+   "author": "HotGarbage",
+   "when": "2026-08-31T18:12:51Z",
+   "points": 39,
+   "comments": 34,
+   "tipo": "discussione",
+   "signal": "39 punti, 34 commenti su Hacker News",
+   "origine": "eco",
+   "eco_di": "Tim Cook, ecco la nota interna che ha inviato per salutare i dipendenti Apple nel suo ultimo giorno da CEO"
+  },
+  {
+   "platform": "Hacker News",
+   "rank": null,
+   "title": "Apple Is Suddenly an AI Infra Stock as OpenAI Buys 10k+ Macs",
+   "link": "https://247wallst.com/investing/2026/08/31/apple-is-suddenly-an-ai-infrastructure-stock-as-openai-buys-macs-by-the-tens-of-thousands/",
+   "discussion": "https://news.ycombinator.com/item?id=49511824",
+   "author": "prabal97",
+   "when": "2026-08-31T16:44:15Z",
+   "points": 36,
+   "comments": 22,
+   "tipo": "discussione",
+   "signal": "36 punti, 22 commenti su Hacker News",
+   "origine": "nuovo"
+  }
+ ]
+}

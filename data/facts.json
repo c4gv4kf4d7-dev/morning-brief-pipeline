@@ -47,6 +47,12 @@
   "note": "La cifra che Apple ha proposto al tribunale distrettuale per le app standard; resta da vedere cosa fissera' la corte.",
   "opened": "2026-08-14"
  },
+ "ipad-mini-prezzo": {
+  "label": "Prezzo di partenza, iPad mini",
+  "unit": "USD",
+  "note": "",
+  "opened": "2026-09-01"
+ },
  "iphone-pieghevole-display": {
   "label": "Display interno, iPhone pieghevole",
   "unit": "pollici",
@@ -70,6 +76,12 @@
   "unit": "%",
   "note": "Stima Counterpoint Research; il mercato globale smartphone e' atteso in calo del 14,3%.",
   "opened": "2026-08-23"
+ },
+ "iphone-ultra-riparazione-schermo": {
+  "label": "Costo stimato riparazione schermo, iPhone Ultra",
+  "unit": "USD",
+  "note": "",
+  "opened": "2026-09-01"
  },
  "iphone17-pro-prezzo": {
   "label": "Prezzo di partenza, iPhone 17 Pro",
@@ -124,6 +136,12 @@
   "unit": "GB",
   "note": "Le stime degli analisti sono in disaccordo: Pu e Nystedt dicono 12, Kuo dice 9.",
   "opened": "2026-08-14"
+ },
+ "mac-fatturato-trimestre-giugno": {
+  "label": "Fatturato Mac, trimestre di giugno",
+  "unit": "USD miliardi",
+  "note": "",
+  "opened": "2026-09-01"
  },
  "macbookpro14-touch-prezzo": {
   "label": "Prezzo stimato, MacBook Pro 14\" touch",
