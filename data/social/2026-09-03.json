@@ -1,0 +1,168 @@
+{
+ "fetched_at": "2026-09-03T05:04:35.581330+00:00",
+ "window_hours": 30.0,
+ "count": 14,
+ "items": [
+  {
+   "platform": "Reddit r/apple",
+   "rank": 1,
+   "title": "iOS 27 Introduces New 'iPhone Handoff' Feature",
+   "link": "https://www.reddit.com/r/apple/comments/1w5kuyq/ios_27_introduces_new_iphone_handoff_feature/",
+   "author": "/u/pdfu",
+   "when": "2026-09-02T19:43:22+00:00",
+   "tipo": "discussione",
+   "signal": "1º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "iOS 27 Introduces New 'iPhone Handoff' Feature"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 2,
+   "title": "Leaked iPhone 18 Pro Parts Point to Three Color Options Excluding Black",
+   "link": "https://www.reddit.com/r/apple/comments/1w57az5/leaked_iphone_18_pro_parts_point_to_three_color/",
+   "author": "/u/ThereIsNoStoppingMe",
+   "when": "2026-09-02T11:10:25+00:00",
+   "tipo": "discussione",
+   "signal": "2º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "Leaked iPhone 18 Pro Parts Point to Three Color Options Excluding Black"
+  },
+  {
+   "platform": "Reddit r/mac",
+   "rank": 3,
+   "title": "Apple to Mac developers: It's time to let go of Intel",
+   "link": "https://www.reddit.com/r/mac/comments/1w5mwcm/apple_to_mac_developers_its_time_to_let_go_of/",
+   "author": "/u/CRK_76",
+   "when": "2026-09-02T20:54:57+00:00",
+   "tipo": "discussione",
+   "signal": "3º fra i più votati del giorno su r/mac",
+   "origine": "eco",
+   "eco_di": "Apple, via obbligo di supportare i Mac con Intel: le app possono diventare esclusive di Apple Silicon"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 4,
+   "title": "M6 MacBook Pro: Three new upgrades launching this fall - 9to5Mac",
+   "link": "https://www.reddit.com/r/apple/comments/1w5pmh6/m6_macbook_pro_three_new_upgrades_launching_this/",
+   "author": "/u/Hob-999",
+   "when": "2026-09-02T22:39:17+00:00",
+   "tipo": "discussione",
+   "signal": "4º fra i più votati del giorno su r/apple",
+   "origine": "eco",
+   "eco_di": "M6 MacBook Pro: Three new upgrades launching this fall"
+  },
+  {
+   "platform": "Reddit r/AppleWatch",
+   "rank": 5,
+   "title": "My first Apple Watch!",
+   "link": "https://www.reddit.com/r/AppleWatch/comments/1w549s1/my_first_apple_watch/",
+   "author": "/u/LoquatSuper8801",
+   "when": "2026-09-02T08:19:54+00:00",
+   "tipo": "vetrina",
+   "signal": "5º fra i più votati del giorno su r/AppleWatch",
+   "origine": "eco",
+   "eco_di": "Apple Watch Ultra 4, cosa cambia rispetto a Ultra 3"
+  },
+  {
+   "platform": "Reddit r/VisionPro",
+   "rank": 6,
+   "title": "Star Wars: The Mandalorian and Grogu is now out in 3D for the AVP ᯅ on Disney+",
+   "link": "https://www.reddit.com/r/VisionPro/comments/1w53l33/star_wars_the_mandalorian_and_grogu_is_now_out_in/",
+   "author": "/u/chuckiediep",
+   "when": "2026-09-02T07:39:12+00:00",
+   "tipo": "discussione",
+   "signal": "6º fra i più votati del giorno su r/VisionPro",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/iphone",
+   "rank": 7,
+   "title": "Looking for an explanation to iPhone alarm with a strange name, assigned to it.",
+   "link": "https://www.reddit.com/r/iphone/comments/1w51qt5/looking_for_an_explanation_to_iphone_alarm_with_a/",
+   "author": "/u/Dusty_Knees187",
+   "when": "2026-09-02T05:56:57+00:00",
+   "tipo": "discussione",
+   "signal": "7º fra i più votati del giorno su r/iphone",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/mac",
+   "rank": 8,
+   "title": "Apple just ended support for three more Intel Macs",
+   "link": "https://www.reddit.com/r/mac/comments/1w5a6ec/apple_just_ended_support_for_three_more_intel_macs/",
+   "author": "/u/ActiveNews",
+   "when": "2026-09-02T13:20:10+00:00",
+   "tipo": "discussione",
+   "signal": "8º fra i più votati del giorno su r/mac",
+   "origine": "eco",
+   "eco_di": "Apple, via obbligo di supportare i Mac con Intel: le app possono diventare esclusive di Apple Silicon"
+  },
+  {
+   "platform": "Reddit r/apple",
+   "rank": 9,
+   "title": "$32 million. Every hour. For 15 years. That's Apple's market cap growth under Tim Cook",
+   "link": "https://www.reddit.com/r/apple/comments/1w5w248/32_million_every_hour_for_15_years_thats_apples/",
+   "author": "/u/lattebaar",
+   "when": "2026-09-03T03:30:03+00:00",
+   "tipo": "discussione",
+   "signal": "9º fra i più votati del giorno su r/apple",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/ios",
+   "rank": 10,
+   "title": "Why would Photos app be contacting a Google server?",
+   "link": "https://www.reddit.com/r/ios/comments/1w58l1m/why_would_photos_app_be_contacting_a_google_server/",
+   "author": "/u/grepusman",
+   "when": "2026-09-02T12:12:51+00:00",
+   "tipo": "discussione",
+   "signal": "10º fra i più votati del giorno su r/ios",
+   "origine": "eco",
+   "eco_di": "Here’s your first look at Google Photos’ customizable Collections tab (Updated)"
+  },
+  {
+   "platform": "Reddit r/iphone",
+   "rank": 11,
+   "title": "What Email client do you use and why?",
+   "link": "https://www.reddit.com/r/iphone/comments/1w5faos/what_email_client_do_you_use_and_why/",
+   "author": "/u/shades47",
+   "when": "2026-09-02T16:29:45+00:00",
+   "tipo": "discussione",
+   "signal": "11º fra i più votati del giorno su r/iphone",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/mac",
+   "rank": 12,
+   "title": "Stupidest things in Mac history? Let’s hear them.",
+   "link": "https://www.reddit.com/r/mac/comments/1w5983i/stupidest_things_in_mac_history_lets_hear_them/",
+   "author": "/u/Vegetable_Nebula_827",
+   "when": "2026-09-02T12:41:13+00:00",
+   "tipo": "discussione",
+   "signal": "12º fra i più votati del giorno su r/mac",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/mac",
+   "rank": 13,
+   "title": "Guys you don’t understand I was really excited for snow leopard",
+   "link": "https://www.reddit.com/r/mac/comments/1w5rl3f/guys_you_dont_understand_i_was_really_excited_for/",
+   "author": "/u/ziggygersh",
+   "when": "2026-09-03T00:02:00+00:00",
+   "tipo": "discussione",
+   "signal": "13º fra i più votati del giorno su r/mac",
+   "origine": "nuovo"
+  },
+  {
+   "platform": "Reddit r/iphone",
+   "rank": 14,
+   "title": "I only wanted this on the iphone",
+   "link": "https://www.reddit.com/r/iphone/comments/1w5oujn/i_only_wanted_this_on_the_iphone/",
+   "author": "/u/Spiritual_Relation_7",
+   "when": "2026-09-02T22:08:19+00:00",
+   "tipo": "discussione",
+   "signal": "14º fra i più votati del giorno su r/iphone",
+   "origine": "nuovo"
+  }
+ ]
+}

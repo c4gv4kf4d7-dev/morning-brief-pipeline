@@ -59,6 +59,12 @@
   "note": "",
   "opened": null
  },
+ "iphone-pieghevole-display-esterno": {
+  "label": "Display esterno, iPhone pieghevole",
+  "unit": "pollici",
+  "note": "",
+  "opened": "2026-09-03"
+ },
  "iphone-pieghevole-prezzo": {
   "label": "Prezzo stimato, iPhone pieghevole",
   "unit": "USD",
