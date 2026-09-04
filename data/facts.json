@@ -53,6 +53,12 @@
   "note": "",
   "opened": "2026-09-01"
  },
+ "iphone-fatturato-trimestre-giugno": {
+  "label": "Fatturato iPhone, trimestre di giugno",
+  "unit": "USD miliardi",
+  "note": "Rilevazione trimestrale Counterpoint Research sui ricavi iPhone.",
+  "opened": "2026-09-04"
+ },
  "iphone-pieghevole-display": {
   "label": "Display interno, iPhone pieghevole",
   "unit": "pollici",
@@ -142,6 +148,12 @@
   "unit": "GB",
   "note": "Le stime degli analisti sono in disaccordo: Pu e Nystedt dicono 12, Kuo dice 9.",
   "opened": "2026-08-14"
+ },
+ "iphone18pro-memoria-costo-aumento": {
+  "label": "Costo memoria iPhone 18 Pro, aumento annuo",
+  "unit": "%",
+  "note": "Stima TrendForce sul costo della memoria per la configurazione da 256GB, terzo trimestre 2026 su base annua.",
+  "opened": "2026-09-04"
  },
  "mac-fatturato-trimestre-giugno": {
   "label": "Fatturato Mac, trimestre di giugno",
